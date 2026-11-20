@@ -1,0 +1,76 @@
+name: Update mapping
+
+on:
+  schedule:
+    - cron: '17 0 * * 3'
+  workflow_dispatch:
+  push:
+    paths:
+      - data/overrides.json
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+
+  update:
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-mapping
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/syoboi-v1.json
+          key: syoboi-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: syoboi-v1-
+      - run: python scripts/update.py
+      - name: Commit a changed snapshot
+        run: |
+          git add README.md data/mapping.json data/unmatched.json data/stats.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(data): update ID mapping snapshot'
+          git push
+      - name: Publish the mapping JSON as a release asset
+        if: vars.PUBLISH_DATA_RELEASES == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          commit=$(git log -1 --format=%H -- data/mapping.json)
+          tag="mapping-$commit"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            exit 0
+          fi
+          gh release create "$tag" data/mapping.json \
+            --target "$commit" \
+            --title "ID mapping $(git show -s --format=%cs "$commit")" \
+            --notes "Bangumi × Syoboi mapping snapshot from commit $commit."
