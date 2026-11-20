@@ -8,8 +8,9 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
+from unicodedata import normalize as unicode_normalize
 from xml.etree import ElementTree
 from zipfile import ZipFile
 
@@ -17,8 +18,14 @@ ARCHIVE_INDEX = "https://raw.githubusercontent.com/bangumi/Archive/master/aux/la
 SYOBOI_DB = "https://cal.syoboi.jp/db"
 USER_AGENT = "BangumiSyoboiMapping/0.1 (+https://github.com/Aana11/bangumi-syoboi-mapping)"
 SYOBOI_CATEGORIES = frozenset({1, 7, 10})
+# bangumi/common subject_platforms.yml identifies theatrical anime films with 3.
+BANGUMI_MOVIE_PLATFORM = 3
 MIN_BANGUMI_ANIME = 10_000
 MIN_SYOBOI_TITLES = 5_000
+INFOBOX_ALIASES = frozenset({"别名", "原名", "日文名", "英文名", "简体中文名", "台湾名称", "港澳名称"})
+INFOBOX_AIR_DATES = frozenset({"放送开始", "首播", "首播日期", "日本首播", "日本放送开始", "上映日", "发售日"})
+INFOBOX_WEBSITES = frozenset({"官方网站", "官网", "公式サイト"})
+OFFICIAL_COMMENT = re.compile(r"\[\[公式(?:サイト)?(?:[(（][^）)\]\r\n]+[）)])?\s+(https?://[^\s\]]+)\s*\]\]")
 
 
 @dataclass(frozen=True)
@@ -26,6 +33,11 @@ class BangumiTitle:
     id: int
     title: str
     month: str | None
+    aliases: tuple[str, ...] = ()
+    broadcast_months: tuple[str, ...] = ()
+    websites: tuple[str, ...] = ()
+    platform: int | None = None
+    release_date: str = ""
 
 
 @dataclass(frozen=True)
@@ -36,6 +48,8 @@ class SyoboiTitle:
     year: int
     month: int
     category: int
+    websites: tuple[str, ...] = ()
+    english_title: str = ""
 
     @property
     def premiere(self):
@@ -118,6 +132,70 @@ def bangumi_month(value):
     return f"{match[1]}-{match[2]}" if match else None
 
 
+def website_key(value):
+    try:
+        url = urlsplit(value.strip())
+        host = url.hostname
+        if (
+            url.scheme not in {"http", "https"} or not host or "." not in host
+            or url.username or url.password or url.port
+        ):
+            return None
+    except ValueError:
+        return None
+    host = host.removeprefix("www.")
+    if host in {"x.com", "twitter.com", "youtube.com", "youtu.be", "instagram.com", "facebook.com"}:
+        return None
+    path = re.sub(r"/index\.(?:html?|php)$", "/", url.path).rstrip("/")
+    return host + path + (f"?{url.query}" if url.query else "")
+
+
+def infobox_fields(infobox):
+    fields = INFOBOX_ALIASES | INFOBOX_AIR_DATES | INFOBOX_WEBSITES
+    # Infobox values are single-line strings or brace-delimited lists.
+    for match in re.finditer(r"(?m)^\|([^=\r\n]+)=[ \t]*(\{\s*\r?\n[^}]*?^ *\}|[^\r\n]*)", infobox):
+        key, raw = match[1].strip(), match[2].strip()
+        if key not in fields:
+            continue
+        if raw.startswith("{"):
+            for element in re.findall(r"(?m)^[ \t]*\[([^\r\n]+)\][ \t]*\r?$", raw):
+                label, sep, value = element.partition("|")
+                if key in INFOBOX_ALIASES and sep and re.search(r"简称|略称|昵称|缩写|通称", label):
+                    continue
+                yield key, (value if sep else label).strip()
+        else:
+            yield key, raw
+
+
+def field_month(value):
+    value = unicode_normalize("NFKC", value)
+    match = re.fullmatch(
+        r"([1-9][0-9]{3})\s*(?:[-/.]|年)\s*(0?[1-9]|1[0-2])"
+        r"(?:\s*(?:[-/.]|月)\s*(?:0?[1-9]|[12][0-9]|3[01])日?|\s*月)?",
+        value,
+    )
+    return f"{match[1]}-{int(match[2]):02d}" if match else None
+
+
+def bangumi_evidence(item):
+    aliases = {item["name_cn"]} if item.get("name_cn") else set()
+    broadcast_months, websites = set(), set()
+    for key, value in infobox_fields(item.get("infobox") or ""):
+        if key in INFOBOX_ALIASES and 3 <= len(value) <= 250:
+            aliases.add(value)
+        elif key in INFOBOX_AIR_DATES and (month := field_month(value)):
+            broadcast_months.add(month)
+        elif key in INFOBOX_WEBSITES:
+            websites.update(
+                site for url in re.findall(r"https?://[^\s\]>,，]+", value)
+                if (site := website_key(url))
+            )
+    return (
+        tuple(sorted(aliases - {item["name"]})), tuple(sorted(broadcast_months)),
+        tuple(sorted(websites)), item.get("platform") or None, item.get("date") or "",
+    )
+
+
 def extract_anime(archive):
     anime = {}
     with ZipFile(archive) as dump, dump.open("subject.jsonlines") as subjects:
@@ -128,7 +206,7 @@ def extract_anime(archive):
             subject_id, title = item["id"], item["name"]
             if type(subject_id) is not int or subject_id <= 0 or subject_id in anime or not isinstance(title, str):
                 raise ValueError("Bangumi Archive contains an invalid or repeated anime entry")
-            anime[subject_id] = BangumiTitle(subject_id, title, bangumi_month(item["date"]))
+            anime[subject_id] = BangumiTitle(subject_id, title, bangumi_month(item["date"]), *bangumi_evidence(item))
     return anime
 
 
@@ -141,14 +219,17 @@ def archive_source(metadata):
 
 
 def read_bangumi(cache, offline=False):
-    path = cache / "bangumi-anime-v1.json"
+    path = cache / "bangumi-anime-v2.json"
     saved = json.loads(path.read_bytes()) if path.exists() else None
     if offline and not saved:
         raise ValueError("Bangumi anime cache missing; run an online update first")
     metadata = None if offline else json.loads(request(ARCHIVE_INDEX, lambda response: read_limited(response, 128_000)))
     source = saved["source"] if offline else archive_source(metadata)
     if saved and saved["source"] == source:
-        anime = {row[0]: BangumiTitle(*row) for row in saved["titles"]}
+        anime = {
+            row[0]: BangumiTitle(*row[:3], tuple(row[3]), tuple(row[4]), tuple(row[5]), row[6] or None, row[7])
+            for row in saved["titles"]
+        }
         if len(anime) < MIN_BANGUMI_ANIME or len(anime) != len(saved["titles"]):
             raise ValueError("Bangumi anime cache is incomplete or contains duplicates")
     else:
@@ -158,7 +239,11 @@ def read_bangumi(cache, offline=False):
             raise ValueError(f"Bangumi Archive returned only {len(anime)} anime entries")
         write_cache(path, {
             "source": source,
-            "titles": [[item.id, item.title, item.month] for item in anime.values()],
+            "titles": [
+                [item.id, item.title, item.month, item.aliases, item.broadcast_months,
+                 item.websites, item.platform, item.release_date]
+                for item in anime.values()
+            ],
         })
         archive.unlink()
     print(f"Bangumi Archive: {len(anime):,} anime", flush=True)
@@ -194,14 +279,19 @@ def parse_syoboi(content, with_details):
         category = int(xml_field(node, "Cat"))
         if year < 0 or year > 9999 or not 0 <= month <= 12 or category < 0:
             raise ValueError(f"Invalid date or category for Syoboi TID {tid}")
-        titles[tid] = SyoboiTitle(tid, title, updated, year, month, category)
+        websites = {
+            site for url in OFFICIAL_COMMENT.findall(xml_field(node, "Comment"))
+            if (site := website_key(url))
+        }
+        english_title = xml_field(node, "TitleEN").strip()
+        titles[tid] = SyoboiTitle(tid, title, updated, year, month, category, tuple(sorted(websites)), english_title)
     return titles
 
 
 def syoboi_lookup(ids, with_details=False):
     fields = "TID,Title,LastUpdate"
     if with_details:
-        fields += ",FirstYear,FirstMonth,Cat"
+        fields += ",FirstYear,FirstMonth,Cat,Comment,TitleEN"
     query = urlencode({"Command": "TitleLookup", "TID": ids, "Fields": fields})
     source = request(f"{SYOBOI_DB}?{query}", lambda response: read_limited(response, 8_000_000), interval=1.1)
     return parse_syoboi(source, with_details)
@@ -250,9 +340,9 @@ def merge_syoboi(index, previous, lookup=syoboi_lookup):
 
 
 def read_syoboi(cache, offline=False):
-    path = cache / "syoboi-v1.json"
+    path = cache / "syoboi-v2.json"
     saved = json.loads(path.read_bytes()) if path.exists() else None
-    previous = {row[0]: SyoboiTitle(*row) for row in saved["titles"]} if saved else {}
+    previous = {row[0]: SyoboiTitle(*row[:6], tuple(row[6]), row[7]) for row in saved["titles"]} if saved else {}
     if offline:
         if len(previous) < MIN_SYOBOI_TITLES:
             raise ValueError("Full Syoboi collection missing from local cache")
@@ -263,7 +353,7 @@ def read_syoboi(cache, offline=False):
         write_cache(path, {
             "last_update": max(item.updated for item in titles.values()),
             "titles": [
-                [item.id, item.title, item.updated, item.year, item.month, item.category]
+                [item.id, item.title, item.updated, item.year, item.month, item.category, item.websites, item.english_title]
                 for item in sorted(titles.values(), key=lambda item: item.id)
             ],
         })

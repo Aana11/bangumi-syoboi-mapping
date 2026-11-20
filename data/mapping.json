@@ -92,6 +92,10 @@
     "syoboi_tid": 31
   },
   {
+    "bgm_id": 4882,
+    "syoboi_tid": 32
+  },
+  {
     "bgm_id": 10414,
     "syoboi_tid": 33
   },
@@ -114,6 +118,10 @@
   {
     "bgm_id": 209595,
     "syoboi_tid": 42
+  },
+  {
+    "bgm_id": 126452,
+    "syoboi_tid": 43
   },
   {
     "bgm_id": 209598,
@@ -258,6 +266,10 @@
   {
     "bgm_id": 26798,
     "syoboi_tid": 106
+  },
+  {
+    "bgm_id": 38072,
+    "syoboi_tid": 108
   },
   {
     "bgm_id": 1852,
@@ -532,6 +544,10 @@
     "syoboi_tid": 220
   },
   {
+    "bgm_id": 14876,
+    "syoboi_tid": 222
+  },
+  {
     "bgm_id": 44680,
     "syoboi_tid": 224
   },
@@ -582,6 +598,14 @@
   {
     "bgm_id": 121498,
     "syoboi_tid": 239
+  },
+  {
+    "bgm_id": 13971,
+    "syoboi_tid": 240
+  },
+  {
+    "bgm_id": 25471,
+    "syoboi_tid": 241
   },
   {
     "bgm_id": 77939,
@@ -688,6 +712,10 @@
     "syoboi_tid": 281
   },
   {
+    "bgm_id": 2142,
+    "syoboi_tid": 282
+  },
+  {
     "bgm_id": 38640,
     "syoboi_tid": 286
   },
@@ -768,6 +796,10 @@
     "syoboi_tid": 323
   },
   {
+    "bgm_id": 3294,
+    "syoboi_tid": 324
+  },
+  {
     "bgm_id": 16221,
     "syoboi_tid": 328
   },
@@ -810,6 +842,10 @@
   {
     "bgm_id": 7354,
     "syoboi_tid": 349
+  },
+  {
+    "bgm_id": 975,
+    "syoboi_tid": 350
   },
   {
     "bgm_id": 35982,
@@ -960,6 +996,10 @@
     "syoboi_tid": 397
   },
   {
+    "bgm_id": 1912,
+    "syoboi_tid": 399
+  },
+  {
     "bgm_id": 4046,
     "syoboi_tid": 401
   },
@@ -1000,6 +1040,10 @@
     "syoboi_tid": 421
   },
   {
+    "bgm_id": 133675,
+    "syoboi_tid": 425
+  },
+  {
     "bgm_id": 297,
     "syoboi_tid": 427
   },
@@ -1020,8 +1064,20 @@
     "syoboi_tid": 433
   },
   {
+    "bgm_id": 1948,
+    "syoboi_tid": 434
+  },
+  {
+    "bgm_id": 13823,
+    "syoboi_tid": 436
+  },
+  {
     "bgm_id": 3619,
     "syoboi_tid": 438
+  },
+  {
+    "bgm_id": 4140,
+    "syoboi_tid": 440
   },
   {
     "bgm_id": 2582,
@@ -1058,6 +1114,18 @@
   {
     "bgm_id": 2642,
     "syoboi_tid": 450
+  },
+  {
+    "bgm_id": 416177,
+    "syoboi_tid": 454
+  },
+  {
+    "bgm_id": 188888,
+    "syoboi_tid": 456
+  },
+  {
+    "bgm_id": 6390,
+    "syoboi_tid": 457
   },
   {
     "bgm_id": 49119,
@@ -1112,6 +1180,10 @@
     "syoboi_tid": 477
   },
   {
+    "bgm_id": 2903,
+    "syoboi_tid": 478
+  },
+  {
     "bgm_id": 76637,
     "syoboi_tid": 479
   },
@@ -1126,6 +1198,10 @@
   {
     "bgm_id": 2710,
     "syoboi_tid": 484
+  },
+  {
+    "bgm_id": 973,
+    "syoboi_tid": 486
   },
   {
     "bgm_id": 7991,
@@ -1160,8 +1236,16 @@
     "syoboi_tid": 499
   },
   {
+    "bgm_id": 1943,
+    "syoboi_tid": 500
+  },
+  {
     "bgm_id": 14643,
     "syoboi_tid": 501
+  },
+  {
+    "bgm_id": 8297,
+    "syoboi_tid": 502
   },
   {
     "bgm_id": 3188,
@@ -1186,6 +1270,10 @@
   {
     "bgm_id": 20932,
     "syoboi_tid": 512
+  },
+  {
+    "bgm_id": 20931,
+    "syoboi_tid": 513
   },
   {
     "bgm_id": 6389,
@@ -1250,6 +1338,10 @@
   {
     "bgm_id": 3633,
     "syoboi_tid": 534
+  },
+  {
+    "bgm_id": 253,
+    "syoboi_tid": 538
   },
   {
     "bgm_id": 10389,
@@ -1340,6 +1432,10 @@
     "syoboi_tid": 570
   },
   {
+    "bgm_id": 2293,
+    "syoboi_tid": 571
+  },
+  {
     "bgm_id": 8539,
     "syoboi_tid": 572
   },
@@ -1370,6 +1466,10 @@
   {
     "bgm_id": 2079,
     "syoboi_tid": 589
+  },
+  {
+    "bgm_id": 965,
+    "syoboi_tid": 590
   },
   {
     "bgm_id": 9397,
@@ -1416,8 +1516,16 @@
     "syoboi_tid": 606
   },
   {
+    "bgm_id": 3825,
+    "syoboi_tid": 607
+  },
+  {
     "bgm_id": 2877,
     "syoboi_tid": 609
+  },
+  {
+    "bgm_id": 1961,
+    "syoboi_tid": 610
   },
   {
     "bgm_id": 2173,
@@ -1428,12 +1536,20 @@
     "syoboi_tid": 612
   },
   {
+    "bgm_id": 2135,
+    "syoboi_tid": 615
+  },
+  {
     "bgm_id": 118236,
     "syoboi_tid": 616
   },
   {
     "bgm_id": 1415,
     "syoboi_tid": 617
+  },
+  {
+    "bgm_id": 512247,
+    "syoboi_tid": 620
   },
   {
     "bgm_id": 2981,
@@ -1484,6 +1600,10 @@
     "syoboi_tid": 633
   },
   {
+    "bgm_id": 7880,
+    "syoboi_tid": 635
+  },
+  {
     "bgm_id": 10989,
     "syoboi_tid": 637
   },
@@ -1494,6 +1614,10 @@
   {
     "bgm_id": 10508,
     "syoboi_tid": 639
+  },
+  {
+    "bgm_id": 2680,
+    "syoboi_tid": 642
   },
   {
     "bgm_id": 13384,
@@ -1588,12 +1712,24 @@
     "syoboi_tid": 688
   },
   {
+    "bgm_id": 8227,
+    "syoboi_tid": 691
+  },
+  {
     "bgm_id": 1260,
     "syoboi_tid": 692
   },
   {
     "bgm_id": 10506,
     "syoboi_tid": 693
+  },
+  {
+    "bgm_id": 20924,
+    "syoboi_tid": 694
+  },
+  {
+    "bgm_id": 7931,
+    "syoboi_tid": 695
   },
   {
     "bgm_id": 10180,
@@ -1632,12 +1768,20 @@
     "syoboi_tid": 710
   },
   {
+    "bgm_id": 18502,
+    "syoboi_tid": 713
+  },
+  {
     "bgm_id": 9470,
     "syoboi_tid": 716
   },
   {
     "bgm_id": 47539,
     "syoboi_tid": 717
+  },
+  {
+    "bgm_id": 3974,
+    "syoboi_tid": 718
   },
   {
     "bgm_id": 10145,
@@ -1662,6 +1806,10 @@
   {
     "bgm_id": 1838,
     "syoboi_tid": 724
+  },
+  {
+    "bgm_id": 53729,
+    "syoboi_tid": 725
   },
   {
     "bgm_id": 30522,
@@ -1708,6 +1856,10 @@
     "syoboi_tid": 739
   },
   {
+    "bgm_id": 4482,
+    "syoboi_tid": 741
+  },
+  {
     "bgm_id": 7106,
     "syoboi_tid": 742
   },
@@ -1718,6 +1870,14 @@
   {
     "bgm_id": 3417,
     "syoboi_tid": 744
+  },
+  {
+    "bgm_id": 2439,
+    "syoboi_tid": 745
+  },
+  {
+    "bgm_id": 523163,
+    "syoboi_tid": 746
   },
   {
     "bgm_id": 5874,
@@ -1740,6 +1900,10 @@
     "syoboi_tid": 757
   },
   {
+    "bgm_id": 28024,
+    "syoboi_tid": 758
+  },
+  {
     "bgm_id": 769,
     "syoboi_tid": 760
   },
@@ -1758,6 +1922,10 @@
   {
     "bgm_id": 25369,
     "syoboi_tid": 770
+  },
+  {
+    "bgm_id": 837,
+    "syoboi_tid": 772
   },
   {
     "bgm_id": 20529,
@@ -1812,6 +1980,10 @@
     "syoboi_tid": 791
   },
   {
+    "bgm_id": 1147,
+    "syoboi_tid": 792
+  },
+  {
     "bgm_id": 2010,
     "syoboi_tid": 793
   },
@@ -1850,6 +2022,10 @@
   {
     "bgm_id": 2408,
     "syoboi_tid": 812
+  },
+  {
+    "bgm_id": 804,
+    "syoboi_tid": 813
   },
   {
     "bgm_id": 39530,
@@ -1980,6 +2156,10 @@
     "syoboi_tid": 867
   },
   {
+    "bgm_id": 192006,
+    "syoboi_tid": 870
+  },
+  {
     "bgm_id": 78072,
     "syoboi_tid": 874
   },
@@ -2024,6 +2204,10 @@
     "syoboi_tid": 887
   },
   {
+    "bgm_id": 75520,
+    "syoboi_tid": 888
+  },
+  {
     "bgm_id": 1880,
     "syoboi_tid": 890
   },
@@ -2040,8 +2224,16 @@
     "syoboi_tid": 894
   },
   {
+    "bgm_id": 8484,
+    "syoboi_tid": 896
+  },
+  {
     "bgm_id": 35321,
     "syoboi_tid": 897
+  },
+  {
+    "bgm_id": 3054,
+    "syoboi_tid": 899
   },
   {
     "bgm_id": 106293,
@@ -2074,6 +2266,14 @@
   {
     "bgm_id": 1804,
     "syoboi_tid": 908
+  },
+  {
+    "bgm_id": 21036,
+    "syoboi_tid": 909
+  },
+  {
+    "bgm_id": 274,
+    "syoboi_tid": 910
   },
   {
     "bgm_id": 10595,
@@ -2144,6 +2344,10 @@
     "syoboi_tid": 934
   },
   {
+    "bgm_id": 2319,
+    "syoboi_tid": 935
+  },
+  {
     "bgm_id": 106299,
     "syoboi_tid": 937
   },
@@ -2182,6 +2386,10 @@
   {
     "bgm_id": 26458,
     "syoboi_tid": 949
+  },
+  {
+    "bgm_id": 21065,
+    "syoboi_tid": 950
   },
   {
     "bgm_id": 192844,
@@ -2228,6 +2436,10 @@
     "syoboi_tid": 963
   },
   {
+    "bgm_id": 21104,
+    "syoboi_tid": 964
+  },
+  {
     "bgm_id": 5941,
     "syoboi_tid": 966
   },
@@ -2256,8 +2468,16 @@
     "syoboi_tid": 983
   },
   {
+    "bgm_id": 2460,
+    "syoboi_tid": 984
+  },
+  {
     "bgm_id": 7617,
     "syoboi_tid": 985
+  },
+  {
+    "bgm_id": 2461,
+    "syoboi_tid": 986
   },
   {
     "bgm_id": 1531,
@@ -2392,8 +2612,16 @@
     "syoboi_tid": 1040
   },
   {
+    "bgm_id": 3055,
+    "syoboi_tid": 1043
+  },
+  {
     "bgm_id": 2938,
     "syoboi_tid": 1044
+  },
+  {
+    "bgm_id": 3283,
+    "syoboi_tid": 1045
   },
   {
     "bgm_id": 142282,
@@ -2438,6 +2666,10 @@
   {
     "bgm_id": 8590,
     "syoboi_tid": 1067
+  },
+  {
+    "bgm_id": 21037,
+    "syoboi_tid": 1068
   },
   {
     "bgm_id": 4100,
@@ -2572,6 +2804,10 @@
     "syoboi_tid": 1118
   },
   {
+    "bgm_id": 1103,
+    "syoboi_tid": 1120
+  },
+  {
     "bgm_id": 25341,
     "syoboi_tid": 1122
   },
@@ -2682,6 +2918,10 @@
   {
     "bgm_id": 2912,
     "syoboi_tid": 1158
+  },
+  {
+    "bgm_id": 18176,
+    "syoboi_tid": 1159
   },
   {
     "bgm_id": 38429,
@@ -2796,6 +3036,10 @@
     "syoboi_tid": 1209
   },
   {
+    "bgm_id": 3744,
+    "syoboi_tid": 1211
+  },
+  {
     "bgm_id": 2482,
     "syoboi_tid": 1212
   },
@@ -2806,6 +3050,10 @@
   {
     "bgm_id": 4507,
     "syoboi_tid": 1215
+  },
+  {
+    "bgm_id": 1375,
+    "syoboi_tid": 1217
   },
   {
     "bgm_id": 1219,
@@ -2820,6 +3068,14 @@
     "syoboi_tid": 1222
   },
   {
+    "bgm_id": 1308,
+    "syoboi_tid": 1223
+  },
+  {
+    "bgm_id": 51,
+    "syoboi_tid": 1225
+  },
+  {
     "bgm_id": 2078,
     "syoboi_tid": 1226
   },
@@ -2832,6 +3088,10 @@
     "syoboi_tid": 1228
   },
   {
+    "bgm_id": 209766,
+    "syoboi_tid": 1229
+  },
+  {
     "bgm_id": 3060,
     "syoboi_tid": 1230
   },
@@ -2842,6 +3102,10 @@
   {
     "bgm_id": 2427,
     "syoboi_tid": 1233
+  },
+  {
+    "bgm_id": 1309,
+    "syoboi_tid": 1236
   },
   {
     "bgm_id": 244,
@@ -2862,6 +3126,10 @@
   {
     "bgm_id": 4803,
     "syoboi_tid": 1241
+  },
+  {
+    "bgm_id": 1272,
+    "syoboi_tid": 1242
   },
   {
     "bgm_id": 306,
@@ -2894,6 +3162,10 @@
   {
     "bgm_id": 2982,
     "syoboi_tid": 1253
+  },
+  {
+    "bgm_id": 3892,
+    "syoboi_tid": 1254
   },
   {
     "bgm_id": 3013,
@@ -2938,6 +3210,14 @@
   {
     "bgm_id": 37955,
     "syoboi_tid": 1271
+  },
+  {
+    "bgm_id": 26463,
+    "syoboi_tid": 1273
+  },
+  {
+    "bgm_id": 36866,
+    "syoboi_tid": 1274
   },
   {
     "bgm_id": 72655,
@@ -2992,6 +3272,10 @@
     "syoboi_tid": 1291
   },
   {
+    "bgm_id": 84052,
+    "syoboi_tid": 1293
+  },
+  {
     "bgm_id": 2691,
     "syoboi_tid": 1296
   },
@@ -3040,6 +3324,10 @@
     "syoboi_tid": 1310
   },
   {
+    "bgm_id": 890,
+    "syoboi_tid": 1311
+  },
+  {
     "bgm_id": 4016,
     "syoboi_tid": 1313
   },
@@ -3048,12 +3336,20 @@
     "syoboi_tid": 1314
   },
   {
+    "bgm_id": 810,
+    "syoboi_tid": 1315
+  },
+  {
     "bgm_id": 3891,
     "syoboi_tid": 1316
   },
   {
     "bgm_id": 211015,
     "syoboi_tid": 1317
+  },
+  {
+    "bgm_id": 1257,
+    "syoboi_tid": 1318
   },
   {
     "bgm_id": 37128,
@@ -3082,6 +3378,10 @@
   {
     "bgm_id": 4252,
     "syoboi_tid": 1329
+  },
+  {
+    "bgm_id": 2286,
+    "syoboi_tid": 1332
   },
   {
     "bgm_id": 4301,
@@ -3122,6 +3422,14 @@
   {
     "bgm_id": 1772,
     "syoboi_tid": 1345
+  },
+  {
+    "bgm_id": 494,
+    "syoboi_tid": 1346
+  },
+  {
+    "bgm_id": 2896,
+    "syoboi_tid": 1347
   },
   {
     "bgm_id": 2168,
@@ -3192,6 +3500,14 @@
     "syoboi_tid": 1366
   },
   {
+    "bgm_id": 2459,
+    "syoboi_tid": 1367
+  },
+  {
+    "bgm_id": 699,
+    "syoboi_tid": 1368
+  },
+  {
     "bgm_id": 2089,
     "syoboi_tid": 1369
   },
@@ -3208,6 +3524,10 @@
     "syoboi_tid": 1372
   },
   {
+    "bgm_id": 34515,
+    "syoboi_tid": 1373
+  },
+  {
     "bgm_id": 1703,
     "syoboi_tid": 1374
   },
@@ -3220,8 +3540,20 @@
     "syoboi_tid": 1378
   },
   {
+    "bgm_id": 1841,
+    "syoboi_tid": 1379
+  },
+  {
+    "bgm_id": 2487,
+    "syoboi_tid": 1380
+  },
+  {
     "bgm_id": 25919,
     "syoboi_tid": 1381
+  },
+  {
+    "bgm_id": 14731,
+    "syoboi_tid": 1383
   },
   {
     "bgm_id": 534975,
@@ -3238,6 +3570,10 @@
   {
     "bgm_id": 16805,
     "syoboi_tid": 1389
+  },
+  {
+    "bgm_id": 1951,
+    "syoboi_tid": 1390
   },
   {
     "bgm_id": 1625,
@@ -3292,6 +3628,10 @@
     "syoboi_tid": 1409
   },
   {
+    "bgm_id": 1608,
+    "syoboi_tid": 1410
+  },
+  {
     "bgm_id": 11645,
     "syoboi_tid": 1411
   },
@@ -3316,8 +3656,16 @@
     "syoboi_tid": 1419
   },
   {
+    "bgm_id": 15184,
+    "syoboi_tid": 1420
+  },
+  {
     "bgm_id": 12923,
     "syoboi_tid": 1421
+  },
+  {
+    "bgm_id": 2087,
+    "syoboi_tid": 1422
   },
   {
     "bgm_id": 762,
@@ -3346,6 +3694,10 @@
   {
     "bgm_id": 811,
     "syoboi_tid": 1433
+  },
+  {
+    "bgm_id": 21035,
+    "syoboi_tid": 1434
   },
   {
     "bgm_id": 482,
@@ -3456,6 +3808,10 @@
     "syoboi_tid": 1473
   },
   {
+    "bgm_id": 885,
+    "syoboi_tid": 1474
+  },
+  {
     "bgm_id": 2472,
     "syoboi_tid": 1475
   },
@@ -3540,6 +3896,10 @@
     "syoboi_tid": 1503
   },
   {
+    "bgm_id": 3844,
+    "syoboi_tid": 1504
+  },
+  {
     "bgm_id": 38702,
     "syoboi_tid": 1505
   },
@@ -3562,6 +3922,10 @@
   {
     "bgm_id": 207673,
     "syoboi_tid": 1511
+  },
+  {
+    "bgm_id": 98370,
+    "syoboi_tid": 1512
   },
   {
     "bgm_id": 3070,
@@ -3716,6 +4080,10 @@
     "syoboi_tid": 1569
   },
   {
+    "bgm_id": 1426,
+    "syoboi_tid": 1571
+  },
+  {
     "bgm_id": 2108,
     "syoboi_tid": 1572
   },
@@ -3832,6 +4200,10 @@
     "syoboi_tid": 1607
   },
   {
+    "bgm_id": 3637,
+    "syoboi_tid": 1608
+  },
+  {
     "bgm_id": 6973,
     "syoboi_tid": 1609
   },
@@ -3942,6 +4314,10 @@
   {
     "bgm_id": 1740,
     "syoboi_tid": 1671
+  },
+  {
+    "bgm_id": 4014,
+    "syoboi_tid": 1673
   },
   {
     "bgm_id": 20935,
@@ -4116,6 +4492,18 @@
     "syoboi_tid": 1730
   },
   {
+    "bgm_id": 62930,
+    "syoboi_tid": 1733
+  },
+  {
+    "bgm_id": 279354,
+    "syoboi_tid": 1734
+  },
+  {
+    "bgm_id": 279356,
+    "syoboi_tid": 1735
+  },
+  {
     "bgm_id": 14766,
     "syoboi_tid": 1736
   },
@@ -4212,12 +4600,24 @@
     "syoboi_tid": 1785
   },
   {
+    "bgm_id": 8386,
+    "syoboi_tid": 1786
+  },
+  {
     "bgm_id": 3848,
     "syoboi_tid": 1787
   },
   {
+    "bgm_id": 416189,
+    "syoboi_tid": 1790
+  },
+  {
     "bgm_id": 8296,
     "syoboi_tid": 1791
+  },
+  {
+    "bgm_id": 28287,
+    "syoboi_tid": 1793
   },
   {
     "bgm_id": 65286,
@@ -4248,6 +4648,10 @@
     "syoboi_tid": 1802
   },
   {
+    "bgm_id": 1759,
+    "syoboi_tid": 1805
+  },
+  {
     "bgm_id": 28111,
     "syoboi_tid": 1808
   },
@@ -4258,6 +4662,10 @@
   {
     "bgm_id": 3473,
     "syoboi_tid": 1810
+  },
+  {
+    "bgm_id": 1990,
+    "syoboi_tid": 1814
   },
   {
     "bgm_id": 3444,
@@ -4286,6 +4694,22 @@
   {
     "bgm_id": 209691,
     "syoboi_tid": 1829
+  },
+  {
+    "bgm_id": 3995,
+    "syoboi_tid": 1830
+  },
+  {
+    "bgm_id": 2875,
+    "syoboi_tid": 1831
+  },
+  {
+    "bgm_id": 3482,
+    "syoboi_tid": 1839
+  },
+  {
+    "bgm_id": 1774,
+    "syoboi_tid": 1841
   },
   {
     "bgm_id": 81011,
@@ -4320,6 +4744,10 @@
     "syoboi_tid": 1860
   },
   {
+    "bgm_id": 313,
+    "syoboi_tid": 1864
+  },
+  {
     "bgm_id": 4019,
     "syoboi_tid": 1867
   },
@@ -4338,6 +4766,10 @@
   {
     "bgm_id": 47694,
     "syoboi_tid": 1878
+  },
+  {
+    "bgm_id": 489,
+    "syoboi_tid": 1879
   },
   {
     "bgm_id": 30222,
@@ -4440,8 +4872,16 @@
     "syoboi_tid": 1913
   },
   {
+    "bgm_id": 4283,
+    "syoboi_tid": 1915
+  },
+  {
     "bgm_id": 320,
     "syoboi_tid": 1917
+  },
+  {
+    "bgm_id": 416190,
+    "syoboi_tid": 1919
   },
   {
     "bgm_id": 4294,
@@ -4508,6 +4948,10 @@
     "syoboi_tid": 1959
   },
   {
+    "bgm_id": 12071,
+    "syoboi_tid": 1963
+  },
+  {
     "bgm_id": 5474,
     "syoboi_tid": 1965
   },
@@ -4568,12 +5012,24 @@
     "syoboi_tid": 1996
   },
   {
+    "bgm_id": 4480,
+    "syoboi_tid": 1998
+  },
+  {
     "bgm_id": 1011,
     "syoboi_tid": 1999
   },
   {
     "bgm_id": 5428,
     "syoboi_tid": 2004
+  },
+  {
+    "bgm_id": 493,
+    "syoboi_tid": 2006
+  },
+  {
+    "bgm_id": 1905,
+    "syoboi_tid": 2011
   },
   {
     "bgm_id": 34458,
@@ -4590,6 +5046,10 @@
   {
     "bgm_id": 8081,
     "syoboi_tid": 2019
+  },
+  {
+    "bgm_id": 416181,
+    "syoboi_tid": 2020
   },
   {
     "bgm_id": 6858,
@@ -4640,6 +5100,10 @@
     "syoboi_tid": 2034
   },
   {
+    "bgm_id": 8400,
+    "syoboi_tid": 2035
+  },
+  {
     "bgm_id": 7882,
     "syoboi_tid": 2036
   },
@@ -4656,8 +5120,16 @@
     "syoboi_tid": 2040
   },
   {
+    "bgm_id": 8402,
+    "syoboi_tid": 2041
+  },
+  {
     "bgm_id": 7842,
     "syoboi_tid": 2042
+  },
+  {
+    "bgm_id": 7844,
+    "syoboi_tid": 2043
   },
   {
     "bgm_id": 7348,
@@ -4698,6 +5170,10 @@
   {
     "bgm_id": 4390,
     "syoboi_tid": 2063
+  },
+  {
+    "bgm_id": 1737,
+    "syoboi_tid": 2066
   },
   {
     "bgm_id": 8249,
@@ -4744,6 +5220,10 @@
     "syoboi_tid": 2079
   },
   {
+    "bgm_id": 9800,
+    "syoboi_tid": 2081
+  },
+  {
     "bgm_id": 9801,
     "syoboi_tid": 2084
   },
@@ -4776,8 +5256,20 @@
     "syoboi_tid": 2094
   },
   {
+    "bgm_id": 9850,
+    "syoboi_tid": 2096
+  },
+  {
+    "bgm_id": 9472,
+    "syoboi_tid": 2099
+  },
+  {
     "bgm_id": 118810,
     "syoboi_tid": 2101
+  },
+  {
+    "bgm_id": 12351,
+    "syoboi_tid": 2102
   },
   {
     "bgm_id": 11779,
@@ -4912,6 +5404,10 @@
     "syoboi_tid": 2144
   },
   {
+    "bgm_id": 12496,
+    "syoboi_tid": 2145
+  },
+  {
     "bgm_id": 10278,
     "syoboi_tid": 2146
   },
@@ -4988,6 +5484,14 @@
     "syoboi_tid": 2179
   },
   {
+    "bgm_id": 18780,
+    "syoboi_tid": 2181
+  },
+  {
+    "bgm_id": 416204,
+    "syoboi_tid": 2182
+  },
+  {
     "bgm_id": 2453,
     "syoboi_tid": 2187
   },
@@ -5008,12 +5512,20 @@
     "syoboi_tid": 2193
   },
   {
+    "bgm_id": 11577,
+    "syoboi_tid": 2194
+  },
+  {
     "bgm_id": 14427,
     "syoboi_tid": 2195
   },
   {
     "bgm_id": 12333,
     "syoboi_tid": 2196
+  },
+  {
+    "bgm_id": 13343,
+    "syoboi_tid": 2197
   },
   {
     "bgm_id": 10459,
@@ -5108,8 +5620,16 @@
     "syoboi_tid": 2233
   },
   {
+    "bgm_id": 10601,
+    "syoboi_tid": 2239
+  },
+  {
     "bgm_id": 5432,
     "syoboi_tid": 2243
+  },
+  {
+    "bgm_id": 17121,
+    "syoboi_tid": 2244
   },
   {
     "bgm_id": 22241,
@@ -5144,12 +5664,20 @@
     "syoboi_tid": 2256
   },
   {
+    "bgm_id": 10353,
+    "syoboi_tid": 2257
+  },
+  {
     "bgm_id": 18636,
     "syoboi_tid": 2258
   },
   {
     "bgm_id": 18635,
     "syoboi_tid": 2259
+  },
+  {
+    "bgm_id": 15489,
+    "syoboi_tid": 2260
   },
   {
     "bgm_id": 18631,
@@ -5234,6 +5762,14 @@
   {
     "bgm_id": 20813,
     "syoboi_tid": 2294
+  },
+  {
+    "bgm_id": 8290,
+    "syoboi_tid": 2296
+  },
+  {
+    "bgm_id": 25226,
+    "syoboi_tid": 2297
   },
   {
     "bgm_id": 20789,
@@ -5408,6 +5944,10 @@
     "syoboi_tid": 2396
   },
   {
+    "bgm_id": 22179,
+    "syoboi_tid": 2397
+  },
+  {
     "bgm_id": 28687,
     "syoboi_tid": 2407
   },
@@ -5418,6 +5958,10 @@
   {
     "bgm_id": 22679,
     "syoboi_tid": 2418
+  },
+  {
+    "bgm_id": 30302,
+    "syoboi_tid": 2419
   },
   {
     "bgm_id": 26229,
@@ -5462,6 +6006,10 @@
   {
     "bgm_id": 187513,
     "syoboi_tid": 2454
+  },
+  {
+    "bgm_id": 31417,
+    "syoboi_tid": 2455
   },
   {
     "bgm_id": 29323,
@@ -5608,6 +6156,10 @@
     "syoboi_tid": 2503
   },
   {
+    "bgm_id": 34028,
+    "syoboi_tid": 2505
+  },
+  {
     "bgm_id": 36131,
     "syoboi_tid": 2506
   },
@@ -5620,6 +6172,10 @@
     "syoboi_tid": 2510
   },
   {
+    "bgm_id": 36355,
+    "syoboi_tid": 2511
+  },
+  {
     "bgm_id": 37619,
     "syoboi_tid": 2512
   },
@@ -5630,6 +6186,10 @@
   {
     "bgm_id": 36896,
     "syoboi_tid": 2514
+  },
+  {
+    "bgm_id": 416205,
+    "syoboi_tid": 2515
   },
   {
     "bgm_id": 35977,
@@ -5662,6 +6222,10 @@
   {
     "bgm_id": 10494,
     "syoboi_tid": 2526
+  },
+  {
+    "bgm_id": 20528,
+    "syoboi_tid": 2527
   },
   {
     "bgm_id": 19525,
@@ -5844,12 +6408,28 @@
     "syoboi_tid": 2607
   },
   {
+    "bgm_id": 8122,
+    "syoboi_tid": 2608
+  },
+  {
     "bgm_id": 40081,
     "syoboi_tid": 2610
   },
   {
+    "bgm_id": 316899,
+    "syoboi_tid": 2615
+  },
+  {
+    "bgm_id": 10383,
+    "syoboi_tid": 2617
+  },
+  {
     "bgm_id": 29813,
     "syoboi_tid": 2621
+  },
+  {
+    "bgm_id": 15395,
+    "syoboi_tid": 2623
   },
   {
     "bgm_id": 67766,
@@ -5858,6 +6438,10 @@
   {
     "bgm_id": 67767,
     "syoboi_tid": 2632
+  },
+  {
+    "bgm_id": 42859,
+    "syoboi_tid": 2633
   },
   {
     "bgm_id": 53788,
@@ -5874,6 +6458,10 @@
   {
     "bgm_id": 54372,
     "syoboi_tid": 2638
+  },
+  {
+    "bgm_id": 28440,
+    "syoboi_tid": 2644
   },
   {
     "bgm_id": 67768,
@@ -5904,12 +6492,24 @@
     "syoboi_tid": 2665
   },
   {
+    "bgm_id": 47464,
+    "syoboi_tid": 2666
+  },
+  {
     "bgm_id": 53760,
     "syoboi_tid": 2668
   },
   {
     "bgm_id": 49570,
     "syoboi_tid": 2669
+  },
+  {
+    "bgm_id": 83012,
+    "syoboi_tid": 2673
+  },
+  {
+    "bgm_id": 84987,
+    "syoboi_tid": 2675
   },
   {
     "bgm_id": 37819,
@@ -5944,6 +6544,10 @@
     "syoboi_tid": 2691
   },
   {
+    "bgm_id": 39794,
+    "syoboi_tid": 2694
+  },
+  {
     "bgm_id": 61172,
     "syoboi_tid": 2695
   },
@@ -5966,6 +6570,10 @@
   {
     "bgm_id": 37694,
     "syoboi_tid": 2705
+  },
+  {
+    "bgm_id": 89248,
+    "syoboi_tid": 2707
   },
   {
     "bgm_id": 29648,
@@ -6008,6 +6616,10 @@
     "syoboi_tid": 2721
   },
   {
+    "bgm_id": 46458,
+    "syoboi_tid": 2722
+  },
+  {
     "bgm_id": 27567,
     "syoboi_tid": 2726
   },
@@ -6022,6 +6634,10 @@
   {
     "bgm_id": 42707,
     "syoboi_tid": 2730
+  },
+  {
+    "bgm_id": 37946,
+    "syoboi_tid": 2731
   },
   {
     "bgm_id": 43558,
@@ -6048,6 +6664,10 @@
     "syoboi_tid": 2737
   },
   {
+    "bgm_id": 42786,
+    "syoboi_tid": 2738
+  },
+  {
     "bgm_id": 39759,
     "syoboi_tid": 2739
   },
@@ -6064,6 +6684,10 @@
     "syoboi_tid": 2743
   },
   {
+    "bgm_id": 37303,
+    "syoboi_tid": 2744
+  },
+  {
     "bgm_id": 50686,
     "syoboi_tid": 2745
   },
@@ -6078,6 +6702,10 @@
   {
     "bgm_id": 46451,
     "syoboi_tid": 2758
+  },
+  {
+    "bgm_id": 41888,
+    "syoboi_tid": 2760
   },
   {
     "bgm_id": 67765,
@@ -6098,6 +6726,10 @@
   {
     "bgm_id": 84993,
     "syoboi_tid": 2778
+  },
+  {
+    "bgm_id": 84994,
+    "syoboi_tid": 2779
   },
   {
     "bgm_id": 46834,
@@ -6134,6 +6766,10 @@
   {
     "bgm_id": 112435,
     "syoboi_tid": 2800
+  },
+  {
+    "bgm_id": 61113,
+    "syoboi_tid": 2801
   },
   {
     "bgm_id": 19538,
@@ -6232,6 +6868,10 @@
     "syoboi_tid": 2842
   },
   {
+    "bgm_id": 49294,
+    "syoboi_tid": 2844
+  },
+  {
     "bgm_id": 41658,
     "syoboi_tid": 2845
   },
@@ -6248,12 +6888,32 @@
     "syoboi_tid": 2849
   },
   {
+    "bgm_id": 54438,
+    "syoboi_tid": 2859
+  },
+  {
+    "bgm_id": 52484,
+    "syoboi_tid": 2860
+  },
+  {
     "bgm_id": 46452,
     "syoboi_tid": 2861
   },
   {
+    "bgm_id": 10857,
+    "syoboi_tid": 2864
+  },
+  {
+    "bgm_id": 18175,
+    "syoboi_tid": 2867
+  },
+  {
     "bgm_id": 49282,
     "syoboi_tid": 2871
+  },
+  {
+    "bgm_id": 12544,
+    "syoboi_tid": 2872
   },
   {
     "bgm_id": 41568,
@@ -6312,6 +6972,10 @@
     "syoboi_tid": 2908
   },
   {
+    "bgm_id": 49131,
+    "syoboi_tid": 2910
+  },
+  {
     "bgm_id": 54433,
     "syoboi_tid": 2911
   },
@@ -6324,12 +6988,20 @@
     "syoboi_tid": 2917
   },
   {
+    "bgm_id": 4442,
+    "syoboi_tid": 2918
+  },
+  {
     "bgm_id": 58015,
     "syoboi_tid": 2919
   },
   {
     "bgm_id": 46079,
     "syoboi_tid": 2920
+  },
+  {
+    "bgm_id": 46728,
+    "syoboi_tid": 2921
   },
   {
     "bgm_id": 50814,
@@ -6444,6 +7116,10 @@
     "syoboi_tid": 2955
   },
   {
+    "bgm_id": 26800,
+    "syoboi_tid": 2960
+  },
+  {
     "bgm_id": 66408,
     "syoboi_tid": 2964
   },
@@ -6520,6 +7196,10 @@
     "syoboi_tid": 3010
   },
   {
+    "bgm_id": 68812,
+    "syoboi_tid": 3012
+  },
+  {
     "bgm_id": 50811,
     "syoboi_tid": 3013
   },
@@ -6552,6 +7232,10 @@
     "syoboi_tid": 3023
   },
   {
+    "bgm_id": 69943,
+    "syoboi_tid": 3025
+  },
+  {
     "bgm_id": 68757,
     "syoboi_tid": 3026
   },
@@ -6582,6 +7266,10 @@
   {
     "bgm_id": 2789,
     "syoboi_tid": 3033
+  },
+  {
+    "bgm_id": 62281,
+    "syoboi_tid": 3034
   },
   {
     "bgm_id": 43951,
@@ -6648,6 +7336,10 @@
     "syoboi_tid": 3056
   },
   {
+    "bgm_id": 69165,
+    "syoboi_tid": 3058
+  },
+  {
     "bgm_id": 77048,
     "syoboi_tid": 3061
   },
@@ -6660,6 +7352,10 @@
     "syoboi_tid": 3063
   },
   {
+    "bgm_id": 87782,
+    "syoboi_tid": 3064
+  },
+  {
     "bgm_id": 78319,
     "syoboi_tid": 3071
   },
@@ -6668,12 +7364,28 @@
     "syoboi_tid": 3074
   },
   {
+    "bgm_id": 26804,
+    "syoboi_tid": 3076
+  },
+  {
+    "bgm_id": 66693,
+    "syoboi_tid": 3079
+  },
+  {
+    "bgm_id": 78747,
+    "syoboi_tid": 3085
+  },
+  {
     "bgm_id": 37296,
     "syoboi_tid": 3086
   },
   {
     "bgm_id": 5430,
     "syoboi_tid": 3087
+  },
+  {
+    "bgm_id": 23626,
+    "syoboi_tid": 3090
   },
   {
     "bgm_id": 74663,
@@ -6704,12 +7416,28 @@
     "syoboi_tid": 3145
   },
   {
+    "bgm_id": 38731,
+    "syoboi_tid": 3146
+  },
+  {
+    "bgm_id": 38730,
+    "syoboi_tid": 3147
+  },
+  {
     "bgm_id": 76194,
     "syoboi_tid": 3148
   },
   {
+    "bgm_id": 84056,
+    "syoboi_tid": 3150
+  },
+  {
     "bgm_id": 73440,
     "syoboi_tid": 3151
+  },
+  {
+    "bgm_id": 69484,
+    "syoboi_tid": 3152
   },
   {
     "bgm_id": 78408,
@@ -6748,6 +7476,10 @@
     "syoboi_tid": 3161
   },
   {
+    "bgm_id": 79114,
+    "syoboi_tid": 3162
+  },
+  {
     "bgm_id": 49278,
     "syoboi_tid": 3163
   },
@@ -6768,6 +7500,10 @@
     "syoboi_tid": 3167
   },
   {
+    "bgm_id": 78404,
+    "syoboi_tid": 3168
+  },
+  {
     "bgm_id": 73825,
     "syoboi_tid": 3169
   },
@@ -6776,12 +7512,32 @@
     "syoboi_tid": 3170
   },
   {
+    "bgm_id": 82079,
+    "syoboi_tid": 3171
+  },
+  {
+    "bgm_id": 52787,
+    "syoboi_tid": 3172
+  },
+  {
     "bgm_id": 89331,
     "syoboi_tid": 3173
   },
   {
+    "bgm_id": 77706,
+    "syoboi_tid": 3175
+  },
+  {
     "bgm_id": 64140,
     "syoboi_tid": 3176
+  },
+  {
+    "bgm_id": 84627,
+    "syoboi_tid": 3178
+  },
+  {
+    "bgm_id": 81372,
+    "syoboi_tid": 3180
   },
   {
     "bgm_id": 117676,
@@ -6876,12 +7632,20 @@
     "syoboi_tid": 3227
   },
   {
+    "bgm_id": 54338,
+    "syoboi_tid": 3230
+  },
+  {
     "bgm_id": 48880,
     "syoboi_tid": 3234
   },
   {
     "bgm_id": 73828,
     "syoboi_tid": 3235
+  },
+  {
+    "bgm_id": 80787,
+    "syoboi_tid": 3236
   },
   {
     "bgm_id": 52606,
@@ -6988,6 +7752,18 @@
     "syoboi_tid": 3266
   },
   {
+    "bgm_id": 87718,
+    "syoboi_tid": 3267
+  },
+  {
+    "bgm_id": 77480,
+    "syoboi_tid": 3268
+  },
+  {
+    "bgm_id": 30361,
+    "syoboi_tid": 3270
+  },
+  {
     "bgm_id": 85558,
     "syoboi_tid": 3271
   },
@@ -7044,6 +7820,10 @@
     "syoboi_tid": 3293
   },
   {
+    "bgm_id": 14109,
+    "syoboi_tid": 3300
+  },
+  {
     "bgm_id": 20933,
     "syoboi_tid": 3305
   },
@@ -7054,6 +7834,10 @@
   {
     "bgm_id": 97545,
     "syoboi_tid": 3308
+  },
+  {
+    "bgm_id": 54728,
+    "syoboi_tid": 3309
   },
   {
     "bgm_id": 97543,
@@ -7096,6 +7880,10 @@
     "syoboi_tid": 3322
   },
   {
+    "bgm_id": 87593,
+    "syoboi_tid": 3323
+  },
+  {
     "bgm_id": 88287,
     "syoboi_tid": 3324
   },
@@ -7116,6 +7904,14 @@
     "syoboi_tid": 3329
   },
   {
+    "bgm_id": 89942,
+    "syoboi_tid": 3330
+  },
+  {
+    "bgm_id": 75989,
+    "syoboi_tid": 3331
+  },
+  {
     "bgm_id": 89751,
     "syoboi_tid": 3332
   },
@@ -7130,6 +7926,10 @@
   {
     "bgm_id": 90388,
     "syoboi_tid": 3335
+  },
+  {
+    "bgm_id": 88041,
+    "syoboi_tid": 3336
   },
   {
     "bgm_id": 95825,
@@ -7152,6 +7952,10 @@
     "syoboi_tid": 3341
   },
   {
+    "bgm_id": 99809,
+    "syoboi_tid": 3344
+  },
+  {
     "bgm_id": 87717,
     "syoboi_tid": 3345
   },
@@ -7166,6 +7970,10 @@
   {
     "bgm_id": 91640,
     "syoboi_tid": 3349
+  },
+  {
+    "bgm_id": 92161,
+    "syoboi_tid": 3351
   },
   {
     "bgm_id": 92936,
@@ -7194,6 +8002,14 @@
   {
     "bgm_id": 91626,
     "syoboi_tid": 3364
+  },
+  {
+    "bgm_id": 99740,
+    "syoboi_tid": 3365
+  },
+  {
+    "bgm_id": 102561,
+    "syoboi_tid": 3369
   },
   {
     "bgm_id": 101265,
@@ -7244,12 +8060,28 @@
     "syoboi_tid": 3384
   },
   {
+    "bgm_id": 91946,
+    "syoboi_tid": 3385
+  },
+  {
     "bgm_id": 175430,
     "syoboi_tid": 3386
   },
   {
+    "bgm_id": 97045,
+    "syoboi_tid": 3387
+  },
+  {
     "bgm_id": 98217,
     "syoboi_tid": 3390
+  },
+  {
+    "bgm_id": 101287,
+    "syoboi_tid": 3392
+  },
+  {
+    "bgm_id": 84083,
+    "syoboi_tid": 3394
   },
   {
     "bgm_id": 20831,
@@ -7266,6 +8098,10 @@
   {
     "bgm_id": 92382,
     "syoboi_tid": 3416
+  },
+  {
+    "bgm_id": 45048,
+    "syoboi_tid": 3417
   },
   {
     "bgm_id": 37245,
@@ -7326,6 +8162,10 @@
   {
     "bgm_id": 94236,
     "syoboi_tid": 3438
+  },
+  {
+    "bgm_id": 103304,
+    "syoboi_tid": 3440
   },
   {
     "bgm_id": 96918,
@@ -7412,6 +8252,10 @@
     "syoboi_tid": 3465
   },
   {
+    "bgm_id": 106834,
+    "syoboi_tid": 3466
+  },
+  {
     "bgm_id": 2077,
     "syoboi_tid": 3473
   },
@@ -7426,6 +8270,10 @@
   {
     "bgm_id": 92415,
     "syoboi_tid": 3479
+  },
+  {
+    "bgm_id": 95824,
+    "syoboi_tid": 3480
   },
   {
     "bgm_id": 103906,
@@ -7446,6 +8294,22 @@
   {
     "bgm_id": 9302,
     "syoboi_tid": 3488
+  },
+  {
+    "bgm_id": 75521,
+    "syoboi_tid": 3489
+  },
+  {
+    "bgm_id": 58949,
+    "syoboi_tid": 3492
+  },
+  {
+    "bgm_id": 56849,
+    "syoboi_tid": 3493
+  },
+  {
+    "bgm_id": 83929,
+    "syoboi_tid": 3497
   },
   {
     "bgm_id": 95225,
@@ -7504,6 +8368,10 @@
     "syoboi_tid": 3517
   },
   {
+    "bgm_id": 112841,
+    "syoboi_tid": 3519
+  },
+  {
     "bgm_id": 99092,
     "syoboi_tid": 3520
   },
@@ -7540,12 +8408,20 @@
     "syoboi_tid": 3529
   },
   {
+    "bgm_id": 96787,
+    "syoboi_tid": 3530
+  },
+  {
     "bgm_id": 101518,
     "syoboi_tid": 3531
   },
   {
     "bgm_id": 99538,
     "syoboi_tid": 3532
+  },
+  {
+    "bgm_id": 113658,
+    "syoboi_tid": 3533
   },
   {
     "bgm_id": 104138,
@@ -7600,6 +8476,10 @@
     "syoboi_tid": 3546
   },
   {
+    "bgm_id": 113656,
+    "syoboi_tid": 3547
+  },
+  {
     "bgm_id": 54551,
     "syoboi_tid": 3548
   },
@@ -7608,8 +8488,16 @@
     "syoboi_tid": 3549
   },
   {
+    "bgm_id": 100517,
+    "syoboi_tid": 3550
+  },
+  {
     "bgm_id": 88433,
     "syoboi_tid": 3551
+  },
+  {
+    "bgm_id": 115050,
+    "syoboi_tid": 3552
   },
   {
     "bgm_id": 80837,
@@ -7642,6 +8530,10 @@
   {
     "bgm_id": 115204,
     "syoboi_tid": 3573
+  },
+  {
+    "bgm_id": 133510,
+    "syoboi_tid": 3579
   },
   {
     "bgm_id": 115932,
@@ -7708,6 +8600,10 @@
     "syoboi_tid": 3603
   },
   {
+    "bgm_id": 161677,
+    "syoboi_tid": 3606
+  },
+  {
     "bgm_id": 100568,
     "syoboi_tid": 3607
   },
@@ -7752,6 +8648,10 @@
     "syoboi_tid": 3617
   },
   {
+    "bgm_id": 107835,
+    "syoboi_tid": 3618
+  },
+  {
     "bgm_id": 113631,
     "syoboi_tid": 3619
   },
@@ -7784,6 +8684,14 @@
     "syoboi_tid": 3626
   },
   {
+    "bgm_id": 105155,
+    "syoboi_tid": 3627
+  },
+  {
+    "bgm_id": 119364,
+    "syoboi_tid": 3628
+  },
+  {
     "bgm_id": 113292,
     "syoboi_tid": 3629
   },
@@ -7796,8 +8704,16 @@
     "syoboi_tid": 3631
   },
   {
+    "bgm_id": 183496,
+    "syoboi_tid": 3632
+  },
+  {
     "bgm_id": 116742,
     "syoboi_tid": 3633
+  },
+  {
+    "bgm_id": 104949,
+    "syoboi_tid": 3636
   },
   {
     "bgm_id": 58871,
@@ -7816,6 +8732,10 @@
     "syoboi_tid": 3651
   },
   {
+    "bgm_id": 496,
+    "syoboi_tid": 3661
+  },
+  {
     "bgm_id": 84501,
     "syoboi_tid": 3665
   },
@@ -7830,6 +8750,10 @@
   {
     "bgm_id": 90815,
     "syoboi_tid": 3673
+  },
+  {
+    "bgm_id": 106694,
+    "syoboi_tid": 3676
   },
   {
     "bgm_id": 112838,
@@ -7912,6 +8836,10 @@
     "syoboi_tid": 3701
   },
   {
+    "bgm_id": 113906,
+    "syoboi_tid": 3702
+  },
+  {
     "bgm_id": 118906,
     "syoboi_tid": 3703
   },
@@ -7926,6 +8854,10 @@
   {
     "bgm_id": 70326,
     "syoboi_tid": 3708
+  },
+  {
+    "bgm_id": 127172,
+    "syoboi_tid": 3710
   },
   {
     "bgm_id": 119886,
@@ -7946,6 +8878,14 @@
   {
     "bgm_id": 125807,
     "syoboi_tid": 3716
+  },
+  {
+    "bgm_id": 91322,
+    "syoboi_tid": 3717
+  },
+  {
+    "bgm_id": 120042,
+    "syoboi_tid": 3718
   },
   {
     "bgm_id": 119677,
@@ -8000,6 +8940,10 @@
     "syoboi_tid": 3737
   },
   {
+    "bgm_id": 182784,
+    "syoboi_tid": 3738
+  },
+  {
     "bgm_id": 130181,
     "syoboi_tid": 3739
   },
@@ -8016,12 +8960,24 @@
     "syoboi_tid": 3746
   },
   {
+    "bgm_id": 120791,
+    "syoboi_tid": 3747
+  },
+  {
     "bgm_id": 127138,
     "syoboi_tid": 3748
   },
   {
+    "bgm_id": 129844,
+    "syoboi_tid": 3769
+  },
+  {
     "bgm_id": 81531,
     "syoboi_tid": 3774
+  },
+  {
+    "bgm_id": 183497,
+    "syoboi_tid": 3776
   },
   {
     "bgm_id": 37246,
@@ -8038,6 +8994,10 @@
   {
     "bgm_id": 135809,
     "syoboi_tid": 3781
+  },
+  {
+    "bgm_id": 90880,
+    "syoboi_tid": 3783
   },
   {
     "bgm_id": 66390,
@@ -8058,6 +9018,10 @@
   {
     "bgm_id": 37299,
     "syoboi_tid": 3788
+  },
+  {
+    "bgm_id": 121002,
+    "syoboi_tid": 3789
   },
   {
     "bgm_id": 37180,
@@ -8144,12 +9108,20 @@
     "syoboi_tid": 3811
   },
   {
+    "bgm_id": 130452,
+    "syoboi_tid": 3812
+  },
+  {
     "bgm_id": 129384,
     "syoboi_tid": 3813
   },
   {
     "bgm_id": 187692,
     "syoboi_tid": 3814
+  },
+  {
+    "bgm_id": 107957,
+    "syoboi_tid": 3815
   },
   {
     "bgm_id": 118067,
@@ -8196,6 +9168,10 @@
     "syoboi_tid": 3827
   },
   {
+    "bgm_id": 110048,
+    "syoboi_tid": 3828
+  },
+  {
     "bgm_id": 118785,
     "syoboi_tid": 3829
   },
@@ -8232,6 +9208,14 @@
     "syoboi_tid": 3845
   },
   {
+    "bgm_id": 134038,
+    "syoboi_tid": 3849
+  },
+  {
+    "bgm_id": 127294,
+    "syoboi_tid": 3850
+  },
+  {
     "bgm_id": 132829,
     "syoboi_tid": 3852
   },
@@ -8250,6 +9234,10 @@
   {
     "bgm_id": 18850,
     "syoboi_tid": 3861
+  },
+  {
+    "bgm_id": 119795,
+    "syoboi_tid": 3862
   },
   {
     "bgm_id": 136311,
@@ -8286,6 +9274,10 @@
   {
     "bgm_id": 141781,
     "syoboi_tid": 3885
+  },
+  {
+    "bgm_id": 107671,
+    "syoboi_tid": 3886
   },
   {
     "bgm_id": 128885,
@@ -8348,6 +9340,10 @@
     "syoboi_tid": 3907
   },
   {
+    "bgm_id": 132770,
+    "syoboi_tid": 3908
+  },
+  {
     "bgm_id": 124778,
     "syoboi_tid": 3909
   },
@@ -8388,6 +9384,10 @@
     "syoboi_tid": 3918
   },
   {
+    "bgm_id": 130230,
+    "syoboi_tid": 3919
+  },
+  {
     "bgm_id": 120236,
     "syoboi_tid": 3920
   },
@@ -8406,6 +9406,10 @@
   {
     "bgm_id": 125049,
     "syoboi_tid": 3935
+  },
+  {
+    "bgm_id": 143751,
+    "syoboi_tid": 3941
   },
   {
     "bgm_id": 209643,
@@ -8432,6 +9436,10 @@
     "syoboi_tid": 3950
   },
   {
+    "bgm_id": 209653,
+    "syoboi_tid": 3952
+  },
+  {
     "bgm_id": 139800,
     "syoboi_tid": 3955
   },
@@ -8442,6 +9450,10 @@
   {
     "bgm_id": 146401,
     "syoboi_tid": 3957
+  },
+  {
+    "bgm_id": 131717,
+    "syoboi_tid": 3958
   },
   {
     "bgm_id": 138834,
@@ -8492,8 +9504,20 @@
     "syoboi_tid": 3987
   },
   {
+    "bgm_id": 74218,
+    "syoboi_tid": 3990
+  },
+  {
+    "bgm_id": 127817,
+    "syoboi_tid": 3992
+  },
+  {
     "bgm_id": 103824,
     "syoboi_tid": 3994
+  },
+  {
+    "bgm_id": 92950,
+    "syoboi_tid": 3995
   },
   {
     "bgm_id": 127355,
@@ -8502,6 +9526,10 @@
   {
     "bgm_id": 103866,
     "syoboi_tid": 3999
+  },
+  {
+    "bgm_id": 64172,
+    "syoboi_tid": 4001
   },
   {
     "bgm_id": 37292,
@@ -8552,8 +9580,16 @@
     "syoboi_tid": 4017
   },
   {
+    "bgm_id": 159365,
+    "syoboi_tid": 4018
+  },
+  {
     "bgm_id": 37012,
     "syoboi_tid": 4019
+  },
+  {
+    "bgm_id": 75876,
+    "syoboi_tid": 4020
   },
   {
     "bgm_id": 145781,
@@ -8572,6 +9608,10 @@
     "syoboi_tid": 4024
   },
   {
+    "bgm_id": 146861,
+    "syoboi_tid": 4025
+  },
+  {
     "bgm_id": 153214,
     "syoboi_tid": 4026
   },
@@ -8584,12 +9624,20 @@
     "syoboi_tid": 4028
   },
   {
+    "bgm_id": 139830,
+    "syoboi_tid": 4029
+  },
+  {
     "bgm_id": 146994,
     "syoboi_tid": 4030
   },
   {
     "bgm_id": 83552,
     "syoboi_tid": 4031
+  },
+  {
+    "bgm_id": 98638,
+    "syoboi_tid": 4035
   },
   {
     "bgm_id": 149412,
@@ -8632,6 +9680,14 @@
     "syoboi_tid": 4047
   },
   {
+    "bgm_id": 131891,
+    "syoboi_tid": 4048
+  },
+  {
+    "bgm_id": 152567,
+    "syoboi_tid": 4049
+  },
+  {
     "bgm_id": 148241,
     "syoboi_tid": 4050
   },
@@ -8664,6 +9720,10 @@
     "syoboi_tid": 4061
   },
   {
+    "bgm_id": 162799,
+    "syoboi_tid": 4062
+  },
+  {
     "bgm_id": 66394,
     "syoboi_tid": 4063
   },
@@ -8692,6 +9752,10 @@
     "syoboi_tid": 4075
   },
   {
+    "bgm_id": 73369,
+    "syoboi_tid": 4076
+  },
+  {
     "bgm_id": 37274,
     "syoboi_tid": 4077
   },
@@ -8706,6 +9770,10 @@
   {
     "bgm_id": 145908,
     "syoboi_tid": 4083
+  },
+  {
+    "bgm_id": 39869,
+    "syoboi_tid": 4084
   },
   {
     "bgm_id": 133403,
@@ -8758,6 +9826,10 @@
   {
     "bgm_id": 168204,
     "syoboi_tid": 4101
+  },
+  {
+    "bgm_id": 163046,
+    "syoboi_tid": 4103
   },
   {
     "bgm_id": 148361,
@@ -8824,12 +9896,20 @@
     "syoboi_tid": 4124
   },
   {
+    "bgm_id": 146503,
+    "syoboi_tid": 4125
+  },
+  {
     "bgm_id": 160271,
     "syoboi_tid": 4126
   },
   {
     "bgm_id": 167518,
     "syoboi_tid": 4127
+  },
+  {
+    "bgm_id": 169917,
+    "syoboi_tid": 4130
   },
   {
     "bgm_id": 141806,
@@ -8856,6 +9936,10 @@
     "syoboi_tid": 4146
   },
   {
+    "bgm_id": 153193,
+    "syoboi_tid": 4147
+  },
+  {
     "bgm_id": 215023,
     "syoboi_tid": 4148
   },
@@ -8870,6 +9954,14 @@
   {
     "bgm_id": 143753,
     "syoboi_tid": 4151
+  },
+  {
+    "bgm_id": 161845,
+    "syoboi_tid": 4152
+  },
+  {
+    "bgm_id": 186594,
+    "syoboi_tid": 4155
   },
   {
     "bgm_id": 167433,
@@ -8922,6 +10014,10 @@
   {
     "bgm_id": 37285,
     "syoboi_tid": 4189
+  },
+  {
+    "bgm_id": 62914,
+    "syoboi_tid": 4195
   },
   {
     "bgm_id": 215024,
@@ -9024,6 +10120,10 @@
     "syoboi_tid": 4230
   },
   {
+    "bgm_id": 176958,
+    "syoboi_tid": 4231
+  },
+  {
     "bgm_id": 117282,
     "syoboi_tid": 4232
   },
@@ -9056,8 +10156,16 @@
     "syoboi_tid": 4240
   },
   {
+    "bgm_id": 136371,
+    "syoboi_tid": 4241
+  },
+  {
     "bgm_id": 158316,
     "syoboi_tid": 4242
+  },
+  {
+    "bgm_id": 162040,
+    "syoboi_tid": 4244
   },
   {
     "bgm_id": 138440,
@@ -9122,6 +10230,14 @@
   {
     "bgm_id": 174141,
     "syoboi_tid": 4263
+  },
+  {
+    "bgm_id": 130609,
+    "syoboi_tid": 4267
+  },
+  {
+    "bgm_id": 160209,
+    "syoboi_tid": 4276
   },
   {
     "bgm_id": 175603,
@@ -9208,6 +10324,10 @@
     "syoboi_tid": 4300
   },
   {
+    "bgm_id": 189639,
+    "syoboi_tid": 4301
+  },
+  {
     "bgm_id": 172492,
     "syoboi_tid": 4302
   },
@@ -9274,6 +10394,10 @@
   {
     "bgm_id": 154689,
     "syoboi_tid": 4322
+  },
+  {
+    "bgm_id": 187556,
+    "syoboi_tid": 4323
   },
   {
     "bgm_id": 186553,
@@ -9380,12 +10504,24 @@
     "syoboi_tid": 4355
   },
   {
+    "bgm_id": 191653,
+    "syoboi_tid": 4358
+  },
+  {
     "bgm_id": 192314,
     "syoboi_tid": 4365
   },
   {
     "bgm_id": 209630,
     "syoboi_tid": 4369
+  },
+  {
+    "bgm_id": 188050,
+    "syoboi_tid": 4371
+  },
+  {
+    "bgm_id": 192247,
+    "syoboi_tid": 4372
   },
   {
     "bgm_id": 37215,
@@ -9414,6 +10550,10 @@
   {
     "bgm_id": 80149,
     "syoboi_tid": 4386
+  },
+  {
+    "bgm_id": 129222,
+    "syoboi_tid": 4387
   },
   {
     "bgm_id": 192680,
@@ -9452,12 +10592,28 @@
     "syoboi_tid": 4402
   },
   {
+    "bgm_id": 191523,
+    "syoboi_tid": 4409
+  },
+  {
     "bgm_id": 186515,
     "syoboi_tid": 4411
   },
   {
+    "bgm_id": 148099,
+    "syoboi_tid": 4412
+  },
+  {
     "bgm_id": 196188,
     "syoboi_tid": 4414
+  },
+  {
+    "bgm_id": 110062,
+    "syoboi_tid": 4415
+  },
+  {
+    "bgm_id": 134232,
+    "syoboi_tid": 4416
   },
   {
     "bgm_id": 179949,
@@ -9496,8 +10652,20 @@
     "syoboi_tid": 4430
   },
   {
+    "bgm_id": 125900,
+    "syoboi_tid": 4432
+  },
+  {
+    "bgm_id": 171363,
+    "syoboi_tid": 4433
+  },
+  {
     "bgm_id": 193282,
     "syoboi_tid": 4434
+  },
+  {
+    "bgm_id": 186184,
+    "syoboi_tid": 4435
   },
   {
     "bgm_id": 192485,
@@ -9548,8 +10716,20 @@
     "syoboi_tid": 4447
   },
   {
+    "bgm_id": 38070,
+    "syoboi_tid": 4450
+  },
+  {
+    "bgm_id": 120191,
+    "syoboi_tid": 4451
+  },
+  {
     "bgm_id": 121819,
     "syoboi_tid": 4454
+  },
+  {
+    "bgm_id": 198714,
+    "syoboi_tid": 4460
   },
   {
     "bgm_id": 196053,
@@ -9558,6 +10738,10 @@
   {
     "bgm_id": 199408,
     "syoboi_tid": 4463
+  },
+  {
+    "bgm_id": 199827,
+    "syoboi_tid": 4467
   },
   {
     "bgm_id": 146732,
@@ -9592,6 +10776,10 @@
     "syoboi_tid": 4480
   },
   {
+    "bgm_id": 315271,
+    "syoboi_tid": 4481
+  },
+  {
     "bgm_id": 191056,
     "syoboi_tid": 4482
   },
@@ -9606,6 +10794,10 @@
   {
     "bgm_id": 132734,
     "syoboi_tid": 4488
+  },
+  {
+    "bgm_id": 172155,
+    "syoboi_tid": 4491
   },
   {
     "bgm_id": 193378,
@@ -9672,6 +10864,14 @@
     "syoboi_tid": 4512
   },
   {
+    "bgm_id": 185761,
+    "syoboi_tid": 4515
+  },
+  {
+    "bgm_id": 193452,
+    "syoboi_tid": 4516
+  },
+  {
     "bgm_id": 203387,
     "syoboi_tid": 4517
   },
@@ -9716,12 +10916,20 @@
     "syoboi_tid": 4535
   },
   {
+    "bgm_id": 209680,
+    "syoboi_tid": 4537
+  },
+  {
     "bgm_id": 212331,
     "syoboi_tid": 4538
   },
   {
     "bgm_id": 208756,
     "syoboi_tid": 4539
+  },
+  {
+    "bgm_id": 212272,
+    "syoboi_tid": 4540
   },
   {
     "bgm_id": 204200,
@@ -9734,6 +10942,10 @@
   {
     "bgm_id": 207567,
     "syoboi_tid": 4543
+  },
+  {
+    "bgm_id": 209352,
+    "syoboi_tid": 4544
   },
   {
     "bgm_id": 195434,
@@ -9774,6 +10986,14 @@
   {
     "bgm_id": 172850,
     "syoboi_tid": 4560
+  },
+  {
+    "bgm_id": 212813,
+    "syoboi_tid": 4564
+  },
+  {
+    "bgm_id": 188174,
+    "syoboi_tid": 4570
   },
   {
     "bgm_id": 192637,
@@ -9840,6 +11060,10 @@
     "syoboi_tid": 4606
   },
   {
+    "bgm_id": 186570,
+    "syoboi_tid": 4609
+  },
+  {
     "bgm_id": 192252,
     "syoboi_tid": 4610
   },
@@ -9858,6 +11082,10 @@
   {
     "bgm_id": 204855,
     "syoboi_tid": 4614
+  },
+  {
+    "bgm_id": 175362,
+    "syoboi_tid": 4615
   },
   {
     "bgm_id": 211936,
@@ -9908,8 +11136,16 @@
     "syoboi_tid": 4627
   },
   {
+    "bgm_id": 205485,
+    "syoboi_tid": 4628
+  },
+  {
     "bgm_id": 197722,
     "syoboi_tid": 4629
+  },
+  {
+    "bgm_id": 212675,
+    "syoboi_tid": 4632
   },
   {
     "bgm_id": 165805,
@@ -9918,6 +11154,10 @@
   {
     "bgm_id": 215726,
     "syoboi_tid": 4634
+  },
+  {
+    "bgm_id": 216767,
+    "syoboi_tid": 4635
   },
   {
     "bgm_id": 203010,
@@ -9968,12 +11208,24 @@
     "syoboi_tid": 4650
   },
   {
+    "bgm_id": 151974,
+    "syoboi_tid": 4652
+  },
+  {
+    "bgm_id": 218851,
+    "syoboi_tid": 4653
+  },
+  {
     "bgm_id": 210324,
     "syoboi_tid": 4659
   },
   {
     "bgm_id": 511,
     "syoboi_tid": 4663
+  },
+  {
+    "bgm_id": 119344,
+    "syoboi_tid": 4664
   },
   {
     "bgm_id": 221061,
@@ -10036,6 +11288,10 @@
     "syoboi_tid": 4685
   },
   {
+    "bgm_id": 219483,
+    "syoboi_tid": 4686
+  },
+  {
     "bgm_id": 211059,
     "syoboi_tid": 4687
   },
@@ -10052,8 +11308,20 @@
     "syoboi_tid": 4690
   },
   {
+    "bgm_id": 210272,
+    "syoboi_tid": 4692
+  },
+  {
+    "bgm_id": 152092,
+    "syoboi_tid": 4693
+  },
+  {
     "bgm_id": 211068,
     "syoboi_tid": 4694
+  },
+  {
+    "bgm_id": 222425,
+    "syoboi_tid": 4695
   },
   {
     "bgm_id": 214799,
@@ -10084,8 +11352,16 @@
     "syoboi_tid": 4703
   },
   {
+    "bgm_id": 144043,
+    "syoboi_tid": 4704
+  },
+  {
     "bgm_id": 212775,
     "syoboi_tid": 4705
+  },
+  {
+    "bgm_id": 175530,
+    "syoboi_tid": 4706
   },
   {
     "bgm_id": 226816,
@@ -10104,8 +11380,24 @@
     "syoboi_tid": 4710
   },
   {
+    "bgm_id": 211567,
+    "syoboi_tid": 4712
+  },
+  {
     "bgm_id": 213329,
     "syoboi_tid": 4713
+  },
+  {
+    "bgm_id": 212609,
+    "syoboi_tid": 4714
+  },
+  {
+    "bgm_id": 212315,
+    "syoboi_tid": 4715
+  },
+  {
+    "bgm_id": 309237,
+    "syoboi_tid": 4716
   },
   {
     "bgm_id": 202880,
@@ -10118,6 +11410,10 @@
   {
     "bgm_id": 212004,
     "syoboi_tid": 4719
+  },
+  {
+    "bgm_id": 224762,
+    "syoboi_tid": 4720
   },
   {
     "bgm_id": 202268,
@@ -10168,6 +11464,10 @@
     "syoboi_tid": 4736
   },
   {
+    "bgm_id": 195713,
+    "syoboi_tid": 4739
+  },
+  {
     "bgm_id": 218383,
     "syoboi_tid": 4741
   },
@@ -10190,6 +11490,10 @@
   {
     "bgm_id": 96537,
     "syoboi_tid": 4749
+  },
+  {
+    "bgm_id": 186099,
+    "syoboi_tid": 4751
   },
   {
     "bgm_id": 85438,
@@ -10258,6 +11562,10 @@
   {
     "bgm_id": 208370,
     "syoboi_tid": 4775
+  },
+  {
+    "bgm_id": 204027,
+    "syoboi_tid": 4776
   },
   {
     "bgm_id": 212146,
@@ -10364,12 +11672,24 @@
     "syoboi_tid": 4813
   },
   {
+    "bgm_id": 229872,
+    "syoboi_tid": 4815
+  },
+  {
     "bgm_id": 228026,
     "syoboi_tid": 4816
   },
   {
+    "bgm_id": 18882,
+    "syoboi_tid": 4817
+  },
+  {
     "bgm_id": 230517,
     "syoboi_tid": 4819
+  },
+  {
+    "bgm_id": 223407,
+    "syoboi_tid": 4820
   },
   {
     "bgm_id": 227778,
@@ -10382,6 +11702,10 @@
   {
     "bgm_id": 208612,
     "syoboi_tid": 4827
+  },
+  {
+    "bgm_id": 90502,
+    "syoboi_tid": 4830
   },
   {
     "bgm_id": 53759,
@@ -10402,6 +11726,10 @@
   {
     "bgm_id": 79835,
     "syoboi_tid": 4836
+  },
+  {
+    "bgm_id": 233615,
+    "syoboi_tid": 4838
   },
   {
     "bgm_id": 209686,
@@ -10470,6 +11798,10 @@
   {
     "bgm_id": 236947,
     "syoboi_tid": 4858
+  },
+  {
+    "bgm_id": 54550,
+    "syoboi_tid": 4859
   },
   {
     "bgm_id": 236790,
@@ -10596,12 +11928,28 @@
     "syoboi_tid": 4896
   },
   {
+    "bgm_id": 241879,
+    "syoboi_tid": 4897
+  },
+  {
+    "bgm_id": 240459,
+    "syoboi_tid": 4898
+  },
+  {
+    "bgm_id": 232072,
+    "syoboi_tid": 4899
+  },
+  {
     "bgm_id": 239839,
     "syoboi_tid": 4901
   },
   {
     "bgm_id": 219377,
     "syoboi_tid": 4902
+  },
+  {
+    "bgm_id": 240775,
+    "syoboi_tid": 4903
   },
   {
     "bgm_id": 230940,
@@ -10614,6 +11962,10 @@
   {
     "bgm_id": 185789,
     "syoboi_tid": 4908
+  },
+  {
+    "bgm_id": 239750,
+    "syoboi_tid": 4909
   },
   {
     "bgm_id": 233608,
@@ -10636,8 +11988,20 @@
     "syoboi_tid": 4915
   },
   {
+    "bgm_id": 226677,
+    "syoboi_tid": 4916
+  },
+  {
+    "bgm_id": 242454,
+    "syoboi_tid": 4917
+  },
+  {
     "bgm_id": 198894,
     "syoboi_tid": 4918
+  },
+  {
+    "bgm_id": 206700,
+    "syoboi_tid": 4923
   },
   {
     "bgm_id": 236103,
@@ -10664,6 +12028,10 @@
     "syoboi_tid": 4935
   },
   {
+    "bgm_id": 228148,
+    "syoboi_tid": 4936
+  },
+  {
     "bgm_id": 37273,
     "syoboi_tid": 4938
   },
@@ -10674,6 +12042,14 @@
   {
     "bgm_id": 239180,
     "syoboi_tid": 4940
+  },
+  {
+    "bgm_id": 209764,
+    "syoboi_tid": 4941
+  },
+  {
+    "bgm_id": 53741,
+    "syoboi_tid": 4945
   },
   {
     "bgm_id": 220515,
@@ -10724,6 +12100,10 @@
     "syoboi_tid": 4962
   },
   {
+    "bgm_id": 238087,
+    "syoboi_tid": 4963
+  },
+  {
     "bgm_id": 216310,
     "syoboi_tid": 4964
   },
@@ -10750,6 +12130,10 @@
   {
     "bgm_id": 240198,
     "syoboi_tid": 4970
+  },
+  {
+    "bgm_id": 242737,
+    "syoboi_tid": 4972
   },
   {
     "bgm_id": 241091,
@@ -10820,6 +12204,10 @@
     "syoboi_tid": 4989
   },
   {
+    "bgm_id": 60003,
+    "syoboi_tid": 4991
+  },
+  {
     "bgm_id": 241831,
     "syoboi_tid": 4994
   },
@@ -10848,6 +12236,10 @@
     "syoboi_tid": 5000
   },
   {
+    "bgm_id": 250117,
+    "syoboi_tid": 5003
+  },
+  {
     "bgm_id": 258390,
     "syoboi_tid": 5008
   },
@@ -10864,6 +12256,10 @@
     "syoboi_tid": 5012
   },
   {
+    "bgm_id": 228407,
+    "syoboi_tid": 5019
+  },
+  {
     "bgm_id": 240428,
     "syoboi_tid": 5022
   },
@@ -10876,6 +12272,18 @@
     "syoboi_tid": 5025
   },
   {
+    "bgm_id": 202256,
+    "syoboi_tid": 5027
+  },
+  {
+    "bgm_id": 117777,
+    "syoboi_tid": 5028
+  },
+  {
+    "bgm_id": 239270,
+    "syoboi_tid": 5029
+  },
+  {
     "bgm_id": 235128,
     "syoboi_tid": 5030
   },
@@ -10886,6 +12294,10 @@
   {
     "bgm_id": 248907,
     "syoboi_tid": 5035
+  },
+  {
+    "bgm_id": 53765,
+    "syoboi_tid": 5037
   },
   {
     "bgm_id": 236510,
@@ -10938,6 +12350,10 @@
   {
     "bgm_id": 242670,
     "syoboi_tid": 5054
+  },
+  {
+    "bgm_id": 251547,
+    "syoboi_tid": 5055
   },
   {
     "bgm_id": 220658,
@@ -11000,6 +12416,10 @@
     "syoboi_tid": 5071
   },
   {
+    "bgm_id": 240800,
+    "syoboi_tid": 5072
+  },
+  {
     "bgm_id": 261082,
     "syoboi_tid": 5074
   },
@@ -11014,6 +12434,10 @@
   {
     "bgm_id": 240974,
     "syoboi_tid": 5077
+  },
+  {
+    "bgm_id": 227392,
+    "syoboi_tid": 5078
   },
   {
     "bgm_id": 236597,
@@ -11040,6 +12464,10 @@
     "syoboi_tid": 5085
   },
   {
+    "bgm_id": 256863,
+    "syoboi_tid": 5086
+  },
+  {
     "bgm_id": 248154,
     "syoboi_tid": 5088
   },
@@ -11054,6 +12482,10 @@
   {
     "bgm_id": 239974,
     "syoboi_tid": 5092
+  },
+  {
+    "bgm_id": 239910,
+    "syoboi_tid": 5093
   },
   {
     "bgm_id": 154771,
@@ -11120,12 +12552,24 @@
     "syoboi_tid": 5127
   },
   {
+    "bgm_id": 202250,
+    "syoboi_tid": 5128
+  },
+  {
+    "bgm_id": 303877,
+    "syoboi_tid": 5130
+  },
+  {
     "bgm_id": 23447,
     "syoboi_tid": 5131
   },
   {
     "bgm_id": 37247,
     "syoboi_tid": 5132
+  },
+  {
+    "bgm_id": 243428,
+    "syoboi_tid": 5133
   },
   {
     "bgm_id": 253628,
@@ -11138,6 +12582,10 @@
   {
     "bgm_id": 248175,
     "syoboi_tid": 5138
+  },
+  {
+    "bgm_id": 254895,
+    "syoboi_tid": 5139
   },
   {
     "bgm_id": 238640,
@@ -11248,6 +12696,10 @@
     "syoboi_tid": 5167
   },
   {
+    "bgm_id": 262505,
+    "syoboi_tid": 5171
+  },
+  {
     "bgm_id": 269422,
     "syoboi_tid": 5173
   },
@@ -11284,8 +12736,16 @@
     "syoboi_tid": 5194
   },
   {
+    "bgm_id": 106060,
+    "syoboi_tid": 5195
+  },
+  {
     "bgm_id": 7104,
     "syoboi_tid": 5196
+  },
+  {
+    "bgm_id": 239911,
+    "syoboi_tid": 5200
   },
   {
     "bgm_id": 269534,
@@ -11302,6 +12762,10 @@
   {
     "bgm_id": 2045,
     "syoboi_tid": 5207
+  },
+  {
+    "bgm_id": 218971,
+    "syoboi_tid": 5214
   },
   {
     "bgm_id": 267481,
@@ -11384,6 +12848,10 @@
     "syoboi_tid": 5249
   },
   {
+    "bgm_id": 261048,
+    "syoboi_tid": 5250
+  },
+  {
     "bgm_id": 204135,
     "syoboi_tid": 5251
   },
@@ -11424,8 +12892,24 @@
     "syoboi_tid": 5261
   },
   {
+    "bgm_id": 193373,
+    "syoboi_tid": 5265
+  },
+  {
     "bgm_id": 247841,
     "syoboi_tid": 5266
+  },
+  {
+    "bgm_id": 206737,
+    "syoboi_tid": 5269
+  },
+  {
+    "bgm_id": 254762,
+    "syoboi_tid": 5271
+  },
+  {
+    "bgm_id": 193619,
+    "syoboi_tid": 5272
   },
   {
     "bgm_id": 267615,
@@ -11452,12 +12936,36 @@
     "syoboi_tid": 5280
   },
   {
+    "bgm_id": 202240,
+    "syoboi_tid": 5282
+  },
+  {
     "bgm_id": 239646,
     "syoboi_tid": 5283
   },
   {
+    "bgm_id": 279469,
+    "syoboi_tid": 5289
+  },
+  {
+    "bgm_id": 216371,
+    "syoboi_tid": 5290
+  },
+  {
+    "bgm_id": 233926,
+    "syoboi_tid": 5292
+  },
+  {
+    "bgm_id": 279470,
+    "syoboi_tid": 5293
+  },
+  {
     "bgm_id": 269824,
     "syoboi_tid": 5297
+  },
+  {
+    "bgm_id": 279471,
+    "syoboi_tid": 5298
   },
   {
     "bgm_id": 254788,
@@ -11466,6 +12974,10 @@
   {
     "bgm_id": 279472,
     "syoboi_tid": 5300
+  },
+  {
+    "bgm_id": 279473,
+    "syoboi_tid": 5301
   },
   {
     "bgm_id": 279474,
@@ -11486,6 +12998,10 @@
   {
     "bgm_id": 267412,
     "syoboi_tid": 5330
+  },
+  {
+    "bgm_id": 285664,
+    "syoboi_tid": 5334
   },
   {
     "bgm_id": 13311,
@@ -11600,12 +13116,20 @@
     "syoboi_tid": 5367
   },
   {
+    "bgm_id": 265372,
+    "syoboi_tid": 5369
+  },
+  {
     "bgm_id": 277518,
     "syoboi_tid": 5374
   },
   {
     "bgm_id": 274133,
     "syoboi_tid": 5375
+  },
+  {
+    "bgm_id": 63686,
+    "syoboi_tid": 5378
   },
   {
     "bgm_id": 270229,
@@ -11620,16 +13144,40 @@
     "syoboi_tid": 5381
   },
   {
+    "bgm_id": 283480,
+    "syoboi_tid": 5382
+  },
+  {
+    "bgm_id": 303878,
+    "syoboi_tid": 5387
+  },
+  {
     "bgm_id": 240386,
     "syoboi_tid": 5390
+  },
+  {
+    "bgm_id": 269235,
+    "syoboi_tid": 5391
   },
   {
     "bgm_id": 285517,
     "syoboi_tid": 5393
   },
   {
+    "bgm_id": 215231,
+    "syoboi_tid": 5397
+  },
+  {
     "bgm_id": 277423,
     "syoboi_tid": 5399
+  },
+  {
+    "bgm_id": 241187,
+    "syoboi_tid": 5400
+  },
+  {
+    "bgm_id": 290591,
+    "syoboi_tid": 5409
   },
   {
     "bgm_id": 290387,
@@ -11676,8 +13224,20 @@
     "syoboi_tid": 5422
   },
   {
+    "bgm_id": 282564,
+    "syoboi_tid": 5423
+  },
+  {
     "bgm_id": 264356,
     "syoboi_tid": 5424
+  },
+  {
+    "bgm_id": 269090,
+    "syoboi_tid": 5425
+  },
+  {
+    "bgm_id": 211853,
+    "syoboi_tid": 5426
   },
   {
     "bgm_id": 288940,
@@ -11712,6 +13272,10 @@
     "syoboi_tid": 5435
   },
   {
+    "bgm_id": 270060,
+    "syoboi_tid": 5436
+  },
+  {
     "bgm_id": 240835,
     "syoboi_tid": 5437
   },
@@ -11732,6 +13296,10 @@
     "syoboi_tid": 5441
   },
   {
+    "bgm_id": 276051,
+    "syoboi_tid": 5442
+  },
+  {
     "bgm_id": 273844,
     "syoboi_tid": 5443
   },
@@ -11744,12 +13312,24 @@
     "syoboi_tid": 5445
   },
   {
+    "bgm_id": 278557,
+    "syoboi_tid": 5447
+  },
+  {
     "bgm_id": 285109,
     "syoboi_tid": 5448
   },
   {
+    "bgm_id": 260677,
+    "syoboi_tid": 5449
+  },
+  {
     "bgm_id": 285545,
     "syoboi_tid": 5451
+  },
+  {
+    "bgm_id": 231497,
+    "syoboi_tid": 5452
   },
   {
     "bgm_id": 277217,
@@ -11790,6 +13370,14 @@
   {
     "bgm_id": 277627,
     "syoboi_tid": 5463
+  },
+  {
+    "bgm_id": 248665,
+    "syoboi_tid": 5464
+  },
+  {
+    "bgm_id": 262162,
+    "syoboi_tid": 5465
   },
   {
     "bgm_id": 19712,
@@ -11838,6 +13426,10 @@
   {
     "bgm_id": 282637,
     "syoboi_tid": 5500
+  },
+  {
+    "bgm_id": 292522,
+    "syoboi_tid": 5501
   },
   {
     "bgm_id": 47218,
@@ -12008,6 +13600,10 @@
     "syoboi_tid": 5554
   },
   {
+    "bgm_id": 3996,
+    "syoboi_tid": 5555
+  },
+  {
     "bgm_id": 277506,
     "syoboi_tid": 5556
   },
@@ -12022,6 +13618,10 @@
   {
     "bgm_id": 296195,
     "syoboi_tid": 5560
+  },
+  {
+    "bgm_id": 234771,
+    "syoboi_tid": 5564
   },
   {
     "bgm_id": 297746,
@@ -12044,8 +13644,16 @@
     "syoboi_tid": 5575
   },
   {
+    "bgm_id": 240037,
+    "syoboi_tid": 5581
+  },
+  {
     "bgm_id": 41983,
     "syoboi_tid": 5591
+  },
+  {
+    "bgm_id": 264105,
+    "syoboi_tid": 5592
   },
   {
     "bgm_id": 269329,
@@ -12080,6 +13688,10 @@
     "syoboi_tid": 5603
   },
   {
+    "bgm_id": 303880,
+    "syoboi_tid": 5604
+  },
+  {
     "bgm_id": 278801,
     "syoboi_tid": 5606
   },
@@ -12108,6 +13720,14 @@
     "syoboi_tid": 5612
   },
   {
+    "bgm_id": 292219,
+    "syoboi_tid": 5613
+  },
+  {
+    "bgm_id": 297208,
+    "syoboi_tid": 5615
+  },
+  {
     "bgm_id": 276792,
     "syoboi_tid": 5616
   },
@@ -12122,6 +13742,10 @@
   {
     "bgm_id": 280678,
     "syoboi_tid": 5620
+  },
+  {
+    "bgm_id": 249619,
+    "syoboi_tid": 5621
   },
   {
     "bgm_id": 292359,
@@ -12168,12 +13792,24 @@
     "syoboi_tid": 5633
   },
   {
+    "bgm_id": 285905,
+    "syoboi_tid": 5634
+  },
+  {
     "bgm_id": 300839,
     "syoboi_tid": 5635
   },
   {
     "bgm_id": 276705,
     "syoboi_tid": 5636
+  },
+  {
+    "bgm_id": 294202,
+    "syoboi_tid": 5637
+  },
+  {
+    "bgm_id": 300865,
+    "syoboi_tid": 5638
   },
   {
     "bgm_id": 303433,
@@ -12184,8 +13820,24 @@
     "syoboi_tid": 5640
   },
   {
+    "bgm_id": 294288,
+    "syoboi_tid": 5644
+  },
+  {
+    "bgm_id": 301700,
+    "syoboi_tid": 5645
+  },
+  {
     "bgm_id": 303435,
     "syoboi_tid": 5646
+  },
+  {
+    "bgm_id": 303891,
+    "syoboi_tid": 5651
+  },
+  {
+    "bgm_id": 238005,
+    "syoboi_tid": 5652
   },
   {
     "bgm_id": 298718,
@@ -12212,6 +13864,10 @@
     "syoboi_tid": 5670
   },
   {
+    "bgm_id": 252432,
+    "syoboi_tid": 5672
+  },
+  {
     "bgm_id": 49277,
     "syoboi_tid": 5677
   },
@@ -12220,12 +13876,20 @@
     "syoboi_tid": 5681
   },
   {
+    "bgm_id": 260680,
+    "syoboi_tid": 5685
+  },
+  {
     "bgm_id": 214710,
     "syoboi_tid": 5687
   },
   {
     "bgm_id": 25425,
     "syoboi_tid": 5689
+  },
+  {
+    "bgm_id": 274524,
+    "syoboi_tid": 5691
   },
   {
     "bgm_id": 299498,
@@ -12256,6 +13920,10 @@
     "syoboi_tid": 5701
   },
   {
+    "bgm_id": 221292,
+    "syoboi_tid": 5702
+  },
+  {
     "bgm_id": 260736,
     "syoboi_tid": 5703
   },
@@ -12266,6 +13934,10 @@
   {
     "bgm_id": 291195,
     "syoboi_tid": 5706
+  },
+  {
+    "bgm_id": 216372,
+    "syoboi_tid": 5707
   },
   {
     "bgm_id": 305511,
@@ -12280,6 +13952,10 @@
     "syoboi_tid": 5710
   },
   {
+    "bgm_id": 286109,
+    "syoboi_tid": 5711
+  },
+  {
     "bgm_id": 306993,
     "syoboi_tid": 5712
   },
@@ -12292,12 +13968,24 @@
     "syoboi_tid": 5714
   },
   {
+    "bgm_id": 316108,
+    "syoboi_tid": 5715
+  },
+  {
+    "bgm_id": 285813,
+    "syoboi_tid": 5716
+  },
+  {
     "bgm_id": 278202,
     "syoboi_tid": 5719
   },
   {
     "bgm_id": 296295,
     "syoboi_tid": 5721
+  },
+  {
+    "bgm_id": 284838,
+    "syoboi_tid": 5725
   },
   {
     "bgm_id": 295615,
@@ -12328,6 +14016,10 @@
     "syoboi_tid": 5742
   },
   {
+    "bgm_id": 179798,
+    "syoboi_tid": 5745
+  },
+  {
     "bgm_id": 282372,
     "syoboi_tid": 5747
   },
@@ -12342,6 +14034,10 @@
   {
     "bgm_id": 301541,
     "syoboi_tid": 5752
+  },
+  {
+    "bgm_id": 285901,
+    "syoboi_tid": 5754
   },
   {
     "bgm_id": 292233,
@@ -12408,8 +14104,16 @@
     "syoboi_tid": 5770
   },
   {
+    "bgm_id": 318579,
+    "syoboi_tid": 5772
+  },
+  {
     "bgm_id": 290426,
     "syoboi_tid": 5773
+  },
+  {
+    "bgm_id": 309910,
+    "syoboi_tid": 5774
   },
   {
     "bgm_id": 297022,
@@ -12428,8 +14132,16 @@
     "syoboi_tid": 5778
   },
   {
+    "bgm_id": 296980,
+    "syoboi_tid": 5779
+  },
+  {
     "bgm_id": 296659,
     "syoboi_tid": 5780
+  },
+  {
+    "bgm_id": 295421,
+    "syoboi_tid": 5782
   },
   {
     "bgm_id": 306193,
@@ -12492,12 +14204,32 @@
     "syoboi_tid": 5798
   },
   {
+    "bgm_id": 276785,
+    "syoboi_tid": 5802
+  },
+  {
+    "bgm_id": 286238,
+    "syoboi_tid": 5803
+  },
+  {
     "bgm_id": 303157,
     "syoboi_tid": 5808
   },
   {
+    "bgm_id": 316107,
+    "syoboi_tid": 5809
+  },
+  {
+    "bgm_id": 310899,
+    "syoboi_tid": 5810
+  },
+  {
     "bgm_id": 315133,
     "syoboi_tid": 5811
+  },
+  {
+    "bgm_id": 203863,
+    "syoboi_tid": 5812
   },
   {
     "bgm_id": 318582,
@@ -12508,8 +14240,16 @@
     "syoboi_tid": 5818
   },
   {
+    "bgm_id": 317337,
+    "syoboi_tid": 5821
+  },
+  {
     "bgm_id": 407236,
     "syoboi_tid": 5823
+  },
+  {
+    "bgm_id": 316612,
+    "syoboi_tid": 5824
   },
   {
     "bgm_id": 285666,
@@ -12572,6 +14312,10 @@
     "syoboi_tid": 5845
   },
   {
+    "bgm_id": 297224,
+    "syoboi_tid": 5846
+  },
+  {
     "bgm_id": 304827,
     "syoboi_tid": 5847
   },
@@ -12616,6 +14360,14 @@
     "syoboi_tid": 5858
   },
   {
+    "bgm_id": 211618,
+    "syoboi_tid": 5859
+  },
+  {
+    "bgm_id": 129246,
+    "syoboi_tid": 5860
+  },
+  {
     "bgm_id": 302639,
     "syoboi_tid": 5861
   },
@@ -12642,6 +14394,10 @@
   {
     "bgm_id": 195723,
     "syoboi_tid": 5868
+  },
+  {
+    "bgm_id": 279202,
+    "syoboi_tid": 5869
   },
   {
     "bgm_id": 314447,
@@ -12708,6 +14464,10 @@
     "syoboi_tid": 5887
   },
   {
+    "bgm_id": 297344,
+    "syoboi_tid": 5888
+  },
+  {
     "bgm_id": 296941,
     "syoboi_tid": 5889
   },
@@ -12720,8 +14480,36 @@
     "syoboi_tid": 5895
   },
   {
+    "bgm_id": 293421,
+    "syoboi_tid": 5899
+  },
+  {
+    "bgm_id": 200887,
+    "syoboi_tid": 5900
+  },
+  {
+    "bgm_id": 68284,
+    "syoboi_tid": 5901
+  },
+  {
+    "bgm_id": 321092,
+    "syoboi_tid": 5907
+  },
+  {
+    "bgm_id": 276641,
+    "syoboi_tid": 5909
+  },
+  {
     "bgm_id": 366037,
     "syoboi_tid": 5911
+  },
+  {
+    "bgm_id": 320857,
+    "syoboi_tid": 5915
+  },
+  {
+    "bgm_id": 327986,
+    "syoboi_tid": 5917
   },
   {
     "bgm_id": 316264,
@@ -12748,8 +14536,16 @@
     "syoboi_tid": 5933
   },
   {
+    "bgm_id": 299673,
+    "syoboi_tid": 5934
+  },
+  {
     "bgm_id": 292969,
     "syoboi_tid": 5935
+  },
+  {
+    "bgm_id": 297456,
+    "syoboi_tid": 5936
   },
   {
     "bgm_id": 331786,
@@ -12762,6 +14558,10 @@
   {
     "bgm_id": 308936,
     "syoboi_tid": 5939
+  },
+  {
+    "bgm_id": 319252,
+    "syoboi_tid": 5940
   },
   {
     "bgm_id": 315516,
@@ -12784,6 +14584,10 @@
     "syoboi_tid": 5946
   },
   {
+    "bgm_id": 303399,
+    "syoboi_tid": 5947
+  },
+  {
     "bgm_id": 309921,
     "syoboi_tid": 5948
   },
@@ -12794,6 +14598,10 @@
   {
     "bgm_id": 308558,
     "syoboi_tid": 5950
+  },
+  {
+    "bgm_id": 336281,
+    "syoboi_tid": 5951
   },
   {
     "bgm_id": 296367,
@@ -12832,6 +14640,14 @@
     "syoboi_tid": 5961
   },
   {
+    "bgm_id": 316519,
+    "syoboi_tid": 5963
+  },
+  {
+    "bgm_id": 529232,
+    "syoboi_tid": 5964
+  },
+  {
     "bgm_id": 309753,
     "syoboi_tid": 5965
   },
@@ -12856,6 +14672,14 @@
     "syoboi_tid": 5971
   },
   {
+    "bgm_id": 128239,
+    "syoboi_tid": 5972
+  },
+  {
+    "bgm_id": 302189,
+    "syoboi_tid": 5973
+  },
+  {
     "bgm_id": 309331,
     "syoboi_tid": 5974
   },
@@ -12864,8 +14688,16 @@
     "syoboi_tid": 5976
   },
   {
+    "bgm_id": 327306,
+    "syoboi_tid": 5977
+  },
+  {
     "bgm_id": 327519,
     "syoboi_tid": 5980
+  },
+  {
+    "bgm_id": 365856,
+    "syoboi_tid": 5981
   },
   {
     "bgm_id": 325286,
@@ -12886,6 +14718,10 @@
   {
     "bgm_id": 324786,
     "syoboi_tid": 5986
+  },
+  {
+    "bgm_id": 663691,
+    "syoboi_tid": 5987
   },
   {
     "bgm_id": 327561,
@@ -12920,6 +14756,10 @@
     "syoboi_tid": 5996
   },
   {
+    "bgm_id": 301740,
+    "syoboi_tid": 5997
+  },
+  {
     "bgm_id": 317615,
     "syoboi_tid": 6001
   },
@@ -12932,6 +14772,10 @@
     "syoboi_tid": 6008
   },
   {
+    "bgm_id": 291054,
+    "syoboi_tid": 6010
+  },
+  {
     "bgm_id": 237992,
     "syoboi_tid": 6018
   },
@@ -12940,8 +14784,20 @@
     "syoboi_tid": 6020
   },
   {
+    "bgm_id": 199228,
+    "syoboi_tid": 6022
+  },
+  {
+    "bgm_id": 211797,
+    "syoboi_tid": 6025
+  },
+  {
     "bgm_id": 325281,
     "syoboi_tid": 6026
+  },
+  {
+    "bgm_id": 324285,
+    "syoboi_tid": 6027
   },
   {
     "bgm_id": 331031,
@@ -12996,6 +14852,10 @@
     "syoboi_tid": 6043
   },
   {
+    "bgm_id": 322859,
+    "syoboi_tid": 6044
+  },
+  {
     "bgm_id": 297361,
     "syoboi_tid": 6045
   },
@@ -13010,6 +14870,10 @@
   {
     "bgm_id": 312223,
     "syoboi_tid": 6048
+  },
+  {
+    "bgm_id": 332649,
+    "syoboi_tid": 6049
   },
   {
     "bgm_id": 306742,
@@ -13060,6 +14924,10 @@
     "syoboi_tid": 6069
   },
   {
+    "bgm_id": 315375,
+    "syoboi_tid": 6071
+  },
+  {
     "bgm_id": 302875,
     "syoboi_tid": 6074
   },
@@ -13076,6 +14944,18 @@
     "syoboi_tid": 6082
   },
   {
+    "bgm_id": 338201,
+    "syoboi_tid": 6083
+  },
+  {
+    "bgm_id": 189546,
+    "syoboi_tid": 6086
+  },
+  {
+    "bgm_id": 37390,
+    "syoboi_tid": 6087
+  },
+  {
     "bgm_id": 134951,
     "syoboi_tid": 6096
   },
@@ -13084,12 +14964,24 @@
     "syoboi_tid": 6097
   },
   {
+    "bgm_id": 347693,
+    "syoboi_tid": 6099
+  },
+  {
+    "bgm_id": 195333,
+    "syoboi_tid": 6102
+  },
+  {
     "bgm_id": 317691,
     "syoboi_tid": 6103
   },
   {
     "bgm_id": 339694,
     "syoboi_tid": 6104
+  },
+  {
+    "bgm_id": 286211,
+    "syoboi_tid": 6105
   },
   {
     "bgm_id": 309792,
@@ -13106,6 +14998,10 @@
   {
     "bgm_id": 309670,
     "syoboi_tid": 6112
+  },
+  {
+    "bgm_id": 325585,
+    "syoboi_tid": 6113
   },
   {
     "bgm_id": 333853,
@@ -13130,6 +15026,10 @@
   {
     "bgm_id": 305579,
     "syoboi_tid": 6120
+  },
+  {
+    "bgm_id": 311759,
+    "syoboi_tid": 6121
   },
   {
     "bgm_id": 306559,
@@ -13174,6 +15074,10 @@
   {
     "bgm_id": 321190,
     "syoboi_tid": 6132
+  },
+  {
+    "bgm_id": 325612,
+    "syoboi_tid": 6133
   },
   {
     "bgm_id": 257991,
@@ -13288,12 +15192,36 @@
     "syoboi_tid": 6163
   },
   {
+    "bgm_id": 315779,
+    "syoboi_tid": 6164
+  },
+  {
+    "bgm_id": 350764,
+    "syoboi_tid": 6165
+  },
+  {
     "bgm_id": 616831,
     "syoboi_tid": 6166
   },
   {
     "bgm_id": 340515,
     "syoboi_tid": 6169
+  },
+  {
+    "bgm_id": 320220,
+    "syoboi_tid": 6171
+  },
+  {
+    "bgm_id": 318543,
+    "syoboi_tid": 6183
+  },
+  {
+    "bgm_id": 331559,
+    "syoboi_tid": 6184
+  },
+  {
+    "bgm_id": 332261,
+    "syoboi_tid": 6186
   },
   {
     "bgm_id": 328195,
@@ -13356,6 +15284,10 @@
     "syoboi_tid": 6206
   },
   {
+    "bgm_id": 278898,
+    "syoboi_tid": 6207
+  },
+  {
     "bgm_id": 341077,
     "syoboi_tid": 6208
   },
@@ -13416,6 +15348,10 @@
     "syoboi_tid": 6223
   },
   {
+    "bgm_id": 244761,
+    "syoboi_tid": 6224
+  },
+  {
     "bgm_id": 325982,
     "syoboi_tid": 6225
   },
@@ -13430,6 +15366,10 @@
   {
     "bgm_id": 312427,
     "syoboi_tid": 6232
+  },
+  {
+    "bgm_id": 338270,
+    "syoboi_tid": 6233
   },
   {
     "bgm_id": 363809,
@@ -13476,6 +15416,10 @@
     "syoboi_tid": 6257
   },
   {
+    "bgm_id": 314169,
+    "syoboi_tid": 6258
+  },
+  {
     "bgm_id": 17758,
     "syoboi_tid": 6261
   },
@@ -13490,6 +15434,18 @@
   {
     "bgm_id": 288746,
     "syoboi_tid": 6269
+  },
+  {
+    "bgm_id": 366253,
+    "syoboi_tid": 6278
+  },
+  {
+    "bgm_id": 356756,
+    "syoboi_tid": 6280
+  },
+  {
+    "bgm_id": 335579,
+    "syoboi_tid": 6282
   },
   {
     "bgm_id": 313852,
@@ -13536,6 +15492,10 @@
     "syoboi_tid": 6294
   },
   {
+    "bgm_id": 363242,
+    "syoboi_tid": 6295
+  },
+  {
     "bgm_id": 338653,
     "syoboi_tid": 6296
   },
@@ -13566,6 +15526,10 @@
   {
     "bgm_id": 371892,
     "syoboi_tid": 6304
+  },
+  {
+    "bgm_id": 353906,
+    "syoboi_tid": 6305
   },
   {
     "bgm_id": 347953,
@@ -13616,6 +15580,10 @@
     "syoboi_tid": 6317
   },
   {
+    "bgm_id": 353266,
+    "syoboi_tid": 6319
+  },
+  {
     "bgm_id": 317613,
     "syoboi_tid": 6320
   },
@@ -13624,8 +15592,16 @@
     "syoboi_tid": 6321
   },
   {
+    "bgm_id": 240583,
+    "syoboi_tid": 6322
+  },
+  {
     "bgm_id": 332585,
     "syoboi_tid": 6323
+  },
+  {
+    "bgm_id": 339998,
+    "syoboi_tid": 6324
   },
   {
     "bgm_id": 333624,
@@ -13652,6 +15628,14 @@
     "syoboi_tid": 6331
   },
   {
+    "bgm_id": 375918,
+    "syoboi_tid": 6333
+  },
+  {
+    "bgm_id": 332696,
+    "syoboi_tid": 6335
+  },
+  {
     "bgm_id": 121287,
     "syoboi_tid": 6338
   },
@@ -13662,6 +15646,10 @@
   {
     "bgm_id": 317692,
     "syoboi_tid": 6341
+  },
+  {
+    "bgm_id": 529234,
+    "syoboi_tid": 6345
   },
   {
     "bgm_id": 314366,
@@ -13688,6 +15676,14 @@
     "syoboi_tid": 6358
   },
   {
+    "bgm_id": 322535,
+    "syoboi_tid": 6361
+  },
+  {
+    "bgm_id": 295918,
+    "syoboi_tid": 6363
+  },
+  {
     "bgm_id": 375531,
     "syoboi_tid": 6365
   },
@@ -13706,6 +15702,10 @@
   {
     "bgm_id": 371546,
     "syoboi_tid": 6369
+  },
+  {
+    "bgm_id": 315745,
+    "syoboi_tid": 6370
   },
   {
     "bgm_id": 366522,
@@ -13792,12 +15792,28 @@
     "syoboi_tid": 6392
   },
   {
+    "bgm_id": 375511,
+    "syoboi_tid": 6393
+  },
+  {
+    "bgm_id": 354414,
+    "syoboi_tid": 6394
+  },
+  {
     "bgm_id": 345649,
     "syoboi_tid": 6395
   },
   {
+    "bgm_id": 375571,
+    "syoboi_tid": 6396
+  },
+  {
     "bgm_id": 326874,
     "syoboi_tid": 6397
+  },
+  {
+    "bgm_id": 354146,
+    "syoboi_tid": 6398
   },
   {
     "bgm_id": 364845,
@@ -13814,6 +15830,10 @@
   {
     "bgm_id": 192976,
     "syoboi_tid": 6402
+  },
+  {
+    "bgm_id": 387818,
+    "syoboi_tid": 6403
   },
   {
     "bgm_id": 342673,
@@ -13852,6 +15872,10 @@
     "syoboi_tid": 6416
   },
   {
+    "bgm_id": 367726,
+    "syoboi_tid": 6418
+  },
+  {
     "bgm_id": 381384,
     "syoboi_tid": 6419
   },
@@ -13862,6 +15886,10 @@
   {
     "bgm_id": 374228,
     "syoboi_tid": 6421
+  },
+  {
+    "bgm_id": 382346,
+    "syoboi_tid": 6422
   },
   {
     "bgm_id": 379456,
@@ -13880,6 +15908,14 @@
     "syoboi_tid": 6431
   },
   {
+    "bgm_id": 319365,
+    "syoboi_tid": 6433
+  },
+  {
+    "bgm_id": 396699,
+    "syoboi_tid": 6436
+  },
+  {
     "bgm_id": 207622,
     "syoboi_tid": 6437
   },
@@ -13892,8 +15928,20 @@
     "syoboi_tid": 6439
   },
   {
+    "bgm_id": 331751,
+    "syoboi_tid": 6440
+  },
+  {
+    "bgm_id": 361095,
+    "syoboi_tid": 6441
+  },
+  {
     "bgm_id": 353605,
     "syoboi_tid": 6442
+  },
+  {
+    "bgm_id": 350224,
+    "syoboi_tid": 6443
   },
   {
     "bgm_id": 383631,
@@ -13908,8 +15956,16 @@
     "syoboi_tid": 6446
   },
   {
+    "bgm_id": 351375,
+    "syoboi_tid": 6447
+  },
+  {
     "bgm_id": 389450,
     "syoboi_tid": 6448
+  },
+  {
+    "bgm_id": 373267,
+    "syoboi_tid": 6451
   },
   {
     "bgm_id": 329114,
@@ -13952,8 +16008,16 @@
     "syoboi_tid": 6462
   },
   {
+    "bgm_id": 396487,
+    "syoboi_tid": 6465
+  },
+  {
     "bgm_id": 349441,
     "syoboi_tid": 6466
+  },
+  {
+    "bgm_id": 223563,
+    "syoboi_tid": 6467
   },
   {
     "bgm_id": 362479,
@@ -13966,6 +16030,14 @@
   {
     "bgm_id": 386469,
     "syoboi_tid": 6470
+  },
+  {
+    "bgm_id": 363414,
+    "syoboi_tid": 6471
+  },
+  {
+    "bgm_id": 236657,
+    "syoboi_tid": 6473
   },
   {
     "bgm_id": 328609,
@@ -13982,6 +16054,14 @@
   {
     "bgm_id": 340188,
     "syoboi_tid": 6478
+  },
+  {
+    "bgm_id": 364468,
+    "syoboi_tid": 6480
+  },
+  {
+    "bgm_id": 374563,
+    "syoboi_tid": 6481
   },
   {
     "bgm_id": 395537,
@@ -14004,6 +16084,14 @@
     "syoboi_tid": 6488
   },
   {
+    "bgm_id": 348699,
+    "syoboi_tid": 6489
+  },
+  {
+    "bgm_id": 363263,
+    "syoboi_tid": 6490
+  },
+  {
     "bgm_id": 351712,
     "syoboi_tid": 6491
   },
@@ -14014,6 +16102,10 @@
   {
     "bgm_id": 356793,
     "syoboi_tid": 6493
+  },
+  {
+    "bgm_id": 338371,
+    "syoboi_tid": 6495
   },
   {
     "bgm_id": 279087,
@@ -14032,8 +16124,16 @@
     "syoboi_tid": 6502
   },
   {
+    "bgm_id": 355004,
+    "syoboi_tid": 6505
+  },
+  {
     "bgm_id": 225156,
     "syoboi_tid": 6508
+  },
+  {
+    "bgm_id": 310,
+    "syoboi_tid": 6509
   },
   {
     "bgm_id": 380506,
@@ -14046,6 +16146,18 @@
   {
     "bgm_id": 270294,
     "syoboi_tid": 6516
+  },
+  {
+    "bgm_id": 362577,
+    "syoboi_tid": 6517
+  },
+  {
+    "bgm_id": 314638,
+    "syoboi_tid": 6520
+  },
+  {
+    "bgm_id": 347782,
+    "syoboi_tid": 6521
   },
   {
     "bgm_id": 385541,
@@ -14062,6 +16174,10 @@
   {
     "bgm_id": 363026,
     "syoboi_tid": 6532
+  },
+  {
+    "bgm_id": 350185,
+    "syoboi_tid": 6533
   },
   {
     "bgm_id": 354042,
@@ -14106,6 +16222,10 @@
   {
     "bgm_id": 379687,
     "syoboi_tid": 6545
+  },
+  {
+    "bgm_id": 340678,
+    "syoboi_tid": 6546
   },
   {
     "bgm_id": 403379,
@@ -14188,6 +16308,10 @@
     "syoboi_tid": 6574
   },
   {
+    "bgm_id": 356413,
+    "syoboi_tid": 6575
+  },
+  {
     "bgm_id": 405659,
     "syoboi_tid": 6576
   },
@@ -14206,6 +16330,10 @@
   {
     "bgm_id": 341148,
     "syoboi_tid": 6581
+  },
+  {
+    "bgm_id": 355342,
+    "syoboi_tid": 6582
   },
   {
     "bgm_id": 4653,
@@ -14256,12 +16384,20 @@
     "syoboi_tid": 6598
   },
   {
+    "bgm_id": 305059,
+    "syoboi_tid": 6600
+  },
+  {
     "bgm_id": 368116,
     "syoboi_tid": 6601
   },
   {
     "bgm_id": 190435,
     "syoboi_tid": 6602
+  },
+  {
+    "bgm_id": 403671,
+    "syoboi_tid": 6604
   },
   {
     "bgm_id": 343996,
@@ -14276,8 +16412,16 @@
     "syoboi_tid": 6615
   },
   {
+    "bgm_id": 243429,
+    "syoboi_tid": 6616
+  },
+  {
     "bgm_id": 406172,
     "syoboi_tid": 6617
+  },
+  {
+    "bgm_id": 340288,
+    "syoboi_tid": 6618
   },
   {
     "bgm_id": 318599,
@@ -14316,6 +16460,10 @@
     "syoboi_tid": 6630
   },
   {
+    "bgm_id": 394784,
+    "syoboi_tid": 6631
+  },
+  {
     "bgm_id": 413786,
     "syoboi_tid": 6632
   },
@@ -14324,12 +16472,20 @@
     "syoboi_tid": 6633
   },
   {
+    "bgm_id": 368289,
+    "syoboi_tid": 6634
+  },
+  {
     "bgm_id": 408144,
     "syoboi_tid": 6638
   },
   {
     "bgm_id": 389998,
     "syoboi_tid": 6639
+  },
+  {
+    "bgm_id": 402136,
+    "syoboi_tid": 6640
   },
   {
     "bgm_id": 409088,
@@ -14384,6 +16540,10 @@
     "syoboi_tid": 6653
   },
   {
+    "bgm_id": 414969,
+    "syoboi_tid": 6656
+  },
+  {
     "bgm_id": 365437,
     "syoboi_tid": 6657
   },
@@ -14394,6 +16554,10 @@
   {
     "bgm_id": 377607,
     "syoboi_tid": 6659
+  },
+  {
+    "bgm_id": 394746,
+    "syoboi_tid": 6660
   },
   {
     "bgm_id": 379639,
@@ -14418,6 +16582,10 @@
   {
     "bgm_id": 189015,
     "syoboi_tid": 6668
+  },
+  {
+    "bgm_id": 355798,
+    "syoboi_tid": 6669
   },
   {
     "bgm_id": 388067,
@@ -14504,6 +16672,26 @@
     "syoboi_tid": 6705
   },
   {
+    "bgm_id": 328674,
+    "syoboi_tid": 6708
+  },
+  {
+    "bgm_id": 366217,
+    "syoboi_tid": 6709
+  },
+  {
+    "bgm_id": 402656,
+    "syoboi_tid": 6711
+  },
+  {
+    "bgm_id": 306971,
+    "syoboi_tid": 6712
+  },
+  {
+    "bgm_id": 425236,
+    "syoboi_tid": 6713
+  },
+  {
     "bgm_id": 333979,
     "syoboi_tid": 6715
   },
@@ -14536,6 +16724,10 @@
     "syoboi_tid": 6723
   },
   {
+    "bgm_id": 363102,
+    "syoboi_tid": 6725
+  },
+  {
     "bgm_id": 406160,
     "syoboi_tid": 6726
   },
@@ -14552,8 +16744,16 @@
     "syoboi_tid": 6729
   },
   {
+    "bgm_id": 320493,
+    "syoboi_tid": 6731
+  },
+  {
     "bgm_id": 405198,
     "syoboi_tid": 6733
+  },
+  {
+    "bgm_id": 389772,
+    "syoboi_tid": 6734
   },
   {
     "bgm_id": 347942,
@@ -14566,6 +16766,10 @@
   {
     "bgm_id": 377125,
     "syoboi_tid": 6738
+  },
+  {
+    "bgm_id": 425916,
+    "syoboi_tid": 6739
   },
   {
     "bgm_id": 362006,
@@ -14586,6 +16790,10 @@
   {
     "bgm_id": 390794,
     "syoboi_tid": 6744
+  },
+  {
+    "bgm_id": 426815,
+    "syoboi_tid": 6745
   },
   {
     "bgm_id": 376106,
@@ -14624,6 +16832,10 @@
     "syoboi_tid": 6755
   },
   {
+    "bgm_id": 401783,
+    "syoboi_tid": 6756
+  },
+  {
     "bgm_id": 406307,
     "syoboi_tid": 6757
   },
@@ -14652,12 +16864,24 @@
     "syoboi_tid": 6764
   },
   {
+    "bgm_id": 349319,
+    "syoboi_tid": 6765
+  },
+  {
+    "bgm_id": 432751,
+    "syoboi_tid": 6766
+  },
+  {
     "bgm_id": 428418,
     "syoboi_tid": 6768
   },
   {
     "bgm_id": 401970,
     "syoboi_tid": 6771
+  },
+  {
+    "bgm_id": 148729,
+    "syoboi_tid": 6775
   },
   {
     "bgm_id": 400602,
@@ -14668,12 +16892,20 @@
     "syoboi_tid": 6777
   },
   {
+    "bgm_id": 425969,
+    "syoboi_tid": 6778
+  },
+  {
     "bgm_id": 437502,
     "syoboi_tid": 6781
   },
   {
     "bgm_id": 441233,
     "syoboi_tid": 6786
+  },
+  {
+    "bgm_id": 273485,
+    "syoboi_tid": 6790
   },
   {
     "bgm_id": 411106,
@@ -14704,6 +16936,10 @@
     "syoboi_tid": 6800
   },
   {
+    "bgm_id": 451858,
+    "syoboi_tid": 6802
+  },
+  {
     "bgm_id": 403631,
     "syoboi_tid": 6803
   },
@@ -14722,6 +16958,14 @@
   {
     "bgm_id": 416534,
     "syoboi_tid": 6807
+  },
+  {
+    "bgm_id": 375541,
+    "syoboi_tid": 6808
+  },
+  {
+    "bgm_id": 364252,
+    "syoboi_tid": 6809
   },
   {
     "bgm_id": 320456,
@@ -14860,6 +17104,18 @@
     "syoboi_tid": 6847
   },
   {
+    "bgm_id": 413741,
+    "syoboi_tid": 6848
+  },
+  {
+    "bgm_id": 424892,
+    "syoboi_tid": 6849
+  },
+  {
+    "bgm_id": 349442,
+    "syoboi_tid": 6852
+  },
+  {
     "bgm_id": 410928,
     "syoboi_tid": 6853
   },
@@ -14872,6 +17128,10 @@
     "syoboi_tid": 6855
   },
   {
+    "bgm_id": 424372,
+    "syoboi_tid": 6856
+  },
+  {
     "bgm_id": 427568,
     "syoboi_tid": 6857
   },
@@ -14882,6 +17142,10 @@
   {
     "bgm_id": 289907,
     "syoboi_tid": 6859
+  },
+  {
+    "bgm_id": 353819,
+    "syoboi_tid": 6860
   },
   {
     "bgm_id": 406736,
@@ -14916,12 +17180,24 @@
     "syoboi_tid": 6872
   },
   {
+    "bgm_id": 368833,
+    "syoboi_tid": 6873
+  },
+  {
+    "bgm_id": 389202,
+    "syoboi_tid": 6874
+  },
+  {
     "bgm_id": 330394,
     "syoboi_tid": 6877
   },
   {
     "bgm_id": 421174,
     "syoboi_tid": 6880
+  },
+  {
+    "bgm_id": 426239,
+    "syoboi_tid": 6887
   },
   {
     "bgm_id": 373266,
@@ -14992,6 +17268,10 @@
     "syoboi_tid": 6908
   },
   {
+    "bgm_id": 403503,
+    "syoboi_tid": 6909
+  },
+  {
     "bgm_id": 411450,
     "syoboi_tid": 6910
   },
@@ -15016,8 +17296,16 @@
     "syoboi_tid": 6916
   },
   {
+    "bgm_id": 441795,
+    "syoboi_tid": 6917
+  },
+  {
     "bgm_id": 378298,
     "syoboi_tid": 6919
+  },
+  {
+    "bgm_id": 456042,
+    "syoboi_tid": 6920
   },
   {
     "bgm_id": 378797,
@@ -15046,6 +17334,10 @@
   {
     "bgm_id": 436745,
     "syoboi_tid": 6928
+  },
+  {
+    "bgm_id": 465694,
+    "syoboi_tid": 6930
   },
   {
     "bgm_id": 390353,
@@ -15088,6 +17380,10 @@
     "syoboi_tid": 6945
   },
   {
+    "bgm_id": 411428,
+    "syoboi_tid": 6947
+  },
+  {
     "bgm_id": 469437,
     "syoboi_tid": 6948
   },
@@ -15120,6 +17416,34 @@
     "syoboi_tid": 6969
   },
   {
+    "bgm_id": 353792,
+    "syoboi_tid": 6971
+  },
+  {
+    "bgm_id": 371890,
+    "syoboi_tid": 6972
+  },
+  {
+    "bgm_id": 337586,
+    "syoboi_tid": 6973
+  },
+  {
+    "bgm_id": 280837,
+    "syoboi_tid": 6974
+  },
+  {
+    "bgm_id": 309311,
+    "syoboi_tid": 6975
+  },
+  {
+    "bgm_id": 374947,
+    "syoboi_tid": 6976
+  },
+  {
+    "bgm_id": 394621,
+    "syoboi_tid": 6977
+  },
+  {
     "bgm_id": 434818,
     "syoboi_tid": 6978
   },
@@ -15132,8 +17456,16 @@
     "syoboi_tid": 6980
   },
   {
+    "bgm_id": 444557,
+    "syoboi_tid": 6982
+  },
+  {
     "bgm_id": 434144,
     "syoboi_tid": 6983
+  },
+  {
+    "bgm_id": 333258,
+    "syoboi_tid": 6985
   },
   {
     "bgm_id": 407234,
@@ -15216,6 +17548,10 @@
     "syoboi_tid": 7013
   },
   {
+    "bgm_id": 472386,
+    "syoboi_tid": 7015
+  },
+  {
     "bgm_id": 407133,
     "syoboi_tid": 7016
   },
@@ -15288,12 +17624,24 @@
     "syoboi_tid": 7033
   },
   {
+    "bgm_id": 455835,
+    "syoboi_tid": 7034
+  },
+  {
     "bgm_id": 425978,
     "syoboi_tid": 7035
   },
   {
+    "bgm_id": 471769,
+    "syoboi_tid": 7037
+  },
+  {
     "bgm_id": 444049,
     "syoboi_tid": 7038
+  },
+  {
+    "bgm_id": 457945,
+    "syoboi_tid": 7039
   },
   {
     "bgm_id": 448478,
@@ -15312,6 +17660,14 @@
     "syoboi_tid": 7048
   },
   {
+    "bgm_id": 425587,
+    "syoboi_tid": 7049
+  },
+  {
+    "bgm_id": 262898,
+    "syoboi_tid": 7051
+  },
+  {
     "bgm_id": 441586,
     "syoboi_tid": 7054
   },
@@ -15324,6 +17680,10 @@
     "syoboi_tid": 7062
   },
   {
+    "bgm_id": 529238,
+    "syoboi_tid": 7064
+  },
+  {
     "bgm_id": 480437,
     "syoboi_tid": 7067
   },
@@ -15334,6 +17694,10 @@
   {
     "bgm_id": 473805,
     "syoboi_tid": 7072
+  },
+  {
+    "bgm_id": 283250,
+    "syoboi_tid": 7080
   },
   {
     "bgm_id": 83332,
@@ -15354,6 +17718,18 @@
   {
     "bgm_id": 484761,
     "syoboi_tid": 7087
+  },
+  {
+    "bgm_id": 442673,
+    "syoboi_tid": 7088
+  },
+  {
+    "bgm_id": 472620,
+    "syoboi_tid": 7090
+  },
+  {
+    "bgm_id": 443428,
+    "syoboi_tid": 7092
   },
   {
     "bgm_id": 478684,
@@ -15380,6 +17756,10 @@
     "syoboi_tid": 7100
   },
   {
+    "bgm_id": 482776,
+    "syoboi_tid": 7101
+  },
+  {
     "bgm_id": 425890,
     "syoboi_tid": 7102
   },
@@ -15394,6 +17774,10 @@
   {
     "bgm_id": 444046,
     "syoboi_tid": 7105
+  },
+  {
+    "bgm_id": 475933,
+    "syoboi_tid": 7106
   },
   {
     "bgm_id": 475367,
@@ -15480,6 +17864,10 @@
     "syoboi_tid": 7128
   },
   {
+    "bgm_id": 446618,
+    "syoboi_tid": 7129
+  },
+  {
     "bgm_id": 499038,
     "syoboi_tid": 7130
   },
@@ -15502,6 +17890,10 @@
   {
     "bgm_id": 488197,
     "syoboi_tid": 7137
+  },
+  {
+    "bgm_id": 192559,
+    "syoboi_tid": 7138
   },
   {
     "bgm_id": 479477,
@@ -15532,6 +17924,10 @@
     "syoboi_tid": 7147
   },
   {
+    "bgm_id": 486083,
+    "syoboi_tid": 7152
+  },
+  {
     "bgm_id": 497620,
     "syoboi_tid": 7155
   },
@@ -15540,16 +17936,44 @@
     "syoboi_tid": 7157
   },
   {
+    "bgm_id": 350756,
+    "syoboi_tid": 7169
+  },
+  {
+    "bgm_id": 404480,
+    "syoboi_tid": 7170
+  },
+  {
     "bgm_id": 507433,
     "syoboi_tid": 7171
+  },
+  {
+    "bgm_id": 409576,
+    "syoboi_tid": 7172
   },
   {
     "bgm_id": 30163,
     "syoboi_tid": 7173
   },
   {
+    "bgm_id": 432583,
+    "syoboi_tid": 7175
+  },
+  {
+    "bgm_id": 457991,
+    "syoboi_tid": 7176
+  },
+  {
     "bgm_id": 471839,
     "syoboi_tid": 7177
+  },
+  {
+    "bgm_id": 422699,
+    "syoboi_tid": 7178
+  },
+  {
+    "bgm_id": 476129,
+    "syoboi_tid": 7179
   },
   {
     "bgm_id": 487684,
@@ -15590,6 +18014,10 @@
   {
     "bgm_id": 426123,
     "syoboi_tid": 7189
+  },
+  {
+    "bgm_id": 387746,
+    "syoboi_tid": 7190
   },
   {
     "bgm_id": 472331,
@@ -15636,12 +18064,20 @@
     "syoboi_tid": 7202
   },
   {
+    "bgm_id": 500855,
+    "syoboi_tid": 7203
+  },
+  {
     "bgm_id": 449567,
     "syoboi_tid": 7204
   },
   {
     "bgm_id": 424680,
     "syoboi_tid": 7205
+  },
+  {
+    "bgm_id": 451119,
+    "syoboi_tid": 7206
   },
   {
     "bgm_id": 470294,
@@ -15668,8 +18104,24 @@
     "syoboi_tid": 7213
   },
   {
+    "bgm_id": 335502,
+    "syoboi_tid": 7214
+  },
+  {
     "bgm_id": 472673,
     "syoboi_tid": 7215
+  },
+  {
+    "bgm_id": 491151,
+    "syoboi_tid": 7216
+  },
+  {
+    "bgm_id": 501737,
+    "syoboi_tid": 7217
+  },
+  {
+    "bgm_id": 481410,
+    "syoboi_tid": 7218
   },
   {
     "bgm_id": 265391,
@@ -15682,6 +18134,10 @@
   {
     "bgm_id": 355803,
     "syoboi_tid": 7221
+  },
+  {
+    "bgm_id": 469033,
+    "syoboi_tid": 7222
   },
   {
     "bgm_id": 474801,
@@ -15712,6 +18168,14 @@
     "syoboi_tid": 7237
   },
   {
+    "bgm_id": 485868,
+    "syoboi_tid": 7238
+  },
+  {
+    "bgm_id": 489820,
+    "syoboi_tid": 7239
+  },
+  {
     "bgm_id": 470599,
     "syoboi_tid": 7240
   },
@@ -15724,8 +18188,16 @@
     "syoboi_tid": 7244
   },
   {
+    "bgm_id": 362575,
+    "syoboi_tid": 7245
+  },
+  {
     "bgm_id": 459435,
     "syoboi_tid": 7246
+  },
+  {
+    "bgm_id": 486102,
+    "syoboi_tid": 7247
   },
   {
     "bgm_id": 37402,
@@ -15734,6 +18206,18 @@
   {
     "bgm_id": 509169,
     "syoboi_tid": 7249
+  },
+  {
+    "bgm_id": 456164,
+    "syoboi_tid": 7252
+  },
+  {
+    "bgm_id": 426124,
+    "syoboi_tid": 7253
+  },
+  {
+    "bgm_id": 464594,
+    "syoboi_tid": 7254
   },
   {
     "bgm_id": 485359,
@@ -15760,6 +18244,10 @@
     "syoboi_tid": 7267
   },
   {
+    "bgm_id": 411278,
+    "syoboi_tid": 7268
+  },
+  {
     "bgm_id": 484624,
     "syoboi_tid": 7270
   },
@@ -15768,12 +18256,20 @@
     "syoboi_tid": 7272
   },
   {
+    "bgm_id": 518603,
+    "syoboi_tid": 7273
+  },
+  {
     "bgm_id": 492951,
     "syoboi_tid": 7274
   },
   {
     "bgm_id": 430699,
     "syoboi_tid": 7276
+  },
+  {
+    "bgm_id": 39305,
+    "syoboi_tid": 7278
   },
   {
     "bgm_id": 526102,
@@ -15812,6 +18308,10 @@
     "syoboi_tid": 7290
   },
   {
+    "bgm_id": 497909,
+    "syoboi_tid": 7291
+  },
+  {
     "bgm_id": 473497,
     "syoboi_tid": 7293
   },
@@ -15824,6 +18324,10 @@
     "syoboi_tid": 7295
   },
   {
+    "bgm_id": 486347,
+    "syoboi_tid": 7296
+  },
+  {
     "bgm_id": 445827,
     "syoboi_tid": 7297
   },
@@ -15834,6 +18338,10 @@
   {
     "bgm_id": 424454,
     "syoboi_tid": 7299
+  },
+  {
+    "bgm_id": 481865,
+    "syoboi_tid": 7300
   },
   {
     "bgm_id": 474999,
@@ -15868,6 +18376,10 @@
     "syoboi_tid": 7308
   },
   {
+    "bgm_id": 349223,
+    "syoboi_tid": 7309
+  },
+  {
     "bgm_id": 465094,
     "syoboi_tid": 7310
   },
@@ -15898,6 +18410,10 @@
   {
     "bgm_id": 494267,
     "syoboi_tid": 7317
+  },
+  {
+    "bgm_id": 485469,
+    "syoboi_tid": 7318
   },
   {
     "bgm_id": 501205,
@@ -15932,8 +18448,16 @@
     "syoboi_tid": 7328
   },
   {
+    "bgm_id": 479788,
+    "syoboi_tid": 7329
+  },
+  {
     "bgm_id": 440880,
     "syoboi_tid": 7330
+  },
+  {
+    "bgm_id": 485782,
+    "syoboi_tid": 7331
   },
   {
     "bgm_id": 500840,
@@ -15980,12 +18504,24 @@
     "syoboi_tid": 7345
   },
   {
+    "bgm_id": 523821,
+    "syoboi_tid": 7349
+  },
+  {
+    "bgm_id": 517532,
+    "syoboi_tid": 7351
+  },
+  {
     "bgm_id": 53772,
     "syoboi_tid": 7352
   },
   {
     "bgm_id": 95948,
     "syoboi_tid": 7353
+  },
+  {
+    "bgm_id": 148389,
+    "syoboi_tid": 7355
   },
   {
     "bgm_id": 524801,
@@ -16096,6 +18632,10 @@
     "syoboi_tid": 7386
   },
   {
+    "bgm_id": 520284,
+    "syoboi_tid": 7387
+  },
+  {
     "bgm_id": 509297,
     "syoboi_tid": 7388
   },
@@ -16184,8 +18724,16 @@
     "syoboi_tid": 7411
   },
   {
+    "bgm_id": 512817,
+    "syoboi_tid": 7412
+  },
+  {
     "bgm_id": 531159,
     "syoboi_tid": 7413
+  },
+  {
+    "bgm_id": 446296,
+    "syoboi_tid": 7415
   },
   {
     "bgm_id": 544082,
@@ -16196,12 +18744,20 @@
     "syoboi_tid": 7417
   },
   {
+    "bgm_id": 526567,
+    "syoboi_tid": 7418
+  },
+  {
     "bgm_id": 418289,
     "syoboi_tid": 7419
   },
   {
     "bgm_id": 485936,
     "syoboi_tid": 7420
+  },
+  {
+    "bgm_id": 545695,
+    "syoboi_tid": 7421
   },
   {
     "bgm_id": 495633,
@@ -16212,8 +18768,16 @@
     "syoboi_tid": 7424
   },
   {
+    "bgm_id": 441447,
+    "syoboi_tid": 7426
+  },
+  {
     "bgm_id": 492881,
     "syoboi_tid": 7430
+  },
+  {
+    "bgm_id": 529240,
+    "syoboi_tid": 7431
   },
   {
     "bgm_id": 541942,
@@ -16222,6 +18786,10 @@
   {
     "bgm_id": 529078,
     "syoboi_tid": 7433
+  },
+  {
+    "bgm_id": 405212,
+    "syoboi_tid": 7435
   },
   {
     "bgm_id": 22956,
@@ -16268,6 +18836,10 @@
     "syoboi_tid": 7453
   },
   {
+    "bgm_id": 38422,
+    "syoboi_tid": 7455
+  },
+  {
     "bgm_id": 528831,
     "syoboi_tid": 7456
   },
@@ -16288,6 +18860,10 @@
     "syoboi_tid": 7461
   },
   {
+    "bgm_id": 503450,
+    "syoboi_tid": 7463
+  },
+  {
     "bgm_id": 515880,
     "syoboi_tid": 7464
   },
@@ -16304,12 +18880,20 @@
     "syoboi_tid": 7467
   },
   {
+    "bgm_id": 529431,
+    "syoboi_tid": 7468
+  },
+  {
     "bgm_id": 398951,
     "syoboi_tid": 7469
   },
   {
     "bgm_id": 505793,
     "syoboi_tid": 7470
+  },
+  {
+    "bgm_id": 499656,
+    "syoboi_tid": 7471
   },
   {
     "bgm_id": 484623,
@@ -16322,6 +18906,10 @@
   {
     "bgm_id": 531344,
     "syoboi_tid": 7474
+  },
+  {
+    "bgm_id": 501844,
+    "syoboi_tid": 7475
   },
   {
     "bgm_id": 475032,
@@ -16344,12 +18932,20 @@
     "syoboi_tid": 7480
   },
   {
+    "bgm_id": 504524,
+    "syoboi_tid": 7481
+  },
+  {
     "bgm_id": 531945,
     "syoboi_tid": 7482
   },
   {
     "bgm_id": 528147,
     "syoboi_tid": 7483
+  },
+  {
+    "bgm_id": 530115,
+    "syoboi_tid": 7484
   },
   {
     "bgm_id": 498947,
@@ -16362,6 +18958,10 @@
   {
     "bgm_id": 509062,
     "syoboi_tid": 7487
+  },
+  {
+    "bgm_id": 497881,
+    "syoboi_tid": 7489
   },
   {
     "bgm_id": 509216,
@@ -16378,6 +18978,10 @@
   {
     "bgm_id": 502142,
     "syoboi_tid": 7493
+  },
+  {
+    "bgm_id": 508003,
+    "syoboi_tid": 7494
   },
   {
     "bgm_id": 536363,
@@ -16480,8 +19084,16 @@
     "syoboi_tid": 7522
   },
   {
+    "bgm_id": 459616,
+    "syoboi_tid": 7523
+  },
+  {
     "bgm_id": 477825,
     "syoboi_tid": 7524
+  },
+  {
+    "bgm_id": 514353,
+    "syoboi_tid": 7526
   },
   {
     "bgm_id": 537894,
@@ -16508,16 +19120,36 @@
     "syoboi_tid": 7532
   },
   {
+    "bgm_id": 526159,
+    "syoboi_tid": 7533
+  },
+  {
     "bgm_id": 545328,
     "syoboi_tid": 7536
+  },
+  {
+    "bgm_id": 565400,
+    "syoboi_tid": 7537
   },
   {
     "bgm_id": 441670,
     "syoboi_tid": 7540
   },
   {
+    "bgm_id": 564314,
+    "syoboi_tid": 7541
+  },
+  {
+    "bgm_id": 360256,
+    "syoboi_tid": 7542
+  },
+  {
     "bgm_id": 442367,
     "syoboi_tid": 7545
+  },
+  {
+    "bgm_id": 469483,
+    "syoboi_tid": 7546
   },
   {
     "bgm_id": 37277,
@@ -16560,6 +19192,10 @@
     "syoboi_tid": 7561
   },
   {
+    "bgm_id": 470660,
+    "syoboi_tid": 7562
+  },
+  {
     "bgm_id": 486311,
     "syoboi_tid": 7564
   },
@@ -16596,6 +19232,14 @@
     "syoboi_tid": 7573
   },
   {
+    "bgm_id": 509355,
+    "syoboi_tid": 7574
+  },
+  {
+    "bgm_id": 542777,
+    "syoboi_tid": 7575
+  },
+  {
     "bgm_id": 424242,
     "syoboi_tid": 7576
   },
@@ -16612,6 +19256,10 @@
     "syoboi_tid": 7579
   },
   {
+    "bgm_id": 553106,
+    "syoboi_tid": 7580
+  },
+  {
     "bgm_id": 475663,
     "syoboi_tid": 7581
   },
@@ -16620,12 +19268,24 @@
     "syoboi_tid": 7582
   },
   {
+    "bgm_id": 529966,
+    "syoboi_tid": 7583
+  },
+  {
+    "bgm_id": 458673,
+    "syoboi_tid": 7584
+  },
+  {
     "bgm_id": 425208,
     "syoboi_tid": 7585
   },
   {
     "bgm_id": 536102,
     "syoboi_tid": 7587
+  },
+  {
+    "bgm_id": 458125,
+    "syoboi_tid": 7588
   },
   {
     "bgm_id": 544104,
@@ -16654,6 +19314,10 @@
   {
     "bgm_id": 460183,
     "syoboi_tid": 7595
+  },
+  {
+    "bgm_id": 536878,
+    "syoboi_tid": 7596
   },
   {
     "bgm_id": 507634,
@@ -16712,8 +19376,20 @@
     "syoboi_tid": 7616
   },
   {
+    "bgm_id": 434807,
+    "syoboi_tid": 7617
+  },
+  {
     "bgm_id": 492722,
     "syoboi_tid": 7618
+  },
+  {
+    "bgm_id": 285757,
+    "syoboi_tid": 7619
+  },
+  {
+    "bgm_id": 530377,
+    "syoboi_tid": 7621
   },
   {
     "bgm_id": 579701,
@@ -16736,6 +19412,14 @@
     "syoboi_tid": 7628
   },
   {
+    "bgm_id": 515759,
+    "syoboi_tid": 7629
+  },
+  {
+    "bgm_id": 545695,
+    "syoboi_tid": 7634
+  },
+  {
     "bgm_id": 582324,
     "syoboi_tid": 7636
   },
@@ -16752,8 +19436,16 @@
     "syoboi_tid": 7644
   },
   {
+    "bgm_id": 548818,
+    "syoboi_tid": 7645
+  },
+  {
     "bgm_id": 414861,
     "syoboi_tid": 7646
+  },
+  {
+    "bgm_id": 530158,
+    "syoboi_tid": 7647
   },
   {
     "bgm_id": 37176,
@@ -16764,8 +19456,16 @@
     "syoboi_tid": 7650
   },
   {
+    "bgm_id": 431933,
+    "syoboi_tid": 7651
+  },
+  {
     "bgm_id": 564175,
     "syoboi_tid": 7654
+  },
+  {
+    "bgm_id": 541336,
+    "syoboi_tid": 7655
   },
   {
     "bgm_id": 443106,
@@ -16774,6 +19474,14 @@
   {
     "bgm_id": 486054,
     "syoboi_tid": 7657
+  },
+  {
+    "bgm_id": 486763,
+    "syoboi_tid": 7658
+  },
+  {
+    "bgm_id": 548195,
+    "syoboi_tid": 7659
   },
   {
     "bgm_id": 562430,
@@ -16788,8 +19496,16 @@
     "syoboi_tid": 7662
   },
   {
+    "bgm_id": 443831,
+    "syoboi_tid": 7663
+  },
+  {
     "bgm_id": 523141,
     "syoboi_tid": 7664
+  },
+  {
+    "bgm_id": 597809,
+    "syoboi_tid": 7665
   },
   {
     "bgm_id": 549654,
@@ -16810,6 +19526,10 @@
   {
     "bgm_id": 556874,
     "syoboi_tid": 7670
+  },
+  {
+    "bgm_id": 548558,
+    "syoboi_tid": 7671
   },
   {
     "bgm_id": 540031,
@@ -16856,6 +19576,10 @@
     "syoboi_tid": 7683
   },
   {
+    "bgm_id": 443446,
+    "syoboi_tid": 7684
+  },
+  {
     "bgm_id": 472741,
     "syoboi_tid": 7685
   },
@@ -16870,6 +19594,10 @@
   {
     "bgm_id": 591584,
     "syoboi_tid": 7688
+  },
+  {
+    "bgm_id": 517057,
+    "syoboi_tid": 7689
   },
   {
     "bgm_id": 482823,
@@ -16902,6 +19630,10 @@
   {
     "bgm_id": 525946,
     "syoboi_tid": 7697
+  },
+  {
+    "bgm_id": 544106,
+    "syoboi_tid": 7698
   },
   {
     "bgm_id": 506120,
@@ -16952,6 +19684,10 @@
     "syoboi_tid": 7716
   },
   {
+    "bgm_id": 583313,
+    "syoboi_tid": 7718
+  },
+  {
     "bgm_id": 558296,
     "syoboi_tid": 7719
   },
@@ -16990,6 +19726,10 @@
   {
     "bgm_id": 535669,
     "syoboi_tid": 7739
+  },
+  {
+    "bgm_id": 515595,
+    "syoboi_tid": 7740
   },
   {
     "bgm_id": 377130,
@@ -17040,6 +19780,10 @@
     "syoboi_tid": 7752
   },
   {
+    "bgm_id": 495238,
+    "syoboi_tid": 7754
+  },
+  {
     "bgm_id": 600675,
     "syoboi_tid": 7755
   },
@@ -17068,12 +19812,28 @@
     "syoboi_tid": 7764
   },
   {
+    "bgm_id": 476808,
+    "syoboi_tid": 7765
+  },
+  {
+    "bgm_id": 599171,
+    "syoboi_tid": 7766
+  },
+  {
+    "bgm_id": 480441,
+    "syoboi_tid": 7767
+  },
+  {
     "bgm_id": 551455,
     "syoboi_tid": 7768
   },
   {
     "bgm_id": 508455,
     "syoboi_tid": 7769
+  },
+  {
+    "bgm_id": 524486,
+    "syoboi_tid": 7770
   },
   {
     "bgm_id": 526789,
@@ -17086,6 +19846,10 @@
   {
     "bgm_id": 590353,
     "syoboi_tid": 7773
+  },
+  {
+    "bgm_id": 508004,
+    "syoboi_tid": 7774
   },
   {
     "bgm_id": 409468,
@@ -17108,12 +19872,20 @@
     "syoboi_tid": 7779
   },
   {
+    "bgm_id": 547888,
+    "syoboi_tid": 7780
+  },
+  {
     "bgm_id": 515856,
     "syoboi_tid": 7781
   },
   {
     "bgm_id": 622634,
     "syoboi_tid": 7782
+  },
+  {
+    "bgm_id": 517027,
+    "syoboi_tid": 7783
   },
   {
     "bgm_id": 569161,
@@ -17140,8 +19912,20 @@
     "syoboi_tid": 7790
   },
   {
+    "bgm_id": 469877,
+    "syoboi_tid": 7791
+  },
+  {
+    "bgm_id": 580473,
+    "syoboi_tid": 7792
+  },
+  {
     "bgm_id": 564289,
     "syoboi_tid": 7793
+  },
+  {
+    "bgm_id": 469104,
+    "syoboi_tid": 7794
   },
   {
     "bgm_id": 606263,
@@ -17158,6 +19942,10 @@
   {
     "bgm_id": 567418,
     "syoboi_tid": 7798
+  },
+  {
+    "bgm_id": 533027,
+    "syoboi_tid": 7799
   },
   {
     "bgm_id": 568572,
@@ -17184,6 +19972,26 @@
     "syoboi_tid": 7812
   },
   {
+    "bgm_id": 513352,
+    "syoboi_tid": 7813
+  },
+  {
+    "bgm_id": 467955,
+    "syoboi_tid": 7814
+  },
+  {
+    "bgm_id": 609183,
+    "syoboi_tid": 7815
+  },
+  {
+    "bgm_id": 625355,
+    "syoboi_tid": 7816
+  },
+  {
+    "bgm_id": 545695,
+    "syoboi_tid": 7817
+  },
+  {
     "bgm_id": 582598,
     "syoboi_tid": 7819
   },
@@ -17196,12 +20004,20 @@
     "syoboi_tid": 7823
   },
   {
+    "bgm_id": 638497,
+    "syoboi_tid": 7825
+  },
+  {
     "bgm_id": 616453,
     "syoboi_tid": 7826
   },
   {
     "bgm_id": 621358,
     "syoboi_tid": 7827
+  },
+  {
+    "bgm_id": 282118,
+    "syoboi_tid": 7828
   },
   {
     "bgm_id": 625971,
@@ -17224,6 +20040,10 @@
     "syoboi_tid": 7842
   },
   {
+    "bgm_id": 489499,
+    "syoboi_tid": 7843
+  },
+  {
     "bgm_id": 41982,
     "syoboi_tid": 7845
   },
@@ -17244,12 +20064,24 @@
     "syoboi_tid": 7851
   },
   {
+    "bgm_id": 496135,
+    "syoboi_tid": 7857
+  },
+  {
     "bgm_id": 19418,
     "syoboi_tid": 7859
   },
   {
+    "bgm_id": 112770,
+    "syoboi_tid": 7864
+  },
+  {
     "bgm_id": 9588,
     "syoboi_tid": 7873
+  },
+  {
+    "bgm_id": 245671,
+    "syoboi_tid": 7874
   },
   {
     "bgm_id": 569671,
@@ -17272,6 +20104,10 @@
     "syoboi_tid": 7880
   },
   {
+    "bgm_id": 612697,
+    "syoboi_tid": 7881
+  },
+  {
     "bgm_id": 565701,
     "syoboi_tid": 7883
   },
@@ -17282,6 +20118,10 @@
   {
     "bgm_id": 607340,
     "syoboi_tid": 7885
+  },
+  {
+    "bgm_id": 558064,
+    "syoboi_tid": 7886
   },
   {
     "bgm_id": 622206,
@@ -17300,6 +20140,14 @@
     "syoboi_tid": 7891
   },
   {
+    "bgm_id": 529723,
+    "syoboi_tid": 7892
+  },
+  {
+    "bgm_id": 598058,
+    "syoboi_tid": 7893
+  },
+  {
     "bgm_id": 579246,
     "syoboi_tid": 7894
   },
@@ -17310,6 +20158,10 @@
   {
     "bgm_id": 584641,
     "syoboi_tid": 7896
+  },
+  {
+    "bgm_id": 630163,
+    "syoboi_tid": 7897
   },
   {
     "bgm_id": 631018,
@@ -17352,6 +20204,10 @@
     "syoboi_tid": 7910
   },
   {
+    "bgm_id": 637339,
+    "syoboi_tid": 7911
+  },
+  {
     "bgm_id": 255209,
     "syoboi_tid": 7913
   },
@@ -17370,6 +20226,14 @@
   {
     "bgm_id": 495291,
     "syoboi_tid": 7917
+  },
+  {
+    "bgm_id": 622633,
+    "syoboi_tid": 7918
+  },
+  {
+    "bgm_id": 583729,
+    "syoboi_tid": 7919
   },
   {
     "bgm_id": 615835,
@@ -17392,6 +20256,10 @@
     "syoboi_tid": 7925
   },
   {
+    "bgm_id": 621835,
+    "syoboi_tid": 7926
+  },
+  {
     "bgm_id": 625215,
     "syoboi_tid": 7927
   },
@@ -17404,8 +20272,16 @@
     "syoboi_tid": 7930
   },
   {
+    "bgm_id": 637124,
+    "syoboi_tid": 7931
+  },
+  {
     "bgm_id": 595106,
     "syoboi_tid": 7932
+  },
+  {
+    "bgm_id": 533335,
+    "syoboi_tid": 7933
   },
   {
     "bgm_id": 456080,
@@ -17426,6 +20302,10 @@
   {
     "bgm_id": 627648,
     "syoboi_tid": 7939
+  },
+  {
+    "bgm_id": 487782,
+    "syoboi_tid": 7940
   },
   {
     "bgm_id": 530725,
@@ -17464,6 +20344,10 @@
     "syoboi_tid": 7949
   },
   {
+    "bgm_id": 517106,
+    "syoboi_tid": 7953
+  },
+  {
     "bgm_id": 633618,
     "syoboi_tid": 7954
   },
@@ -17478,6 +20362,10 @@
   {
     "bgm_id": 4028,
     "syoboi_tid": 7960
+  },
+  {
+    "bgm_id": 623228,
+    "syoboi_tid": 7961
   },
   {
     "bgm_id": 571896,
@@ -17500,12 +20388,32 @@
     "syoboi_tid": 7969
   },
   {
+    "bgm_id": 494044,
+    "syoboi_tid": 7970
+  },
+  {
+    "bgm_id": 426112,
+    "syoboi_tid": 7972
+  },
+  {
+    "bgm_id": 412008,
+    "syoboi_tid": 7981
+  },
+  {
     "bgm_id": 220532,
     "syoboi_tid": 7982
   },
   {
+    "bgm_id": 589284,
+    "syoboi_tid": 7983
+  },
+  {
     "bgm_id": 40379,
     "syoboi_tid": 7984
+  },
+  {
+    "bgm_id": 53789,
+    "syoboi_tid": 7985
   },
   {
     "bgm_id": 11731,
@@ -17518,6 +20426,10 @@
   {
     "bgm_id": 189441,
     "syoboi_tid": 7988
+  },
+  {
+    "bgm_id": 334105,
+    "syoboi_tid": 7989
   },
   {
     "bgm_id": 540453,
@@ -17556,6 +20468,10 @@
     "syoboi_tid": 8001
   },
   {
+    "bgm_id": 634210,
+    "syoboi_tid": 8002
+  },
+  {
     "bgm_id": 646154,
     "syoboi_tid": 8003
   },
@@ -17576,8 +20492,24 @@
     "syoboi_tid": 8007
   },
   {
+    "bgm_id": 665390,
+    "syoboi_tid": 8008
+  },
+  {
+    "bgm_id": 530104,
+    "syoboi_tid": 8009
+  },
+  {
     "bgm_id": 393010,
     "syoboi_tid": 8010
+  },
+  {
+    "bgm_id": 664389,
+    "syoboi_tid": 8011
+  },
+  {
+    "bgm_id": 637802,
+    "syoboi_tid": 8012
   },
   {
     "bgm_id": 82384,
@@ -17592,16 +20524,40 @@
     "syoboi_tid": 8015
   },
   {
+    "bgm_id": 589775,
+    "syoboi_tid": 8016
+  },
+  {
+    "bgm_id": 625799,
+    "syoboi_tid": 8017
+  },
+  {
     "bgm_id": 605533,
     "syoboi_tid": 8018
+  },
+  {
+    "bgm_id": 502123,
+    "syoboi_tid": 8019
   },
   {
     "bgm_id": 636512,
     "syoboi_tid": 8020
   },
   {
+    "bgm_id": 584847,
+    "syoboi_tid": 8022
+  },
+  {
+    "bgm_id": 486456,
+    "syoboi_tid": 8023
+  },
+  {
     "bgm_id": 621073,
     "syoboi_tid": 8024
+  },
+  {
+    "bgm_id": 568244,
+    "syoboi_tid": 8025
   },
   {
     "bgm_id": 567896,
@@ -17664,6 +20620,10 @@
     "syoboi_tid": 8040
   },
   {
+    "bgm_id": 471844,
+    "syoboi_tid": 8041
+  },
+  {
     "bgm_id": 511936,
     "syoboi_tid": 8042
   },
@@ -17682,6 +20642,10 @@
   {
     "bgm_id": 544378,
     "syoboi_tid": 8046
+  },
+  {
+    "bgm_id": 350795,
+    "syoboi_tid": 8047
   },
   {
     "bgm_id": 657084,
@@ -17708,6 +20672,10 @@
     "syoboi_tid": 8053
   },
   {
+    "bgm_id": 664395,
+    "syoboi_tid": 8054
+  },
+  {
     "bgm_id": 657656,
     "syoboi_tid": 8055
   },
@@ -17720,6 +20688,10 @@
     "syoboi_tid": 8057
   },
   {
+    "bgm_id": 701782,
+    "syoboi_tid": 8058
+  },
+  {
     "bgm_id": 701565,
     "syoboi_tid": 8060
   },
@@ -17728,12 +20700,20 @@
     "syoboi_tid": 8062
   },
   {
+    "bgm_id": 694622,
+    "syoboi_tid": 8063
+  },
+  {
     "bgm_id": 688797,
     "syoboi_tid": 8064
   },
   {
     "bgm_id": 646586,
     "syoboi_tid": 8065
+  },
+  {
+    "bgm_id": 626870,
+    "syoboi_tid": 8066
   },
   {
     "bgm_id": 698032,
@@ -17748,8 +20728,16 @@
     "syoboi_tid": 8070
   },
   {
+    "bgm_id": 502499,
+    "syoboi_tid": 8071
+  },
+  {
     "bgm_id": 53774,
     "syoboi_tid": 8072
+  },
+  {
+    "bgm_id": 545695,
+    "syoboi_tid": 8073
   },
   {
     "bgm_id": 637206,
@@ -17768,6 +20756,10 @@
     "syoboi_tid": 8077
   },
   {
+    "bgm_id": 434816,
+    "syoboi_tid": 8078
+  },
+  {
     "bgm_id": 39543,
     "syoboi_tid": 8079
   },
@@ -17776,16 +20768,32 @@
     "syoboi_tid": 8081
   },
   {
+    "bgm_id": 418599,
+    "syoboi_tid": 8082
+  },
+  {
     "bgm_id": 72360,
     "syoboi_tid": 8085
+  },
+  {
+    "bgm_id": 358769,
+    "syoboi_tid": 8087
   },
   {
     "bgm_id": 551304,
     "syoboi_tid": 8088
   },
   {
+    "bgm_id": 513878,
+    "syoboi_tid": 8089
+  },
+  {
     "bgm_id": 5468,
     "syoboi_tid": 8091
+  },
+  {
+    "bgm_id": 362551,
+    "syoboi_tid": 8092
   },
   {
     "bgm_id": 612608,
@@ -17794,6 +20802,10 @@
   {
     "bgm_id": 618795,
     "syoboi_tid": 8096
+  },
+  {
+    "bgm_id": 361352,
+    "syoboi_tid": 8097
   },
   {
     "bgm_id": 635060,
@@ -17820,7 +20832,19 @@
     "syoboi_tid": 8104
   },
   {
+    "bgm_id": 639020,
+    "syoboi_tid": 8105
+  },
+  {
     "bgm_id": 625303,
     "syoboi_tid": 8106
+  },
+  {
+    "bgm_id": 448623,
+    "syoboi_tid": 8107
+  },
+  {
+    "bgm_id": 609035,
+    "syoboi_tid": 8108
   }
 ]

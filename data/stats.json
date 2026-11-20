@@ -13,7 +13,7 @@
   },
   "bangumi_anime": {
     "total": 31312,
-    "matched": 4456
+    "matched": 5208
   },
   "syoboi_by_category": {
     "1": 150,
@@ -28,26 +28,30 @@
   },
   "syoboi_anime": {
     "total": 5817,
-    "matched": 4456,
-    "unmatched": 1361
+    "matched": 5031,
+    "unmatched": 786
   },
   "syoboi_mixed_movies": {
     "total": 984,
-    "matched": 0,
-    "unmatched": 984
+    "matched": 181,
+    "unmatched": 803
   },
-  "mapped_pairs": 4456,
+  "mapped_pairs": 5212,
   "match_methods": {
-    "exact": 3962,
+    "manual": 11,
+    "exact": 3961,
     "normalized": 494,
-    "manual": 0
+    "title_and_air_month": 271,
+    "alias_and_month": 159,
+    "official_site": 294,
+    "month_boundary": 22
   },
   "unmatched_reasons": {
-    "ambiguous_or_reserved": 3,
+    "ambiguous_or_reserved": 4,
     "missing_premiere_month": 58,
-    "movie_review": 984,
-    "no_title_match": 1175,
-    "premiere_month_mismatch_or_missing": 125
+    "movie_review": 803,
+    "no_title_match": 654,
+    "premiere_month_mismatch_or_missing": 70
   },
   "by_year": {
     "1960": {
@@ -87,8 +91,8 @@
     },
     "1971": {
       "total": 5,
-      "matched": 2,
-      "unmatched": 3
+      "matched": 3,
+      "unmatched": 2
     },
     "1972": {
       "total": 6,
@@ -132,8 +136,8 @@
     },
     "1980": {
       "total": 13,
-      "matched": 10,
-      "unmatched": 3
+      "matched": 11,
+      "unmatched": 2
     },
     "1981": {
       "total": 15,
@@ -152,230 +156,230 @@
     },
     "1984": {
       "total": 13,
-      "matched": 10,
-      "unmatched": 3
+      "matched": 11,
+      "unmatched": 2
     },
     "1985": {
       "total": 21,
-      "matched": 18,
-      "unmatched": 3
+      "matched": 19,
+      "unmatched": 2
     },
     "1986": {
       "total": 15,
-      "matched": 9,
-      "unmatched": 6
+      "matched": 13,
+      "unmatched": 2
     },
     "1987": {
       "total": 15,
-      "matched": 10,
-      "unmatched": 5
+      "matched": 11,
+      "unmatched": 4
     },
     "1988": {
       "total": 19,
-      "matched": 10,
-      "unmatched": 9
+      "matched": 12,
+      "unmatched": 7
     },
     "1989": {
       "total": 23,
-      "matched": 14,
-      "unmatched": 9
+      "matched": 18,
+      "unmatched": 5
     },
     "1990": {
       "total": 16,
-      "matched": 13,
-      "unmatched": 3
+      "matched": 14,
+      "unmatched": 2
     },
     "1991": {
       "total": 19,
-      "matched": 14,
-      "unmatched": 5
+      "matched": 16,
+      "unmatched": 3
     },
     "1992": {
       "total": 23,
-      "matched": 19,
-      "unmatched": 4
+      "matched": 21,
+      "unmatched": 2
     },
     "1993": {
       "total": 22,
-      "matched": 15,
-      "unmatched": 7
+      "matched": 17,
+      "unmatched": 5
     },
     "1994": {
       "total": 26,
-      "matched": 19,
-      "unmatched": 7
+      "matched": 20,
+      "unmatched": 6
     },
     "1995": {
       "total": 27,
-      "matched": 23,
-      "unmatched": 4
+      "matched": 24,
+      "unmatched": 3
     },
     "1996": {
       "total": 36,
-      "matched": 29,
-      "unmatched": 7
+      "matched": 31,
+      "unmatched": 5
     },
     "1997": {
       "total": 34,
-      "matched": 27,
-      "unmatched": 7
+      "matched": 28,
+      "unmatched": 6
     },
     "1998": {
       "total": 51,
-      "matched": 37,
-      "unmatched": 14
+      "matched": 45,
+      "unmatched": 6
     },
     "1999": {
       "total": 50,
-      "matched": 38,
-      "unmatched": 12
+      "matched": 41,
+      "unmatched": 9
     },
     "2000": {
       "total": 43,
-      "matched": 34,
-      "unmatched": 9
+      "matched": 37,
+      "unmatched": 6
     },
     "2001": {
       "total": 63,
-      "matched": 49,
-      "unmatched": 14
+      "matched": 50,
+      "unmatched": 13
     },
     "2002": {
       "total": 77,
-      "matched": 62,
-      "unmatched": 15
+      "matched": 69,
+      "unmatched": 8
     },
     "2003": {
       "total": 109,
-      "matched": 92,
-      "unmatched": 17
+      "matched": 98,
+      "unmatched": 11
     },
     "2004": {
       "total": 149,
-      "matched": 102,
-      "unmatched": 47
+      "matched": 113,
+      "unmatched": 36
     },
     "2005": {
       "total": 142,
-      "matched": 99,
-      "unmatched": 43
+      "matched": 112,
+      "unmatched": 30
     },
     "2006": {
       "total": 198,
-      "matched": 149,
-      "unmatched": 49
+      "matched": 166,
+      "unmatched": 32
     },
     "2007": {
       "total": 164,
-      "matched": 126,
-      "unmatched": 38
+      "matched": 139,
+      "unmatched": 25
     },
     "2008": {
       "total": 158,
-      "matched": 116,
-      "unmatched": 42
+      "matched": 135,
+      "unmatched": 23
     },
     "2009": {
       "total": 154,
-      "matched": 123,
-      "unmatched": 31
+      "matched": 129,
+      "unmatched": 25
     },
     "2010": {
       "total": 126,
-      "matched": 103,
-      "unmatched": 23
+      "matched": 110,
+      "unmatched": 16
     },
     "2011": {
       "total": 169,
-      "matched": 128,
-      "unmatched": 41
+      "matched": 143,
+      "unmatched": 26
     },
     "2012": {
       "total": 188,
-      "matched": 140,
-      "unmatched": 48
+      "matched": 152,
+      "unmatched": 36
     },
     "2013": {
       "total": 198,
-      "matched": 153,
-      "unmatched": 45
+      "matched": 171,
+      "unmatched": 27
     },
     "2014": {
       "total": 231,
-      "matched": 186,
-      "unmatched": 45
+      "matched": 212,
+      "unmatched": 19
     },
     "2015": {
       "total": 230,
-      "matched": 175,
-      "unmatched": 55
+      "matched": 199,
+      "unmatched": 31
     },
     "2016": {
       "total": 259,
-      "matched": 205,
-      "unmatched": 54
+      "matched": 226,
+      "unmatched": 33
     },
     "2017": {
       "total": 237,
-      "matched": 175,
-      "unmatched": 62
+      "matched": 206,
+      "unmatched": 31
     },
     "2018": {
       "total": 268,
-      "matched": 212,
-      "unmatched": 56
+      "matched": 237,
+      "unmatched": 31
     },
     "2019": {
       "total": 223,
-      "matched": 170,
-      "unmatched": 53
+      "matched": 191,
+      "unmatched": 32
     },
     "2020": {
       "total": 212,
-      "matched": 162,
-      "unmatched": 50
+      "matched": 186,
+      "unmatched": 26
     },
     "2021": {
       "total": 250,
-      "matched": 193,
-      "unmatched": 57
+      "matched": 222,
+      "unmatched": 28
     },
     "2022": {
       "total": 248,
-      "matched": 181,
-      "unmatched": 67
+      "matched": 214,
+      "unmatched": 34
     },
     "2023": {
       "total": 274,
-      "matched": 211,
-      "unmatched": 63
+      "matched": 237,
+      "unmatched": 37
     },
     "2024": {
       "total": 272,
-      "matched": 202,
-      "unmatched": 70
+      "matched": 236,
+      "unmatched": 36
     },
     "2025": {
       "total": 290,
-      "matched": 231,
-      "unmatched": 59
+      "matched": 266,
+      "unmatched": 24
     },
     "2026": {
       "total": 304,
-      "matched": 228,
-      "unmatched": 76
+      "matched": 287,
+      "unmatched": 17
     },
     "2027": {
       "total": 6,
-      "matched": 5,
-      "unmatched": 1
+      "matched": 6,
+      "unmatched": 0
     }
   },
   "current_quarter": {
     "year": 2026,
     "quarter": 4,
     "total": 79,
-    "matched": 57,
-    "unmatched": 22
+    "matched": 79,
+    "unmatched": 0
   }
 }

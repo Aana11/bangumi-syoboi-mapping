@@ -9,7 +9,8 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from sources import BangumiTitle, SyoboiTitle, bangumi_month, merge_syoboi, parse_syoboi
+from matching_evidence import edition_key
+from sources import BangumiTitle, SyoboiTitle, bangumi_evidence, bangumi_month, merge_syoboi, parse_syoboi
 from update import END, START, guard_previous, match_titles, statistics, update_lock, write_snapshot
 
 STAMP = "2026-11-11 12:00:00"
@@ -59,6 +60,63 @@ class MappingTests(unittest.TestCase):
             [row["reason"] for row in unmatched],
             ["premiere_month_mismatch_or_missing", "missing_premiere_month", "premiere_month_mismatch_or_missing"],
         )
+
+    def test_edition_normalization_preserves_season_cour_and_title_numbers(self):
+        self.assertEqual(edition_key("星の旅（第二期）第2クール"), edition_key("星の旅 Second Season Cour 2"))
+        self.assertNotEqual(edition_key("星の旅 第2期"), edition_key("星の旅 第2クール"))
+        self.assertNotEqual(edition_key("星の旅 第2期"), edition_key("星の旅 第3期"))
+        self.assertNotEqual(edition_key("星の旅 四季"), edition_key("星の旅 第4季"))
+        self.assertNotEqual(edition_key("星の旅 2"), edition_key("星の旅"))
+        self.assertNotEqual(edition_key("7-11"), edition_key("711"))
+
+    def test_edition_alias_and_declared_broadcast_month(self):
+        syoboi = [syo(1, "星の旅(第二期)第2クール"), syo(2, "天空の城")]
+        bangumi = [
+            BangumiTitle(10, "星の旅 Season 2 Cour 2", "2026-09", broadcast_months=("2026-10",)),
+            BangumiTitle(20, "天上之城", "2026-10", aliases=("天空の城",)),
+        ]
+        methods, unmatched = match(syoboi, bangumi)
+        self.assertEqual(methods, {(1, 10): "title_and_air_month", (2, 20): "alias_and_month"})
+        self.assertFalse(unmatched)
+
+    def test_alias_cannot_override_uniqueness(self):
+        method, _ = match(
+            [syo(1, "星の旅")],
+            [BangumiTitle(10, "Star Travel", "2026-10", aliases=("星の旅",)),
+             BangumiTitle(20, "Journey to the Stars", "2026-10", aliases=("星の旅",))],
+        )
+        self.assertFalse(method)
+
+    def test_shared_official_site_checks_edition_and_month(self):
+        site = ("example.org/title",)
+        syoboi = [
+            SyoboiTitle(1, "星の旅(2026)", STAMP, 2026, 10, 10, site),
+            SyoboiTitle(2, "星の旅 第2クール", STAMP, 2025, 10, 10, site),
+            SyoboiTitle(3, "星の旅 第4期", STAMP, 2027, 10, 10, site),
+        ]
+        bangumi = [
+            BangumiTitle(10, "星の旅 第3期", "2026-10", websites=site),
+            BangumiTitle(20, "星の旅", "2025-10", websites=site),
+            BangumiTitle(30, "星の旅 第5期", "2027-10", websites=site),
+        ]
+        methods, _ = match(syoboi, bangumi)
+        self.assertEqual(methods, {(1, 10): "official_site"})
+
+    def test_official_film_requires_theatrical_platform_and_same_title(self):
+        site = ("example.org/film",)
+        syoboi = [SyoboiTitle(1, "銀河鉄道の夜", STAMP, 2026, 10, 8, site)]
+        film = BangumiTitle(10, "銀河鉄道の夜", "2026-10", websites=site, platform=3)
+        tv = BangumiTitle(10, "銀河鉄道の夜", "2026-10", websites=site, platform=1)
+        self.assertEqual(match(syoboi, [film])[0], {(1, 10): "official_site"})
+        self.assertFalse(match(syoboi, [tv])[0])
+
+    def test_month_boundary_checks_exact_day_and_catalog_uniqueness(self):
+        syoboi = [syo(1, "星の旅の記憶")]
+        near = BangumiTitle(10, "星の旅の記憶", "2026-09", release_date="2026-09-29")
+        far = BangumiTitle(10, "星の旅の記憶", "2026-09", release_date="2026-09-10")
+        self.assertEqual(match(syoboi, [near])[0], {(1, 10): "month_boundary"})
+        self.assertFalse(match(syoboi, [far])[0])
+        self.assertFalse(match(syoboi, [near, bgm(20, near.title, "2000-10")])[0])
 
     def test_movie_review_and_manual_split(self):
         choices = [
@@ -157,12 +215,37 @@ class SourceTests(unittest.TestCase):
     def test_syoboi_checks_inner_result_and_accepts_empty_dates(self):
         xml = f"""<TitleLookupResponse><Result><Code>200</Code></Result><TitleItems>
         <TitleItem id="1"><TID>1</TID><Title>Title</Title><LastUpdate>{STAMP}</LastUpdate>
-        <FirstYear/><FirstMonth/><Cat>8</Cat></TitleItem></TitleItems></TitleLookupResponse>"""
+        <FirstYear/><FirstMonth/><Cat>8</Cat><TitleEN>Title EN</TitleEN>
+        <Comment>-[[公式（作品） https://www.example.org/Film/index.html]]
+        -[[公式（動画） https://www.youtube.com/@sharedchannel]]
+        -[[X https://x.com/film]]</Comment></TitleItem></TitleItems></TitleLookupResponse>"""
         result = parse_syoboi(xml, with_details=True)
         self.assertIsNone(result[1].premiere)
         self.assertEqual(result[1].category, 8)
+        self.assertEqual(result[1].websites, ("example.org/Film",))
+        self.assertEqual(result[1].english_title, "Title EN")
         with self.assertRaisesRegex(ValueError, "403"):
             parse_syoboi(xml.replace("200", "403"), with_details=True)
+
+    def test_infobox_provides_titles_air_dates_and_only_official_links(self):
+        item = {
+            "name": "Title", "name_cn": "标题", "platform": 1, "date": "2026-09-25",
+            "infobox": """{{Infobox animanga/TVAnime
+|别名= {
+  [日文名|星の旅]
+  [简称|星旅]
+}
+|放送开始=2026年10月1日
+|官方网站=http://www.example.org/Title/
+|播放结束=2027年3月20日
+|导演=Director
+|其他=https://example.org/unrelated
+}}""",
+        }
+        self.assertEqual(
+            bangumi_evidence(item),
+            (("星の旅", "标题"), ("2026-10",), ("example.org/Title",), 1, "2026-09-25"),
+        )
 
     @patch("sources.MIN_SYOBOI_TITLES", 1)
     def test_syoboi_refresh_reuses_unchanged_details(self):

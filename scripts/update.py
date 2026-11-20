@@ -4,25 +4,18 @@ import argparse
 import json
 import sys
 import tempfile
-import unicodedata
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from matching_evidence import METHODS, MOVIE_CATEGORY, additional_pairs, normalize
 from sources import SYOBOI_CATEGORIES, read_bangumi, read_syoboi
 
 ROOT = Path(__file__).resolve().parents[1]
 START = "<!-- mapping-stats:start -->"
 END = "<!-- mapping-stats:end -->"
-MOVIE_CATEGORY = 8
-FORMATTING_MARKS = frozenset("・「」『』【】《》〈〉")
-
-
-def normalize(title):
-    text = unicodedata.normalize("NFKC", title).casefold()
-    return "".join(char for char in text if not char.isspace() and char not in FORMATTING_MARKS)
 
 
 def pair_fields(tid, bgm_id):
@@ -98,6 +91,23 @@ def match_titles(syoboi, bangumi, overrides):
                 taken_tids.add(tid)
                 taken_bgm.add(bgm_id)
 
+    for method, pairs in additional_pairs(syoboi, bangumi):
+        choices = defaultdict(set)
+        users = defaultdict(set)
+        for tid, bgm_id in pairs:
+            review[tid].add(bgm_id)
+            if candidates[tid].category in SYOBOI_CATEGORIES or method == "official_site":
+                choices[tid].add(bgm_id)
+                users[bgm_id].add(tid)
+        for tid, ids in choices.items():
+            if len(ids) != 1 or tid in taken_tids:
+                continue
+            bgm_id = next(iter(ids))
+            if len(users[bgm_id]) == 1 and bgm_id not in taken_bgm and (tid, bgm_id) not in blocked:
+                methods[tid, bgm_id] = method
+                taken_tids.add(tid)
+                taken_bgm.add(bgm_id)
+
     unmatched = []
     for tid in sorted(candidates.keys() - taken_tids):
         item = candidates[tid]
@@ -156,7 +166,7 @@ def statistics(syoboi, bangumi, methods, unmatched, bangumi_source, syoboi_last_
         "syoboi_anime": coverage(anime, mapped),
         "syoboi_mixed_movies": coverage(movies, mapped),
         "mapped_pairs": len(methods),
-        "match_methods": {name: method_counts[name] for name in ("exact", "normalized", "manual")},
+        "match_methods": {name: method_counts[name] for name in METHODS},
         "unmatched_reasons": dict(sorted(Counter(row["reason"] for row in unmatched).items())),
         "by_year": {year: coverage(tids, mapped) for year, tids in sorted(years.items())},
         "current_quarter": {
@@ -190,7 +200,7 @@ def readme_table(stats):
         f"对照 Bangumi Archive **{stats['bangumi_anime']['total']:,}** 个动画条目，"
         f"生成 **{stats['mapped_pairs']:,}** 对 ID。",
         f"混合电影分类有 **{stats['syoboi_mixed_movies']['total']:,}** 个 TID，"
-        f"其中 **{stats['syoboi_mixed_movies']['matched']:,}** 个已人工核实关联。",
+        f"其中 **{stats['syoboi_mixed_movies']['matched']:,}** 个已关联。",
     ]
     return "\n".join(lines)
 

@@ -1,4 +1,71 @@
 {
-  "mappings": [],
+  "mappings": [
+    {
+      "bgm_id": 418599,
+      "syoboi_tid": 6862,
+      "syoboi_title": "BEYBLADE X",
+      "evidence": "原始番组与新章使用同一 Bangumi 条目。原条目 https://bgm.tv/subject/418599 和制作方节目页 https://beyblade.takaratomy.co.jp/anime/"
+    },
+    {
+      "bgm_id": 545695,
+      "syoboi_tid": 7421,
+      "syoboi_title": "ぷちきゅあ",
+      "evidence": "东映短动画第一季，对应 Bangumi 章节第 1 集起。https://bgm.tv/subject/545695/ep https://www.toei-anim.co.jp/petitcure/"
+    },
+    {
+      "bgm_id": 545695,
+      "syoboi_tid": 7634,
+      "syoboi_title": "ぷちきゅあ シーズン2",
+      "evidence": "东映确认 2025-10-09 第二季开始，Bangumi 在同一条目从第 28 集接续。https://www.toei-anim.co.jp/petitcure/news/2025100204.php https://bgm.tv/subject/545695/ep"
+    },
+    {
+      "bgm_id": 545695,
+      "syoboi_tid": 7817,
+      "syoboi_title": "ぷちきゅあ シーズン3",
+      "evidence": "东映公告第三季开播，Bangumi 在同一条目从 2026-03-26 第 51 集接续。https://www.toei-anim.co.jp/petitcure/news/2026031907.php https://bgm.tv/subject/545695/ep"
+    },
+    {
+      "bgm_id": 625799,
+      "syoboi_tid": 8017,
+      "syoboi_title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+      "evidence": "松竹官网使用含副标题的全名，Bangumi 以主标题收录同一部 P.A.WORKS 动画。https://sh-anime.shochiku.co.jp/chiifuyo-anime/ https://bgm.tv/subject/625799"
+    },
+    {
+      "bgm_id": 350795,
+      "syoboi_tid": 8047,
+      "syoboi_title": "百妖譜 第3期京師篇",
+      "evidence": "日本 B8station 于 2026-10 引进的京师篇对应 2022-07 已在中国首播的同一季。https://b8station.tv/hyakuyoufu/ https://bgm.tv/subject/350795"
+    },
+    {
+      "bgm_id": 545695,
+      "syoboi_tid": 8073,
+      "syoboi_title": "ぷちきゅあ シーズン4",
+      "evidence": "东映 2026-10-01 新季在 Bangumi 同一条目从第 78 集接续。https://www.toei-anim.co.jp/petitcure/ https://bgm.tv/subject/545695/ep"
+    },
+    {
+      "bgm_id": 434816,
+      "syoboi_tid": 8078,
+      "syoboi_title": "紫禁・御猫房～紫禁城猫警備室～",
+      "evidence": "日本官网同时标注日文引进名与原名，Bangumi 使用中国首播日期。https://nekokeibishitsu-anime.com/ https://bgm.tv/subject/434816"
+    },
+    {
+      "bgm_id": 418599,
+      "syoboi_tid": 8082,
+      "syoboi_title": "BEYBLADE X ベイキングダム編",
+      "evidence": "制作方确认新章于 2026-10-09 首播，Bangumi 同一条目从第 135 集接续。https://beyblade.takaratomy.co.jp/anime/ https://bgm.tv/subject/418599/ep"
+    },
+    {
+      "bgm_id": 358769,
+      "syoboi_tid": 8087,
+      "syoboi_title": "無脳魔女 ブレインレス・ウィッチ",
+      "evidence": "BS 日视引进第一季，对应尹向陆导演、落灰之书与瑞兽萌原作的 2023 年中国动画。https://www.bs4.jp/brainless-witch/ https://cal.syoboi.jp/tid/8087/time https://bgm.tv/subject/358769"
+    },
+    {
+      "bgm_id": 448623,
+      "syoboi_tid": 8107,
+      "syoboi_title": "無脳魔女 ブレインレス・ウィッチ season2",
+      "evidence": "BS 日视引进第二季，Syoboi 独立编排第二季第 1 至 3 集。https://www.bs4.jp/brainless-witch/ https://cal.syoboi.jp/tid/8107/time https://bgm.tv/subject/448623"
+    }
+  ],
   "blocked_pairs": []
 }
