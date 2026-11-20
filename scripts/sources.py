@@ -22,11 +22,13 @@ SYOBOI_CATEGORIES = frozenset({1, 7, 10})
 # bangumi/common subject_platforms.yml identifies theatrical anime films with 3.
 BANGUMI_MOVIE_PLATFORM = 3
 MIN_BANGUMI_ANIME = 10_000
+MIN_BANGUMI_LIVE_ACTION = 1_000
 MIN_SYOBOI_TITLES = 5_000
 INFOBOX_ALIASES = frozenset({"别名", "原名", "日文名", "英文名", "简体中文名", "台湾名称", "港澳名称"})
 INFOBOX_AIR_DATES = frozenset({"放送开始", "首播", "首播日期", "日本首播", "日本放送开始", "上映日", "发售日"})
 INFOBOX_WEBSITES = frozenset({"官方网站", "官网", "公式サイト"})
 OFFICIAL_COMMENT = re.compile(r"\[\[公式(?:サイト)?(?:[(（][^）)\]\r\n]+[）)])?\s+(https?://[^\s\]]+)\s*\]\]")
+COMMENT_LINK = re.compile(r"\[\[([^]\r\n]+?)\s+(https?://[^\s\]]+)\s*\]\]")
 
 
 @dataclass(frozen=True)
@@ -40,6 +42,8 @@ class BangumiTitle:
     platform: int | None = None
     release_date: str = ""
     episodes: tuple[tuple[int, str], ...] = ()
+    cast: tuple[tuple[str, str], ...] = ()
+    live_action: bool = False
 
 
 @dataclass(frozen=True)
@@ -53,6 +57,10 @@ class SyoboiTitle:
     websites: tuple[str, ...] = ()
     english_title: str = ""
     episodes: tuple[tuple[int, str], ...] = ()
+    short_title: str = ""
+    keywords: tuple[str, ...] = ()
+    links: tuple[str, ...] = ()
+    cast: tuple[tuple[str, str], ...] = ()
 
     @property
     def premiere(self):
@@ -199,32 +207,70 @@ def bangumi_evidence(item):
     )
 
 
-def extract_anime(archive):
-    anime = {}
+def extract_cast(dump, anime_ids):
+    roles = defaultdict(list)
+    character_ids, person_ids = set(), set()
+    with dump.open("person-characters.jsonlines") as relationships:
+        for line in relationships:
+            row = json.loads(line)
+            if row["subject_id"] in anime_ids:
+                character_id, person_id = row["character_id"], row["person_id"]
+                roles[row["subject_id"]].append((character_id, person_id))
+                character_ids.add(character_id)
+                person_ids.add(person_id)
+    names = []
+    for member, ids in (("character.jsonlines", character_ids), ("person.jsonlines", person_ids)):
+        with dump.open(member) as records:
+            table = {}
+            for line in records:
+                row = json.loads(line)
+                if row["id"] in ids:
+                    table[row["id"]] = row["name"]
+            names.append(table)
+    characters, actors = names
+    return {
+        subject_id: tuple(sorted({
+            (characters[character], actors[actor]) for character, actor in cast
+            if characters.get(character) and actors.get(actor)
+        }))
+        for subject_id, cast in roles.items()
+    }
+
+
+def extract_catalog(archive):
+    catalog = {}
     with ZipFile(archive) as dump:
         with dump.open("subject.jsonlines") as subjects:
             for line in subjects:
                 item = json.loads(line)
-                if item["type"] != 2:
+                if item["type"] not in {2, 6}:
                     continue
                 subject_id, title = item["id"], item["name"]
-                if type(subject_id) is not int or subject_id <= 0 or subject_id in anime or not isinstance(title, str):
-                    raise ValueError("Bangumi Archive contains an invalid or repeated anime entry")
-                anime[subject_id] = BangumiTitle(subject_id, title, bangumi_month(item["date"]), *bangumi_evidence(item))
+                if type(subject_id) is not int or subject_id <= 0 or subject_id in catalog or not isinstance(title, str):
+                    raise ValueError("Bangumi Archive contains an invalid or repeated subject")
+                catalog[subject_id] = BangumiTitle(
+                    subject_id, title, bangumi_month(item["date"]), *bangumi_evidence(item),
+                    live_action=item["type"] == 6,
+                )
+        anime_ids = {subject_id for subject_id, item in catalog.items() if not item.live_action}
         episodes = defaultdict(list)
         with dump.open("episode.jsonlines") as chapter_file:
             for line in chapter_file:
                 episode = json.loads(line)
                 subject_id = episode["subject_id"]
-                if episode["type"] != 0 or subject_id not in anime:
+                if episode["type"] != 0 or subject_id not in anime_ids:
                     continue
                 number = episode["sort"]
                 title = (episode.get("name") or "").strip()
                 if type(number) in {int, float} and 1 <= number <= 10_000 and number == int(number) and title:
                     episodes[subject_id].append((int(number), title))
-    for subject_id, parts in episodes.items():
-        anime[subject_id] = replace(anime[subject_id], episodes=tuple(sorted(set(parts))))
-    return anime
+        cast = extract_cast(dump, anime_ids)
+    for subject_id in anime_ids:
+        catalog[subject_id] = replace(
+            catalog[subject_id], episodes=tuple(sorted(set(episodes.get(subject_id, ())))),
+            cast=cast.get(subject_id, ()),
+        )
+    return catalog
 
 
 def archive_source(metadata):
@@ -236,38 +282,42 @@ def archive_source(metadata):
 
 
 def read_bangumi(cache, offline=False):
-    path = cache / "bangumi-anime-v3.json"
+    path = cache / "bangumi-catalog-v4.json"
     saved = json.loads(path.read_bytes()) if path.exists() else None
     if offline and not saved:
         raise ValueError("Bangumi anime cache missing; run an online update first")
     metadata = None if offline else json.loads(request(ARCHIVE_INDEX, lambda response: read_limited(response, 128_000)))
     source = saved["source"] if offline else archive_source(metadata)
     if saved and saved["source"] == source:
-        anime = {
+        catalog = {
             row[0]: BangumiTitle(
                 *row[:3], tuple(row[3]), tuple(row[4]), tuple(row[5]), row[6] or None,
-                row[7], tuple(tuple(part) for part in row[8]),
+                row[7], tuple(tuple(part) for part in row[8]), tuple(tuple(role) for role in row[9]), row[10],
             )
             for row in saved["titles"]
         }
-        if len(anime) < MIN_BANGUMI_ANIME or len(anime) != len(saved["titles"]):
+        if len(catalog) != len(saved["titles"]):
             raise ValueError("Bangumi anime cache is incomplete or contains duplicates")
     else:
         archive = download_archive(metadata, cache)
-        anime = extract_anime(archive)
-        if len(anime) < MIN_BANGUMI_ANIME:
-            raise ValueError(f"Bangumi Archive returned only {len(anime)} anime entries")
+        catalog = extract_catalog(archive)
+
+    live_count = sum(item.live_action for item in catalog.values())
+    anime_count = len(catalog) - live_count
+    if anime_count < MIN_BANGUMI_ANIME or live_count < MIN_BANGUMI_LIVE_ACTION:
+        raise ValueError(f"Bangumi snapshot is incomplete: {anime_count} anime and {live_count} live-action entries")
+    if not saved or saved["source"] != source:
         write_cache(path, {
             "source": source,
             "titles": [
                 [item.id, item.title, item.month, item.aliases, item.broadcast_months,
-                 item.websites, item.platform, item.release_date, item.episodes]
-                for item in anime.values()
+                 item.websites, item.platform, item.release_date, item.episodes, item.cast, item.live_action]
+                for item in catalog.values()
             ],
         })
         archive.unlink()
-    print(f"Bangumi Archive: {len(anime):,} anime", flush=True)
-    return anime, source
+    print(f"Bangumi Archive: {anime_count:,} anime and {live_count:,} live-action entries", flush=True)
+    return catalog, source
 
 
 def xml_field(node, name):
@@ -283,6 +333,26 @@ def syoboi_episodes(raw):
         for match in re.finditer(r"(?m)^\*([0-9]{1,4})\*([^\r\n]+)", raw)
         if int(match[1]) > 0 and match[2].strip()
     }))
+
+
+def syoboi_comment_evidence(comment):
+    links, cast = set(), set()
+    section = ""
+    for raw in comment.splitlines():
+        line = raw.strip()
+        if line.startswith("*"):
+            section = line.lstrip("*").strip()
+        elif section == "リンク":
+            for label, url in COMMENT_LINK.findall(line):
+                if re.search(r"原作|漫画|小説|検索|Wikipedia", label, re.IGNORECASE):
+                    continue
+                if site := website_key(url):
+                    links.add(site)
+        elif section.startswith(("キャスト", "声の出演")) and line.startswith(":"):
+            role, separator, voice = line[1:].partition(":")
+            if separator and role.strip() and voice.strip():
+                cast.update((role.strip(), actor.strip()) for actor in re.split(r"[、／]", voice) if actor.strip())
+    return tuple(sorted(links)), tuple(sorted(cast))
 
 
 def parse_syoboi(content, with_details):
@@ -307,20 +377,26 @@ def parse_syoboi(content, with_details):
         category = int(xml_field(node, "Cat"))
         if year < 0 or year > 9999 or not 0 <= month <= 12 or category < 0:
             raise ValueError(f"Invalid date or category for Syoboi TID {tid}")
+        comment = xml_field(node, "Comment")
         websites = {
-            site for url in OFFICIAL_COMMENT.findall(xml_field(node, "Comment"))
+            site for url in OFFICIAL_COMMENT.findall(comment)
             if (site := website_key(url))
         }
         english_title = xml_field(node, "TitleEN").strip()
         episodes = syoboi_episodes(xml_field(node, "SubTitles"))
-        titles[tid] = SyoboiTitle(tid, title, updated, year, month, category, tuple(sorted(websites)), english_title, episodes)
+        short_title = xml_field(node, "ShortTitle").strip()
+        keywords = tuple(sorted({key.strip() for key in xml_field(node, "Keywords").split(",") if key.strip()}))
+        titles[tid] = SyoboiTitle(
+            tid, title, updated, year, month, category, tuple(sorted(websites)), english_title,
+            episodes, short_title, keywords, *syoboi_comment_evidence(comment),
+        )
     return titles
 
 
 def syoboi_lookup(ids, with_details=False):
     fields = "TID,Title,LastUpdate"
     if with_details:
-        fields += ",FirstYear,FirstMonth,Cat,Comment,TitleEN,SubTitles"
+        fields += ",FirstYear,FirstMonth,Cat,Comment,TitleEN,SubTitles,ShortTitle,Keywords"
     query = urlencode({"Command": "TitleLookup", "TID": ids, "Fields": fields})
     source = request(f"{SYOBOI_DB}?{query}", lambda response: read_limited(response, 8_000_000), interval=1.1)
     return parse_syoboi(source, with_details)
@@ -369,10 +445,13 @@ def merge_syoboi(index, previous, lookup=syoboi_lookup):
 
 
 def read_syoboi(cache, offline=False):
-    path = cache / "syoboi-v3.json"
+    path = cache / "syoboi-v4.json"
     saved = json.loads(path.read_bytes()) if path.exists() else None
     previous = {
-        row[0]: SyoboiTitle(*row[:6], tuple(row[6]), row[7], tuple(tuple(part) for part in row[8]))
+        row[0]: SyoboiTitle(
+            *row[:6], tuple(row[6]), row[7], tuple(tuple(part) for part in row[8]),
+            row[9], tuple(row[10]), tuple(row[11]), tuple(tuple(role) for role in row[12]),
+        )
         for row in saved["titles"]
     } if saved else {}
     if offline:
@@ -386,7 +465,8 @@ def read_syoboi(cache, offline=False):
             "last_update": max(item.updated for item in titles.values()),
             "titles": [
                 [item.id, item.title, item.updated, item.year, item.month, item.category,
-                 item.websites, item.english_title, item.episodes]
+                 item.websites, item.english_title, item.episodes, item.short_title,
+                 item.keywords, item.links, item.cast]
                 for item in sorted(titles.values(), key=lambda item: item.id)
             ],
         })

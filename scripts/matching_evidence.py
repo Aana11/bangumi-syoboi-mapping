@@ -12,6 +12,7 @@ MOVIE_CATEGORY = 8
 METHODS = (
     "manual", "exact", "normalized", "title_and_air_month", "alias_and_month",
     "official_site", "month_boundary", "episode_sequence",
+    "programme_page", "cast_and_work", "unique_original_and_date", "film_title_and_date",
 )
 FORMATTING_MARKS = frozenset("・「」『』【】《》〈〉")
 TITLE_SEPARATORS = frozenset("()[]:~〜") | FORMATTING_MARKS
@@ -20,9 +21,9 @@ EDITION_RULES = (
     ("season", re.compile(rf"第\s*({NUMERAL})\s*(?:期|季)(?!刊|末|初)")),
     ("season", re.compile(r"(?<![0-9])([0-9]{1,2})\s*(?:期|季)(?!刊|末|初)")),
     ("season", re.compile(rf"第\s*({NUMERAL})\s*(?:シーズン|シリーズ)")),
-    ("season", re.compile(rf"(?:シーズン|(?<![a-z])season)\s*({NUMERAL})(?![0-9])")),
     ("season", re.compile(r"([0-9]{1,2})(?:st|nd|rd|th)\s*(?:season\b|シーズン)")),
     ("season", re.compile(r"\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth)\s+season\b")),
+    ("season", re.compile(rf"(?:シーズン|(?<![a-z])season)\s*({NUMERAL})(?![0-9]|年)")),
     ("cour", re.compile(rf"(?<![0-9])(?:第\s*)?({NUMERAL})(?:st|nd|rd|th)?\s*クール(?:目)?")),
     ("cour", re.compile(r"cour\s*([0-9]{1,2})(?![0-9])")),
     ("part", re.compile(r"(?:(?<![a-z])part|パート)\s*\.?\s*([0-9]{1,2})(?![0-9])")),
@@ -31,7 +32,7 @@ ORDINALS = ("first", "second", "third", "fourth", "fifth", "sixth", "seventh", "
 
 
 def normalize(title):
-    text = unicodedata.normalize("NFKC", title).casefold()
+    text = unicodedata.normalize("NFKC", title).casefold().replace("’", "'").replace("‘", "'")
     return "".join(char for char in text if not char.isspace() and char not in FORMATTING_MARKS)
 
 

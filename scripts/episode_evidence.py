@@ -71,7 +71,12 @@ def dates_agree(syo, bgm):
 
 
 def work_titles(titles):
-    return {key for title in titles if (key := chapter_title(edition_key(title)[0]))}
+    keys = set()
+    for title in titles:
+        key = "".join(char for char in edition_key(title)[0] if char.isalnum())
+        if len(key) >= 3 or len(key) == 2 and all("\u3400" <= char <= "\u9fff" for char in key):
+            keys.add(key)
+    return keys
 
 
 def titles_corroborate(syo_titles, bgm_titles):
@@ -84,6 +89,19 @@ def titles_corroborate(syo_titles, bgm_titles):
                 continue
             overlap = SequenceMatcher(None, left, right, autojunk=False).find_longest_match().size
             if overlap >= 6 and overlap * 3 >= shorter * 2:
+                return True
+    return False
+
+
+def titles_support_dense_sequence(syo_titles, bgm_titles):
+    for left in syo_titles:
+        for right in bgm_titles:
+            shorter = min(len(left), len(right))
+            if shorter < 3:
+                continue
+            matcher = SequenceMatcher(None, left, right, autojunk=False)
+            overlap = matcher.find_longest_match().size
+            if overlap == shorter or (shorter >= 6 and (overlap >= 6 and overlap * 2 >= shorter or matcher.ratio() >= 0.82)):
                 return True
     return False
 
@@ -123,13 +141,17 @@ def compare_episodes(syoboi, bangumi):
             if bgm_id not in bgm_names:
                 bgm_names[bgm_id] = work_titles((bgm.title, *bgm.aliases))
             supporting = shared_site or dates_agree(item, bgm)
+            same_month = bool(item.premiere and item.premiere in {bgm.month, *bgm.broadcast_months})
             confirmed = (
                 len(hits) >= (2 if supporting else 4)
                 and rare >= (1 if supporting else 2)
                 and sum(map(len, hits)) >= (9 if supporting else 20)
                 and len(hits) * 3 >= compared * 2
                 and edition_compatible(item.title, bgm.title)
-                and (shared_site or titles_corroborate(syo_names, bgm_names[bgm_id]))
+                and (
+                    shared_site or titles_corroborate(syo_names, bgm_names[bgm_id])
+                    or same_month and rare >= 5 and titles_support_dense_sequence(syo_names, bgm_names[bgm_id])
+                )
             )
             alternatives[bgm_id].append(EpisodeEvidence(bgm_id, len(hits), rare, compared, offset, confirmed))
 

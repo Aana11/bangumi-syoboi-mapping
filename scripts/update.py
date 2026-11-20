@@ -11,6 +11,7 @@ from datetime import date, datetime, timedelta, timezone
 from itertools import chain
 from pathlib import Path
 
+from catalog_evidence import cast_evidence, film_evidence, programme_links, title_review, unique_original_titles
 from episode_evidence import compare_episodes
 from matching_evidence import METHODS, MOVIE_CATEGORY, additional_pairs, normalize
 from sources import SYOBOI_CATEGORIES, read_bangumi, read_syoboi
@@ -53,7 +54,7 @@ def read_overrides(document, syoboi, bangumi):
     return manual, blocked
 
 
-def match_titles(syoboi, bangumi, overrides):
+def match_titles(syoboi, bangumi, overrides, live_action=None):
     manual, blocked = read_overrides(overrides, syoboi, bangumi)
     candidates = {
         tid: item for tid, item in syoboi.items()
@@ -101,13 +102,21 @@ def match_titles(syoboi, bangumi, overrides):
         (tid, proof.bgm_id) for tid, proofs in episode_proofs.items()
         for proof in proofs if proof.confirmed
     }
-    evidence_batches = chain(additional_pairs(syoboi, bangumi), (("episode_sequence", episode_pairs),))
+    films, live_films, film_review = film_evidence(syoboi, bangumi, live_action)
+    cast_pairs, cast_review = cast_evidence(syoboi, bangumi)
+    evidence_batches = chain(additional_pairs(syoboi, bangumi), (
+        ("episode_sequence", episode_pairs),
+        ("programme_page", set(programme_links(syoboi, bangumi, live_action))),
+        ("cast_and_work", cast_pairs),
+        ("unique_original_and_date", set(unique_original_titles(syoboi, bangumi, live_action)) if live_action is not None else set()),
+        ("film_title_and_date", films),
+    ))
     for method, pairs in evidence_batches:
         choices = defaultdict(set)
         users = defaultdict(set)
         for tid, bgm_id in pairs:
             review[tid].add(bgm_id)
-            if candidates[tid].category in SYOBOI_CATEGORIES or method == "official_site":
+            if candidates[tid].category in SYOBOI_CATEGORIES or method in {"official_site", "film_title_and_date"}:
                 choices[tid].add(bgm_id)
                 users[bgm_id].add(tid)
         for tid, ids in choices.items():
@@ -119,12 +128,20 @@ def match_titles(syoboi, bangumi, overrides):
                 taken_tids.add(tid)
                 taken_bgm.add(bgm_id)
 
+    title_candidates = title_review({
+        tid: item for tid, item in candidates.items()
+        if tid not in taken_tids and item.category in SYOBOI_CATEGORIES
+    }, bangumi)
     unmatched = []
     for tid in sorted(candidates.keys() - taken_tids):
         item = candidates[tid]
         ids = review[tid]
         proofs = episode_proofs.get(tid, [])
-        if item.category == MOVIE_CATEGORY:
+        cast_candidates = cast_review.get(tid, {})
+        similar = title_candidates.get(tid, [])
+        if tid in live_films:
+            reason = "live_action_confirmed"
+        elif item.category == MOVIE_CATEGORY:
             reason = "movie_review"
         elif not item.premiere:
             reason = "missing_premiere_month"
@@ -134,11 +151,18 @@ def match_titles(syoboi, bangumi, overrides):
             reason = "ambiguous_or_reserved"
         elif proofs:
             reason = "episode_review"
+        elif cast_candidates:
+            reason = "cast_review"
         elif ids := title_ids.get(normalize(item.title)):
             reason = "premiere_month_mismatch_or_missing"
+        elif similar:
+            reason = "title_review"
         else:
             reason = "no_title_match"
-        ids = (ids or title_ids.get(normalize(item.title), set())) | {proof.bgm_id for proof in proofs}
+        ids = (
+            (ids or title_ids.get(normalize(item.title), set())) | {proof.bgm_id for proof in proofs}
+            | cast_candidates.keys() | film_review.get(tid, set()) | {row["bgm_id"] for row in similar}
+        )
         row = {
             "syoboi_tid": tid,
             "category": item.category,
@@ -154,6 +178,13 @@ def match_titles(syoboi, bangumi, overrides):
                  "compared_episodes": proof.compared, "episode_number_offset": proof.offset}
                 for proof in proofs[:5]
             ]
+        if cast_candidates:
+            row["cast_candidates"] = [
+                {"bgm_id": bgm_id, "matched_credits": count}
+                for bgm_id, count in sorted(cast_candidates.items(), key=lambda kv: (-kv[1], kv[0]))[:5]
+            ]
+        if similar:
+            row["title_candidates"] = similar
         unmatched.append(row)
     return methods, unmatched
 
@@ -176,6 +207,8 @@ def statistics(syoboi, bangumi, methods, unmatched, bangumi_source, syoboi_last_
         if year := syoboi[tid].year:
             years[year].add(tid)
     method_counts = Counter(methods.values())
+    movie_coverage = coverage(movies, mapped)
+    live_count = sum(row["reason"] == "live_action_confirmed" for row in unmatched)
     return {
         "schema_version": 1,
         "sources": {
@@ -185,7 +218,9 @@ def statistics(syoboi, bangumi, methods, unmatched, bangumi_source, syoboi_last_
         "bangumi_anime": {"total": len(bangumi), "matched": len({bgm_id for _, bgm_id in methods})},
         "syoboi_by_category": dict(sorted(Counter(item.category for item in syoboi.values()).items())),
         "syoboi_anime": coverage(anime, mapped),
-        "syoboi_mixed_movies": coverage(movies, mapped),
+        "syoboi_mixed_movies": {
+            **movie_coverage, "verified_live_action": live_count, "review_pending": movie_coverage["unmatched"] - live_count,
+        },
         "mapped_pairs": len(methods),
         "match_methods": {name: method_counts[name] for name in METHODS},
         "unmatched_reasons": dict(sorted(Counter(row["reason"] for row in unmatched).items())),
@@ -221,7 +256,9 @@ def readme_table(stats):
         f"对照 Bangumi Archive **{stats['bangumi_anime']['total']:,}** 个动画条目，"
         f"生成 **{stats['mapped_pairs']:,}** 对 ID。",
         f"混合电影分类有 **{stats['syoboi_mixed_movies']['total']:,}** 个 TID，"
-        f"其中 **{stats['syoboi_mixed_movies']['matched']:,}** 个已关联。",
+        f"其中 **{stats['syoboi_mixed_movies']['matched']:,}** 个已关联动画，"
+        f"**{stats['syoboi_mixed_movies']['verified_live_action']:,}** 个已确认真人电影，"
+        f"**{stats['syoboi_mixed_movies']['review_pending']:,}** 个待核。",
     ]
     return "\n".join(lines)
 
@@ -301,9 +338,11 @@ def update(cache, offline, today):
     with ThreadPoolExecutor(max_workers=2) as readers:
         bgm_result = readers.submit(read_bangumi, cache, offline)
         syoboi_result = readers.submit(read_syoboi, cache, offline)
-        bangumi, bangumi_source = bgm_result.result()
+        catalog, bangumi_source = bgm_result.result()
         syoboi, syoboi_last_update = syoboi_result.result()
-    methods, unmatched = match_titles(syoboi, bangumi, overrides)
+    bangumi = {bgm_id: item for bgm_id, item in catalog.items() if not item.live_action}
+    live_action = {bgm_id: item for bgm_id, item in catalog.items() if item.live_action}
+    methods, unmatched = match_titles(syoboi, bangumi, overrides, live_action)
     if not methods:
         raise ValueError("No matches; refusing to generate an empty mapping")
     stats = statistics(syoboi, bangumi, methods, unmatched, bangumi_source, syoboi_last_update, today)

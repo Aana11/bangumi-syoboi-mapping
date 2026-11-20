@@ -25,11 +25,12 @@ def syo(tid, title, month=10, category=10):
     return SyoboiTitle(tid, title, STAMP, 2026, month, category)
 
 
-def match(syoboi, bangumi, manual=(), blocked=()):
+def match(syoboi, bangumi, manual=(), blocked=(), live_action=None):
     return match_titles(
         {item.id: item for item in syoboi},
         {item.id: item for item in bangumi},
         {"mappings": list(manual), "blocked_pairs": list(blocked)},
+        live_action,
     )
 
 
@@ -40,7 +41,8 @@ class MappingTests(unittest.TestCase):
             [bgm(10, "Title"), bgm(20, "Second Season"), bgm(30, "Series!")],
         )
         self.assertEqual(methods, {(1, 10): "exact", (2, 20): "normalized"})
-        self.assertEqual([row["reason"] for row in unmatched], ["no_title_match", "ambiguous_or_reserved"])
+        self.assertEqual([row["reason"] for row in unmatched], ["title_review", "ambiguous_or_reserved"])
+        self.assertEqual(unmatched[0]["title_candidates"][0]["bgm_id"], 30)
 
     def test_duplicates_in_either_source_are_ambiguous(self):
         methods, unmatched = match(
@@ -73,6 +75,7 @@ class MappingTests(unittest.TestCase):
         self.assertEqual(edition_key("空の旅 Part.2"), edition_key("空の旅 パート2"))
         self.assertNotEqual(edition_key("空の旅 Part 2"), edition_key("空の旅 第2期"))
         self.assertEqual(edition_key("塔の冒険～迷宮篇～"), edition_key("塔の冒険〜迷宮編〜"))
+        self.assertEqual(edition_key("銀河学園 4th Season 2年生編"), ("銀河学園2年生編", (("season", 4),)))
 
     def test_edition_alias_and_declared_broadcast_month(self):
         syoboi = [syo(1, "星の旅(第二期)第2クール"), syo(2, "天空の城")]
@@ -114,6 +117,56 @@ class MappingTests(unittest.TestCase):
         tv = BangumiTitle(10, "銀河鉄道の夜", "2026-10", websites=site, platform=1)
         self.assertEqual(match(syoboi, [film])[0], {(1, 10): "official_site"})
         self.assertFalse(match(syoboi, [tv])[0])
+
+    def test_film_title_and_date_considers_live_action_and_anime(self):
+        source = syo(1, "銀河鉄道の夜", category=8)
+        anime_film = replace(bgm(10, "銀河鉄道の夜"), platform=3)
+        live_film = replace(bgm(20, "銀河鉄道の夜"), platform=6002, live_action=True)
+        self.assertEqual(match([source], [anime_film], live_action={})[0], {(1, 10): "film_title_and_date"})
+        self.assertFalse(match([source], [anime_film], live_action={20: live_film})[0])
+        methods, review = match([source], [], live_action={20: live_film})
+        self.assertFalse(methods)
+        self.assertEqual(review[0]["reason"], "live_action_confirmed")
+        self.assertFalse(review[0]["candidate_bgm_ids"])
+
+    def test_film_date_gap_requires_uniqueness_across_the_full_catalogue(self):
+        source = syo(1, "小さな銀河鉄道の夜", month=0, category=8)
+        film = replace(bgm(10, source.title), platform=3)
+        live_action = replace(bgm(20, "別の映画", "2001-08"), platform=6002,
+                              live_action=True, aliases=(source.title,))
+        for entry in (source, replace(source, month=9)):
+            self.assertEqual(match([entry], [film], live_action={})[0], {(1, 10): "film_title_and_date"})
+            self.assertFalse(match([entry], [film], live_action={20: live_action})[0])
+        self.assertFalse(match([replace(source, month=7)], [film], live_action={})[0])
+
+    def test_unique_original_title_only_recovers_bounded_date_gaps(self):
+        anime = bgm(10, "銀河を渡る小さな舟", "2026-10")
+        early = syo(1, "銀河を渡る小さな舟", month=9)
+        unknown_month = syo(2, "銀河を渡る小さな舟", month=0)
+        far = syo(3, "銀河を渡る小さな舟", month=4)
+        self.assertEqual(match([early], [anime], live_action={})[0], {(1, 10): "unique_original_and_date"})
+        self.assertEqual(match([unknown_month], [anime], live_action={})[0], {(2, 10): "unique_original_and_date"})
+        self.assertFalse(match([far], [anime], live_action={})[0])
+        self.assertFalse(match([early], [anime, replace(anime, id=11, month="1997-09")], live_action={})[0])
+
+    def test_programme_link_checks_the_work_and_uses_a_specific_page(self):
+        source = replace(syo(1, "銀河を渡る小さな舟"), links=("example.org/program/12",))
+        anime = replace(bgm(10, "星の舟", "2022-10"), aliases=(source.title,), websites=source.links)
+        self.assertEqual(match([source], [anime])[0], {(1, 10): "programme_page"})
+        self.assertFalse(match([replace(source, links=("example.org",))],
+                               [replace(anime, websites=("example.org",))])[0])
+
+    def test_cast_checks_named_roles_and_distinguishes_sequels(self):
+        cast = (("銀河の船長", "七星ひかる"), ("小さな航海士", "白鳥あかり"))
+        first = replace(syo(1, "銀河の航海日記 第2期"), cast=cast)
+        subject = replace(
+            bgm(10, "銀河の航海日記 続編"), cast=cast,
+        )
+        self.assertEqual(match([first], [subject])[0], {(1, 10): "cast_and_work"})
+        wrong = replace(subject, title="銀河の航海日記 第3期")
+        methods, review = match([first], [wrong])
+        self.assertFalse(methods)
+        self.assertEqual(review[0]["cast_candidates"], [{"bgm_id": 10, "matched_credits": 2}])
 
     def test_month_boundary_checks_exact_day_and_catalog_uniqueness(self):
         syoboi = [syo(1, "星の旅の記憶")]
@@ -259,18 +312,25 @@ class SourceTests(unittest.TestCase):
         xml = f"""<TitleLookupResponse><Result><Code>200</Code></Result><TitleItems>
         <TitleItem id="1"><TID>1</TID><Title>Title</Title><LastUpdate>{STAMP}</LastUpdate>
         <FirstYear/><FirstMonth/><Cat>8</Cat><TitleEN>Title EN</TitleEN>
+        <ShortTitle>Long enough alternate title</ShortTitle><Keywords>Series,Title</Keywords>
         <SubTitles>*001*眠りの王宮
 *0*Ignored
 *2*北の海を渡る舟</SubTitles>
-        <Comment>-[[公式（作品） https://www.example.org/Film/index.html]]
-        -[[公式（動画） https://www.youtube.com/@sharedchannel]]
-        -[[X https://x.com/film]]</Comment></TitleItem></TitleItems></TitleLookupResponse>"""
+        <Comment>*リンク
+-[[公式（作品） https://www.example.org/Film/index.html]]
+-[[公式（動画） https://www.youtube.com/@sharedchannel]]
+-[[放送局 https://example.net/title]]
+-[[原作 https://example.org/source]]
+*キャスト
+:船長:銀河史朗</Comment></TitleItem></TitleItems></TitleLookupResponse>"""
         result = parse_syoboi(xml, with_details=True)
         self.assertIsNone(result[1].premiere)
         self.assertEqual(result[1].category, 8)
         self.assertEqual(result[1].websites, ("example.org/Film",))
         self.assertEqual(result[1].english_title, "Title EN")
         self.assertEqual(result[1].episodes, ((1, "眠りの王宮"), (2, "北の海を渡る舟")))
+        self.assertEqual(result[1].links, ("example.net/title", "example.org/Film"))
+        self.assertEqual(result[1].cast, (("船長", "銀河史朗"),))
         with self.assertRaisesRegex(ValueError, "403"):
             parse_syoboi(xml.replace("200", "403"), with_details=True)
 

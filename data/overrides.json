@@ -1,6 +1,252 @@
 {
   "mappings": [
     {
+      "bgm_id": 89727,
+      "syoboi_tid": 20,
+      "syoboi_title": "カスミン(2)",
+      "evidence": "Syoboi 第 2 期重新从第 1 集编号，对应 Bangumi 连续第 27 至 52 集。 https://cal.syoboi.jp/tid/20/time https://bgm.tv/subject/89727/ep"
+    },
+    {
+      "bgm_id": 89727,
+      "syoboi_tid": 38,
+      "syoboi_title": "カスミン(3)",
+      "evidence": "Syoboi 第 3 期重新从第 1 集编号，对应 Bangumi 连续第 53 至 78 集。 https://cal.syoboi.jp/tid/38/time https://bgm.tv/subject/89727/ep"
+    },
+    {
+      "bgm_id": 89727,
+      "syoboi_tid": 166,
+      "syoboi_title": "カスミン",
+      "evidence": "Bangumi 的 78 集条目合并 Syoboi 三期。此 TID 对应第 1 至 26 集。 https://cal.syoboi.jp/tid/166/time https://bgm.tv/subject/89727/ep"
+    },
+    {
+      "bgm_id": 20926,
+      "syoboi_tid": 1840,
+      "syoboi_title": "テニスの王子様 Original Video Animation 全国大会篇",
+      "evidence": "Bangumi 全国大会篇合并全国大会、半决赛、决赛。首个 TID 对应第 1 至 13 集。 https://cal.syoboi.jp/tid/1840/time https://bgm.tv/subject/20926/ep"
+    },
+    {
+      "bgm_id": 11834,
+      "syoboi_tid": 2172,
+      "syoboi_title": "銀魂(第2期)",
+      "evidence": "两站 2011 年 4 月首播的这一季同为第 202 至 252 集。 https://cal.syoboi.jp/tid/2172/time https://bgm.tv/subject/11834/ep"
+    },
+    {
+      "bgm_id": 10639,
+      "syoboi_tid": 2277,
+      "syoboi_title": "Fate/Zero",
+      "evidence": "Bangumi 的 Fate/Zero 条目收录全部 25 集。此 TID 对应第 1 至 13 集。 https://cal.syoboi.jp/tid/2277/time https://bgm.tv/subject/10639/ep"
+    },
+    {
+      "bgm_id": 26987,
+      "syoboi_tid": 2476,
+      "syoboi_title": "ゆるめいつ3でぃ",
+      "evidence": "Bangumi 在同一条目连续收录 26 集。此 TID 对应前 13 集。 https://cal.syoboi.jp/tid/2476/time https://bgm.tv/subject/26987/ep"
+    },
+    {
+      "bgm_id": 10639,
+      "syoboi_tid": 2500,
+      "syoboi_title": "Fate/Zero 2ndシーズン",
+      "evidence": "第 2 段对应同一 Bangumi 条目的第 14 至 25 集。 https://cal.syoboi.jp/tid/2500/time https://bgm.tv/subject/10639/ep"
+    },
+    {
+      "bgm_id": 26987,
+      "syoboi_tid": 2583,
+      "syoboi_title": "ゆるめいつ3でぃPLUS",
+      "evidence": "PLUS 对应同一 Bangumi 条目的第 14 至 26 集。 https://cal.syoboi.jp/tid/2583/time https://bgm.tv/subject/26987/ep"
+    },
+    {
+      "bgm_id": 47576,
+      "syoboi_tid": 2762,
+      "syoboi_title": "銀魂(第3期)",
+      "evidence": "Syoboi 登记的 2012 年 10 月新档期对应延长战，第 253 至 265 集。 https://cal.syoboi.jp/tid/2762/time https://bgm.tv/subject/47576/ep"
+    },
+    {
+      "bgm_id": 137894,
+      "syoboi_tid": 3892,
+      "syoboi_title": "かみさまみならい ヒミツのここたま",
+      "evidence": "Syoboi 连续集表包含 Bangumi 第 1 系列的第 1 至 76 集。 https://cal.syoboi.jp/tid/3892/time https://bgm.tv/subject/137894/ep"
+    },
+    {
+      "bgm_id": 210465,
+      "syoboi_tid": 3892,
+      "syoboi_title": "かみさまみならい ヒミツのここたま",
+      "evidence": "Syoboi 连续集表也涵盖从第 77 集开始的 Bangumi 第 2 系列。 https://cal.syoboi.jp/tid/3892/time https://bgm.tv/subject/210465/ep"
+    },
+    {
+      "bgm_id": 240383,
+      "syoboi_tid": 3892,
+      "syoboi_title": "かみさまみならい ヒミツのここたま",
+      "evidence": "Syoboi 合并三季，Bangumi 第三系列是 2018 年续播段。https://www.tv-tokyo.co.jp/anime/cocotama/ https://cal.syoboi.jp/tid/3892 https://bgm.tv/subject/240383"
+    },
+    {
+      "bgm_id": 279478,
+      "syoboi_tid": 4075,
+      "syoboi_title": "忍たま乱太郎の宇宙大冒険 with コズミックフロント☆NEXT",
+      "evidence": "Bangumi 合并五弹共 10 集。第一弹对应第 1 和 2 集。 https://cal.syoboi.jp/tid/4075/time https://bgm.tv/subject/279478/ep"
+    },
+    {
+      "bgm_id": 279478,
+      "syoboi_tid": 4405,
+      "syoboi_title": "忍たま乱太郎の宇宙大冒険 with コズミックフロント☆NEXT(第2弾)",
+      "evidence": "第二弹对应同一 Bangumi 条目第 3 和 4 集。 https://cal.syoboi.jp/tid/4405/time https://bgm.tv/subject/279478/ep"
+    },
+    {
+      "bgm_id": 218740,
+      "syoboi_tid": 4722,
+      "syoboi_title": "銀魂. (ポロリ篇／銀ノ魂篇)",
+      "evidence": "Syoboi 共用一个 TID。前段第 329 至 341 集对应 Bangumi 的滑落篇。 https://cal.syoboi.jp/tid/4722/time https://bgm.tv/subject/218740/ep"
+    },
+    {
+      "bgm_id": 232884,
+      "syoboi_tid": 4722,
+      "syoboi_title": "銀魂. (ポロリ篇／銀ノ魂篇)",
+      "evidence": "同一 Syoboi TID 后段第 342 至 353 集对应 Bangumi 的银之魂篇。 https://cal.syoboi.jp/tid/4722/time https://bgm.tv/subject/232884/ep"
+    },
+    {
+      "bgm_id": 279478,
+      "syoboi_tid": 4808,
+      "syoboi_title": "忍たま乱太郎の宇宙大冒険 with コズミックフロント☆NEXT(第3弾)",
+      "evidence": "第三弹对应同一 Bangumi 条目第 5 和 6 集。 https://cal.syoboi.jp/tid/4808/time https://bgm.tv/subject/279478/ep"
+    },
+    {
+      "bgm_id": 240811,
+      "syoboi_tid": 5007,
+      "syoboi_title": "銀魂. (銀ノ魂篇 後半戦)",
+      "evidence": "银之魂篇后半战对应 Bangumi 第 354 至 367 集。 https://cal.syoboi.jp/tid/5007/time https://bgm.tv/subject/240811/ep"
+    },
+    {
+      "bgm_id": 279478,
+      "syoboi_tid": 5238,
+      "syoboi_title": "忍たま乱太郎の宇宙大冒険 with コズミックフロント☆NEXT(第4弾)",
+      "evidence": "第四弹对应同一 Bangumi 条目第 7 和 8 集。 https://cal.syoboi.jp/tid/5238/time https://bgm.tv/subject/279478/ep"
+    },
+    {
+      "bgm_id": 226218,
+      "syoboi_tid": 5580,
+      "syoboi_title": "銀河英雄伝説 Die Neue These 星乱",
+      "evidence": "制作方将星乱分为三章，第 13 至 16 集对应第一章。https://gineiden-anime.com/news/2345 https://cal.syoboi.jp/tid/5580/time https://bgm.tv/subject/226218/ep"
+    },
+    {
+      "bgm_id": 226223,
+      "syoboi_tid": 5580,
+      "syoboi_title": "銀河英雄伝説 Die Neue These 星乱",
+      "evidence": "同一 Syoboi TID 第 17 至 20 集对应第二章。https://gineiden-anime.com/news/2345 https://cal.syoboi.jp/tid/5580/time https://bgm.tv/subject/226223/ep"
+    },
+    {
+      "bgm_id": 226224,
+      "syoboi_tid": 5580,
+      "syoboi_title": "銀河英雄伝説 Die Neue These 星乱",
+      "evidence": "同一 Syoboi TID 第 21 至 24 集对应第三章。https://gineiden-anime.com/news/2345 https://cal.syoboi.jp/tid/5580/time https://bgm.tv/subject/226224/ep"
+    },
+    {
+      "bgm_id": 279478,
+      "syoboi_tid": 5597,
+      "syoboi_title": "忍たま乱太郎の宇宙大冒険 with コズミックフロント☆NEXT(第5弾)",
+      "evidence": "第五弹对应同一 Bangumi 条目第 9 和 10 集。 https://cal.syoboi.jp/tid/5597/time https://bgm.tv/subject/279478/ep"
+    },
+    {
+      "bgm_id": 267432,
+      "syoboi_tid": 5924,
+      "syoboi_title": "SDガンダムワールド三国創傑伝",
+      "evidence": "万代南梦宫公告确认日本电视频道引进此前已在海外先行播出的同一部《三国创杰传》。https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10080?entry_id=7000 https://cal.syoboi.jp/tid/5924/time https://bgm.tv/subject/267432"
+    },
+    {
+      "bgm_id": 289945,
+      "syoboi_tid": 6013,
+      "syoboi_title": "魔道祖師Q",
+      "evidence": "两站均记录同一名称的 Q 短番及 30 集正片。 https://cal.syoboi.jp/tid/6013 https://bgm.tv/subject/289945"
+    },
+    {
+      "bgm_id": 329202,
+      "syoboi_tid": 6041,
+      "syoboi_title": "俺、つしま",
+      "evidence": "制作方 7 月 2 日开播的是 12 集电视版，7 月 5 日开播的网页短集系列另有条目。https://tsushima-anime.com/onair/ https://cal.syoboi.jp/tid/6041/time https://bgm.tv/subject/329202/ep"
+    },
+    {
+      "bgm_id": 20926,
+      "syoboi_tid": 6067,
+      "syoboi_title": "テニスの王子様 OVA 全国大会篇 Semifinal",
+      "evidence": "半决赛分集对应 Bangumi 全国大会篇连续集表的半决赛部分。 https://cal.syoboi.jp/tid/6067/time https://bgm.tv/subject/20926/ep"
+    },
+    {
+      "bgm_id": 310687,
+      "syoboi_tid": 6068,
+      "syoboi_title": "戦乙女の食卓II",
+      "evidence": "BS 日视播出《女武神的餐桌》第二季，全八集，第 1、2 集为樱花酿与熔岩巧克力蛋糕。https://www.bs4.jp/valkyrie2/ https://cal.syoboi.jp/tid/6068/time https://bgm.tv/subject/310687"
+    },
+    {
+      "bgm_id": 289101,
+      "syoboi_tid": 6075,
+      "syoboi_title": "天官賜福",
+      "evidence": "日本官网把这一档列为第一季，对应 Bangumi 的中国原版条目。https://tgcf-anime.com/1st.html https://cal.syoboi.jp/tid/6075 https://bgm.tv/subject/289101"
+    },
+    {
+      "bgm_id": 20926,
+      "syoboi_tid": 6093,
+      "syoboi_title": "テニスの王子様 OVA 全国大会篇 Final",
+      "evidence": "决赛重编号，对应同一 Bangumi 条目的第 21 至 26 集。 https://cal.syoboi.jp/tid/6093/time https://bgm.tv/subject/20926/ep"
+    },
+    {
+      "bgm_id": 268726,
+      "syoboi_tid": 6162,
+      "syoboi_title": "転生したらスライムだった件 (OAD版)",
+      "evidence": "两站均收录这五集 OAD，前两集的排序与所用发行口径有差别。 https://cal.syoboi.jp/tid/6162/time https://bgm.tv/subject/268726/ep"
+    },
+    {
+      "bgm_id": 324495,
+      "syoboi_tid": 6176,
+      "syoboi_title": "暗界神使",
+      "evidence": "日本配信方收录万代南梦宫上海制作、2020 年底在中国首发的同名三维动画。https://www.b-ch.com/titles/7442/ https://cal.syoboi.jp/tid/6176/time https://bgm.tv/subject/324495"
+    },
+    {
+      "bgm_id": 320224,
+      "syoboi_tid": 6242,
+      "syoboi_title": "時光代理人 -LINK CLICK-",
+      "evidence": "制作方记载 2021 年 4 月中国首播的第一季，之后在日本发行。https://link-click.jp/1st/ https://link-click.jp/ https://cal.syoboi.jp/tid/6242 https://bgm.tv/subject/320224"
+    },
+    {
+      "bgm_id": 373931,
+      "syoboi_tid": 6281,
+      "syoboi_title": "BanG Dream! ガールズバンドパーティ！ 5th Anniversary Animation -CiRCLE THANKS PARTY!-",
+      "evidence": "官方影碟收录 2022 年 3 月播出的同名五周年动画第 1、2 集，Bangumi 也以两集收录。https://bang-dream.com/discographies/3168/ https://cal.syoboi.jp/tid/6281/time https://bgm.tv/subject/373931"
+    },
+    {
+      "bgm_id": 345805,
+      "syoboi_tid": 6424,
+      "syoboi_title": "兄に付ける薬はない！5-快把我哥帯走5-",
+      "evidence": "制作方公告同时写明原作名《快把我哥带走》、动画第五季以及中日两地配信。https://imagineer.co.jp/news/article.php?id=1693 https://cal.syoboi.jp/tid/6424/time https://bgm.tv/subject/345805"
+    },
+    {
+      "bgm_id": 379456,
+      "syoboi_tid": 6426,
+      "syoboi_title": "夜は猫といっしょ",
+      "evidence": "制作方在电视和 YouTube 发布同一系列，两个 TID 的 30 集对应同一 Bangumi 条目。https://yoruneko-pr.com/onair/ https://cal.syoboi.jp/tid/6426/time https://bgm.tv/subject/379456/ep"
+    },
+    {
+      "bgm_id": 379456,
+      "syoboi_tid": 6511,
+      "syoboi_title": "夜は猫といっしょ(YouTube版)",
+      "evidence": "YouTube 版与电视档期的 30 集标题和集数一一对应。https://yoruneko-pr.com/onair/ https://cal.syoboi.jp/tid/6511/time https://bgm.tv/subject/379456/ep"
+    },
+    {
+      "bgm_id": 289944,
+      "syoboi_tid": 6525,
+      "syoboi_title": "魔道祖師 完結編",
+      "evidence": "日本官网和 Bangumi 均记录同一个完结篇，共 12 集。https://mdzs.jp/anime/ https://cal.syoboi.jp/tid/6525 https://bgm.tv/subject/289944"
+    },
+    {
+      "bgm_id": 358724,
+      "syoboi_tid": 6557,
+      "syoboi_title": "齢5000年の草食ドラゴン、いわれなき邪竜認定",
+      "evidence": "日本官网片名和第 1 集标题对应中国原版《食草老龙被冠以恶龙之名》，此 TID 收录第一季的 12 集。https://soushokudragon.jp/ https://www.bilibili.com/video/BV1QG411j7H9/ https://cal.syoboi.jp/tid/6557/time https://bgm.tv/subject/358724"
+    },
+    {
+      "bgm_id": 397125,
+      "syoboi_tid": 6609,
+      "syoboi_title": "聖闘士星矢:Knights of the Zodiac バトル・サンクチュアリ",
+      "evidence": "日本节目表与 Crunchyroll 的《Battle for Sanctuary》第一部分均从十二宫开始，共十二集。https://saintseiya-kotz.com/ https://www.crunchyroll.com/es/news/guides/2022/7/31/saint-seiya-knights-of-the-zodiac-battle-for-sanctuary-verano-de-2022-de-crunchyroll-a-fondo https://cal.syoboi.jp/tid/6609/time https://bgm.tv/subject/397125"
+    },
+    {
       "bgm_id": 376739,
       "syoboi_tid": 6635,
       "syoboi_title": "進撃の巨人 The Final Season 完結編",
@@ -11,6 +257,42 @@
       "syoboi_tid": 6635,
       "syoboi_title": "進撃の巨人 The Final Season 完結編",
       "evidence": "同一 Syoboi TID 的第 2 项是完结篇后篇，2023 年 11 月放送。https://cal.syoboi.jp/tid/6635/time https://shingeki.tv/news/archives/7877 https://bgm.tv/subject/415779"
+    },
+    {
+      "bgm_id": 412301,
+      "syoboi_tid": 6636,
+      "syoboi_title": "崩壊3rd公式スペシャルアニメ「黄金の庭園：冬に積もる新年の願い」",
+      "evidence": "《崩坏3》官方日语作品名与官方中文动画《黄金庭院：冬日里的新年愿望》对应。https://www.youtube.com/watch?v=IvneZxtqW8I https://www.youtube.com/watch?v=IPEQNpfFTy0 https://cal.syoboi.jp/tid/6636/time https://bgm.tv/subject/412301"
+    },
+    {
+      "bgm_id": 426617,
+      "syoboi_tid": 6663,
+      "syoboi_title": "おしりたんてい コズミックフロント",
+      "evidence": "节目官网列出同一 TID 下的两部独立特别篇。此为第 1 集「きえたきょうりゅうかせき」。https://oshiri-tantei.com/news/2023020301.html https://cal.syoboi.jp/tid/6663/time https://bgm.tv/subject/426617"
+    },
+    {
+      "bgm_id": 426619,
+      "syoboi_tid": 6663,
+      "syoboi_title": "おしりたんてい コズミックフロント",
+      "evidence": "节目官网列出同一 TID 下的两部独立特别篇。此为第 2 集「うちゅうのおおどろぼう」。https://oshiri-tantei.com/news/2023020301.html https://cal.syoboi.jp/tid/6663/time https://bgm.tv/subject/426619"
+    },
+    {
+      "bgm_id": 425590,
+      "syoboi_tid": 6674,
+      "syoboi_title": "ハートカクテル カラフル",
+      "evidence": "春季段对应连续收录 15 集的 Bangumi 条目的第 1 至 5 集。 https://cal.syoboi.jp/tid/6674/time https://bgm.tv/subject/425590/ep"
+    },
+    {
+      "bgm_id": 529235,
+      "syoboi_tid": 6681,
+      "syoboi_title": "おしりたんてい(第7シリーズ前半)",
+      "evidence": "第 7 系列前半段对应 Bangumi 第 79 至 86 集。 https://cal.syoboi.jp/tid/6681/time https://bgm.tv/subject/529235/ep"
+    },
+    {
+      "bgm_id": 558020,
+      "syoboi_tid": 6699,
+      "syoboi_title": "キャッチ！ティニピン",
+      "evidence": "制作方第一季《캐치! 티니핑》为 52 集，与这一日本引进档的标题及集数一致。https://www.samg.net/ko/content/4 https://cal.syoboi.jp/tid/6699/time https://bgm.tv/subject/558020"
     },
     {
       "bgm_id": 346982,
@@ -25,16 +307,100 @@
       "evidence": "Syoboi 同一 TID 的第 11 至 15 集对应 Bangumi 后编。https://cal.syoboi.jp/tid/6706/subtitle https://ragnarok-official.com/2nd/ https://bgm.tv/subject/425937/ep"
     },
     {
+      "bgm_id": 233593,
+      "syoboi_tid": 6750,
+      "syoboi_title": "フェ～レンザイ -神さまの日常-",
+      "evidence": "日本官网首话的九月登场和刑天故事与《非人哉》原版第一、二集对应，日本电视档另行编排。https://frz.jp/story/ep-01/ https://cal.syoboi.jp/tid/6750/time https://bgm.tv/subject/233593"
+    },
+    {
+      "bgm_id": 425590,
+      "syoboi_tid": 6780,
+      "syoboi_title": "ハートカクテル カラフル(夏編)",
+      "evidence": "夏季段对应同一 Bangumi 条目的第 6 至 10 集。 https://cal.syoboi.jp/tid/6780/time https://bgm.tv/subject/425590/ep"
+    },
+    {
       "bgm_id": 418599,
       "syoboi_tid": 6862,
       "syoboi_title": "BEYBLADE X",
       "evidence": "原始番组与新章使用同一 Bangumi 条目。原条目 https://bgm.tv/subject/418599 和制作方节目页 https://beyblade.takaratomy.co.jp/anime/"
     },
     {
+      "bgm_id": 529235,
+      "syoboi_tid": 6871,
+      "syoboi_title": "おしりたんてい(第7シリーズ後半)",
+      "evidence": "第 7 系列后半段对应同一 Bangumi 条目的第 87 至 93 集。 https://cal.syoboi.jp/tid/6871/time https://bgm.tv/subject/529235/ep"
+    },
+    {
+      "bgm_id": 244229,
+      "syoboi_tid": 6876,
+      "syoboi_title": "クズ悪役の自己救済システム",
+      "evidence": "日本官网标注原作《穿書自救指南》，WOWOW 引进同一 3D 动画共十集。https://svsss.jp/ https://www.wowow.co.jp/detail/190950 https://cal.syoboi.jp/tid/6876/time https://bgm.tv/subject/244229"
+    },
+    {
+      "bgm_id": 425590,
+      "syoboi_tid": 6892,
+      "syoboi_title": "ハートカクテル カラフル(冬編)",
+      "evidence": "冬季段对应同一 Bangumi 条目的第 11 至 15 集。 https://cal.syoboi.jp/tid/6892/time https://bgm.tv/subject/425590/ep"
+    },
+    {
+      "bgm_id": 289102,
+      "syoboi_tid": 6912,
+      "syoboi_title": "天官賜福 貮",
+      "evidence": "日本官网的貮对应 Bangumi 的第二季，两站系列名及节目官网一致。https://tgcf-anime.com/ https://cal.syoboi.jp/tid/6912 https://bgm.tv/subject/289102"
+    },
+    {
+      "bgm_id": 269545,
+      "syoboi_tid": 6924,
+      "syoboi_title": "百妖譜",
+      "evidence": "B8station 的第一季对应 2020 年的中国首播作品。https://b8station.tv/hyakuyoufu/index1-2.html https://cal.syoboi.jp/tid/6924 https://bgm.tv/subject/269545"
+    },
+    {
+      "bgm_id": 341311,
+      "syoboi_tid": 7036,
+      "syoboi_title": "時光代理人 -LINK CLICK-Ⅱ",
+      "evidence": "制作方明确 2024 年日本播出的第二季是 2023 年在中国上线的系列续篇。https://link-click.jp/2nd/ https://link-click.jp/ https://cal.syoboi.jp/tid/7036 https://bgm.tv/subject/341311"
+    },
+    {
+      "bgm_id": 312297,
+      "syoboi_tid": 7056,
+      "syoboi_title": "龍族 -The Blazing Dawn-",
+      "evidence": "日本《The Blazing Dawn》对应同名 16 集中国原版，Bangumi 登记日文完整别名。https://ryuzoku-anime.com/1st/ https://cal.syoboi.jp/tid/7056 https://bgm.tv/subject/312297"
+    },
+    {
+      "bgm_id": 484191,
+      "syoboi_tid": 7063,
+      "syoboi_title": "ちびゴジラの逆襲(第2期)",
+      "evidence": "TID 对应 2024 年 4 月开播的续篇，Bangumi 收录该轮放送的第 14 至 65 集。https://chibigodzilla.jp/ https://cal.syoboi.jp/tid/7063/time https://bgm.tv/subject/484191/ep"
+    },
+    {
       "bgm_id": 394996,
       "syoboi_tid": 7133,
       "syoboi_title": "神之塔 -Tower of God- 王子の帰還",
       "evidence": "制作方将王子归来与工房战列为第 2 季的两篇，Bangumi 同一条目收录全部 26 集。此 TID 对应第 1 至 13 集。https://tog-anime.com/news/index00560000.html https://bgm.tv/subject/394996/ep"
+    },
+    {
+      "bgm_id": 406472,
+      "syoboi_tid": 7136,
+      "syoboi_title": "下の階には澪がいる",
+      "evidence": "富士电视台的日语版片名与 Bangumi 记录的日文别名相同，对应同一部中国动画。https://b8station.tv/mio/ https://cal.syoboi.jp/tid/7136 https://bgm.tv/subject/406472"
+    },
+    {
+      "bgm_id": 383251,
+      "syoboi_tid": 7150,
+      "syoboi_title": "NINJA KAMUI",
+      "evidence": "发行方同时记载 2024 年 2 月海外首播和 7 月日本首播。https://www.aniplex.co.jp/ninjakamui/ https://www.aniplex.co.jp/lineup/ninjakamui/ https://cal.syoboi.jp/tid/7150 https://bgm.tv/subject/383251"
+    },
+    {
+      "bgm_id": 320215,
+      "syoboi_tid": 7229,
+      "syoboi_title": "百妖譜 第2期",
+      "evidence": "B8station 的第二季对应 2021 年中国首播作品。https://b8station.tv/hyakuyoufu/index1-2.html https://cal.syoboi.jp/tid/7229 https://bgm.tv/subject/320215"
+    },
+    {
+      "bgm_id": 375512,
+      "syoboi_tid": 7230,
+      "syoboi_title": "ケンガンアシュラ Season2 Part.1",
+      "evidence": "制作方确认第二季第一部分于 2023 年 9 月公开，与 Bangumi 的 12 集条目对应。https://kengan.net/news/index00110000.html https://cal.syoboi.jp/tid/7230 https://bgm.tv/subject/375512"
     },
     {
       "bgm_id": 476969,
@@ -79,10 +445,40 @@
       "evidence": "制作方将工房战列为第 2 季的后篇，Bangumi 以同一条目收录。此 TID 对应第 14 至 26 集。https://tog-anime.com/news/index00560000.html https://bgm.tv/subject/394996/ep"
     },
     {
+      "bgm_id": 633705,
+      "syoboi_tid": 7257,
+      "syoboi_title": "キラキラ キャッチ！ティニピン",
+      "evidence": "制作方第二季为 2021 年的《반짝반짝 캐치! 티니핑》，日本引进名为《キラキラ キャッチ！ティニピン》，均为 26 集。https://www.samg.net/ko/content/4 https://cal.syoboi.jp/tid/7257/time https://bgm.tv/subject/633705"
+    },
+    {
+      "bgm_id": 474905,
+      "syoboi_tid": 7262,
+      "syoboi_title": "あたしンちNEXT",
+      "evidence": "原始档期对应同一 Bangumi 连载条目的第 1 至 10 集。 https://cal.syoboi.jp/tid/7262/time https://bgm.tv/subject/474905/ep"
+    },
+    {
+      "bgm_id": 465889,
+      "syoboi_tid": 7358,
+      "syoboi_title": "女神降臨",
+      "evidence": "Hulu 以《女神降臨》上线同一部韩漫改编动画，首集与 Crunchyroll 的《A Goddess descends?!》对应，共 13 集。https://www.hulu.jp/true-beauty https://www.crunchyroll.com/series/GMEHME741/true-beauty https://cal.syoboi.jp/tid/7358/time https://bgm.tv/subject/465889"
+    },
+    {
       "bgm_id": 545695,
       "syoboi_tid": 7421,
       "syoboi_title": "ぷちきゅあ",
       "evidence": "东映短动画第一季，对应 Bangumi 章节第 1 集起。https://bgm.tv/subject/545695/ep https://www.toei-anim.co.jp/petitcure/"
+    },
+    {
+      "bgm_id": 561787,
+      "syoboi_tid": 7534,
+      "syoboi_title": "ちびゴジラの逆襲(第3期)",
+      "evidence": "2025 年 7 月新档期对应 Bangumi 最新作条目从第 66 集开始的部分。https://chibigodzilla.jp/ https://cal.syoboi.jp/tid/7534/time https://bgm.tv/subject/561787/ep"
+    },
+    {
+      "bgm_id": 633706,
+      "syoboi_tid": 7535,
+      "syoboi_title": "シークレット キャッチ！ティニピン",
+      "evidence": "日本播出方以第三季《シークレット キャッチ！ティニピン》引进，制作方原名《알쏭달쏭 캐치! 티니핑》。https://www.kids-station.com/pickup/catchteenieping/season3/ https://www.samg.net/ko/content/4 https://cal.syoboi.jp/tid/7535/time https://bgm.tv/subject/633706"
     },
     {
       "bgm_id": 559674,
@@ -97,16 +493,88 @@
       "evidence": "Syoboi 同一节目第 10 至 25 集对应 Bangumi 时间使用篇，16 集的分集标题与编号一致。https://cal.syoboi.jp/tid/7539/subtitle https://bgm.tv/subject/576265/ep"
     },
     {
+      "bgm_id": 408897,
+      "syoboi_tid": 7613,
+      "syoboi_title": "龍族II -The Mourner's Eyes-",
+      "evidence": "日本《The Mourner’s Eyes》为 Bangumi 条目列出的第二季日文别名，均收录 24 集。https://ryuzoku-anime.com/ https://cal.syoboi.jp/tid/7613 https://bgm.tv/subject/408897"
+    },
+    {
+      "bgm_id": 13603,
+      "syoboi_tid": 7620,
+      "syoboi_title": "羅小黒戦記",
+      "evidence": "日版 2025 年 13 集把原版 WEB 第 1 至 40 集重新编排。此 Bangumi 条目覆盖原版第 1 至 28 集。https://luoxiaohei-movie.com/tv/episode/ https://luoxiaohei-movie.com/tv/bddvd/01.html https://cal.syoboi.jp/tid/7620 https://bgm.tv/subject/13603"
+    },
+    {
+      "bgm_id": 294880,
+      "syoboi_tid": 7620,
+      "syoboi_title": "羅小黒戦記",
+      "evidence": "同一日本 TID 也收录原版第 29 至 40 集，对应 Bangumi 众生之门篇。https://luoxiaohei-movie.com/tv/episode/ https://luoxiaohei-movie.com/tv/bddvd/04.html https://cal.syoboi.jp/tid/7620 https://bgm.tv/subject/294880"
+    },
+    {
+      "bgm_id": 247977,
+      "syoboi_tid": 7630,
+      "syoboi_title": "不死身な僕の日常",
+      "evidence": "日本发行方列出作品原名和第一季 15 集。https://chinaentame.com/hujiboku/ https://cal.syoboi.jp/tid/7630 https://bgm.tv/subject/247977"
+    },
+    {
+      "bgm_id": 221021,
+      "syoboi_tid": 7631,
+      "syoboi_title": "シンデレラ・シェフ ～萌妻食神～",
+      "evidence": "日本发行方的シンデレラシェフ明确列出原名萌妻食神及第一季分集。https://chinaentame.com/cinderella_chef/ https://cal.syoboi.jp/tid/7631 https://bgm.tv/subject/221021"
+    },
+    {
       "bgm_id": 545695,
       "syoboi_tid": 7634,
       "syoboi_title": "ぷちきゅあ シーズン2",
       "evidence": "东映确认 2025-10-09 第二季开始，Bangumi 在同一条目从第 28 集接续。https://www.toei-anim.co.jp/petitcure/news/2025100204.php https://bgm.tv/subject/545695/ep"
     },
     {
+      "bgm_id": 474905,
+      "syoboi_tid": 7642,
+      "syoboi_title": "あたしンちNEXT(6話～10話)",
+      "evidence": "复播档期对应原 Bangumi 条目的第 6 至 10 集。 https://cal.syoboi.jp/tid/7642/time https://bgm.tv/subject/474905/ep"
+    },
+    {
+      "bgm_id": 352153,
+      "syoboi_tid": 7709,
+      "syoboi_title": "シンデレラ・シェフ ～萌妻食神～ シーズン2",
+      "evidence": "日本发行方分季列出第二季，对应中国原版再结良缘。https://chinaentame.com/cinderella_chef/ https://cal.syoboi.jp/tid/7709 https://bgm.tv/subject/352153"
+    },
+    {
+      "bgm_id": 320218,
+      "syoboi_tid": 7727,
+      "syoboi_title": "不死身な僕の日常 シーズン2",
+      "evidence": "日本发行方分季列出第二季的家庭访问等分集，对应中国原版第二季。https://chinaentame.com/hujiboku/ https://cal.syoboi.jp/tid/7727 https://bgm.tv/subject/320218"
+    },
+    {
+      "bgm_id": 456165,
+      "syoboi_tid": 7735,
+      "syoboi_title": "時光代理人 -LINK CLICK- 英都篇",
+      "evidence": "日本制作方与 Bangumi 均使用英都篇，播出重新分集。https://link-click.jp/ https://cal.syoboi.jp/tid/7735 https://bgm.tv/subject/456165"
+    },
+    {
+      "bgm_id": 358735,
+      "syoboi_tid": 7807,
+      "syoboi_title": "シンデレラ・シェフ ～萌妻食神～ シーズン3",
+      "evidence": "日本发行方分季列出第三季，对应中国原版欢喜追婚。https://chinaentame.com/cinderella_chef/ https://cal.syoboi.jp/tid/7807 https://bgm.tv/subject/358735"
+    },
+    {
       "bgm_id": 545695,
       "syoboi_tid": 7817,
       "syoboi_title": "ぷちきゅあ シーズン3",
       "evidence": "东映公告第三季开播，Bangumi 在同一条目从 2026-03-26 第 51 集接续。https://www.toei-anim.co.jp/petitcure/news/2026031907.php https://bgm.tv/subject/545695/ep"
+    },
+    {
+      "bgm_id": 358742,
+      "syoboi_tid": 7835,
+      "syoboi_title": "不死身な僕の日常 シーズン3",
+      "evidence": "日本发行方第三季对应九宫良子转入六十门篇。https://chinaentame.com/hujiboku/ https://cal.syoboi.jp/tid/7835 https://bgm.tv/subject/358742"
+    },
+    {
+      "bgm_id": 405214,
+      "syoboi_tid": 7952,
+      "syoboi_title": "不死身な僕の日常 シーズン4",
+      "evidence": "日本发行方列出 2026 年 7 月的新档期及剑圣出场篇，对应中国原版第四季。https://chinaentame.com/hujiboku/ https://cal.syoboi.jp/tid/7952 https://bgm.tv/subject/405214"
     },
     {
       "bgm_id": 625799,
