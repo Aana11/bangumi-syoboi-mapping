@@ -4754,34 +4754,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3585,
-    "category": 10,
-    "first_year": 2014,
-    "first_month": 11,
-    "reason": "cast_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      99889,
-      146408
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 99889,
-        "matched_credits": 3
-      },
-      {
-        "bgm_id": 146408,
-        "matched_credits": 2
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 99889,
-        "title_similarity": 89
-      }
-    ]
-  },
-  {
     "syoboi_tid": 3594,
     "category": 7,
     "first_year": 2014,
@@ -4970,34 +4942,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3693,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 3,
-    "reason": "cast_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      99889,
-      146408
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 99889,
-        "matched_credits": 3
-      },
-      {
-        "bgm_id": 146408,
-        "matched_credits": 3
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 99889,
-        "title_similarity": 88
-      }
-    ]
   },
   {
     "syoboi_tid": 3709,

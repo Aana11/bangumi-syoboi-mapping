@@ -13,7 +13,7 @@
   },
   "bangumi_anime": {
     "total": 31312,
-    "matched": 5997
+    "matched": 6004
   },
   "syoboi_by_category": {
     "1": 150,
@@ -28,8 +28,8 @@
   },
   "syoboi_anime": {
     "total": 5817,
-    "matched": 5442,
-    "unmatched": 375
+    "matched": 5444,
+    "unmatched": 373
   },
   "syoboi_mixed_movies": {
     "total": 984,
@@ -38,9 +38,9 @@
     "verified_live_action": 62,
     "review_pending": 355
   },
-  "mapped_pairs": 6020,
+  "mapped_pairs": 6029,
   "match_methods": {
-    "manual": 103,
+    "manual": 115,
     "exact": 3955,
     "normalized": 498,
     "title_and_air_month": 363,
@@ -48,14 +48,14 @@
     "official_site": 295,
     "month_boundary": 22,
     "episode_sequence": 163,
-    "programme_page": 18,
-    "cast_and_work": 43,
+    "programme_page": 17,
+    "cast_and_work": 41,
     "unique_original_and_date": 13,
     "film_title_and_date": 385
   },
   "unmatched_reasons": {
     "ambiguous_or_reserved": 5,
-    "cast_review": 35,
+    "cast_review": 33,
     "episode_review": 12,
     "live_action_confirmed": 62,
     "missing_premiere_month": 27,
@@ -317,13 +317,13 @@
     },
     "2014": {
       "total": 231,
-      "matched": 217,
-      "unmatched": 14
+      "matched": 218,
+      "unmatched": 13
     },
     "2015": {
       "total": 230,
-      "matched": 211,
-      "unmatched": 19
+      "matched": 212,
+      "unmatched": 18
     },
     "2016": {
       "total": 259,
