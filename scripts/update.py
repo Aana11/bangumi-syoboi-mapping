@@ -8,8 +8,10 @@ from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
+from itertools import chain
 from pathlib import Path
 
+from episode_evidence import compare_episodes
 from matching_evidence import METHODS, MOVIE_CATEGORY, additional_pairs, normalize
 from sources import SYOBOI_CATEGORIES, read_bangumi, read_syoboi
 
@@ -91,7 +93,16 @@ def match_titles(syoboi, bangumi, overrides):
                 taken_tids.add(tid)
                 taken_bgm.add(bgm_id)
 
-    for method, pairs in additional_pairs(syoboi, bangumi):
+    episode_proofs = compare_episodes({
+        tid: item for tid, item in candidates.items()
+        if tid not in taken_tids and item.category in SYOBOI_CATEGORIES
+    }, bangumi)
+    episode_pairs = {
+        (tid, proof.bgm_id) for tid, proofs in episode_proofs.items()
+        for proof in proofs if proof.confirmed
+    }
+    evidence_batches = chain(additional_pairs(syoboi, bangumi), (("episode_sequence", episode_pairs),))
+    for method, pairs in evidence_batches:
         choices = defaultdict(set)
         users = defaultdict(set)
         for tid, bgm_id in pairs:
@@ -112,6 +123,7 @@ def match_titles(syoboi, bangumi, overrides):
     for tid in sorted(candidates.keys() - taken_tids):
         item = candidates[tid]
         ids = review[tid]
+        proofs = episode_proofs.get(tid, [])
         if item.category == MOVIE_CATEGORY:
             reason = "movie_review"
         elif not item.premiere:
@@ -120,12 +132,14 @@ def match_titles(syoboi, bangumi, overrides):
             reason = "blocked"
         elif ids:
             reason = "ambiguous_or_reserved"
+        elif proofs:
+            reason = "episode_review"
         elif ids := title_ids.get(normalize(item.title)):
             reason = "premiere_month_mismatch_or_missing"
         else:
             reason = "no_title_match"
-        ids = ids or title_ids.get(normalize(item.title), set())
-        unmatched.append({
+        ids = (ids or title_ids.get(normalize(item.title), set())) | {proof.bgm_id for proof in proofs}
+        row = {
             "syoboi_tid": tid,
             "category": item.category,
             "first_year": item.year or None,
@@ -133,7 +147,14 @@ def match_titles(syoboi, bangumi, overrides):
             "reason": reason,
             "candidate_bgm_count": len(ids),
             "candidate_bgm_ids": sorted(ids)[:12],
-        })
+        }
+        if proofs:
+            row["episode_candidates"] = [
+                {"bgm_id": proof.bgm_id, "matched_episodes": proof.matches,
+                 "compared_episodes": proof.compared, "episode_number_offset": proof.offset}
+                for proof in proofs[:5]
+            ]
+        unmatched.append(row)
     return methods, unmatched
 
 

@@ -1,16 +1,100 @@
 {
   "mappings": [
     {
+      "bgm_id": 376739,
+      "syoboi_tid": 6635,
+      "syoboi_title": "進撃の巨人 The Final Season 完結編",
+      "evidence": "同一 Syoboi TID 的第 1 项是完结篇前篇。制作委员会确认前后篇分开播出，Bangumi 分开建条目。https://cal.syoboi.jp/tid/6635/time https://shingeki.tv/news/archives/7614 https://bgm.tv/subject/376739"
+    },
+    {
+      "bgm_id": 415779,
+      "syoboi_tid": 6635,
+      "syoboi_title": "進撃の巨人 The Final Season 完結編",
+      "evidence": "同一 Syoboi TID 的第 2 项是完结篇后篇，2023 年 11 月放送。https://cal.syoboi.jp/tid/6635/time https://shingeki.tv/news/archives/7877 https://bgm.tv/subject/415779"
+    },
+    {
+      "bgm_id": 346982,
+      "syoboi_tid": 6706,
+      "syoboi_title": "終末のワルキューレII",
+      "evidence": "Syoboi 第 1 至 10 集对应 Bangumi 前编，节目 TID 继续收录后编。https://cal.syoboi.jp/tid/6706/subtitle https://ragnarok-official.com/2nd/ https://bgm.tv/subject/346982/ep"
+    },
+    {
+      "bgm_id": 425937,
+      "syoboi_tid": 6706,
+      "syoboi_title": "終末のワルキューレII",
+      "evidence": "Syoboi 同一 TID 的第 11 至 15 集对应 Bangumi 后编。https://cal.syoboi.jp/tid/6706/subtitle https://ragnarok-official.com/2nd/ https://bgm.tv/subject/425937/ep"
+    },
+    {
       "bgm_id": 418599,
       "syoboi_tid": 6862,
       "syoboi_title": "BEYBLADE X",
       "evidence": "原始番组与新章使用同一 Bangumi 条目。原条目 https://bgm.tv/subject/418599 和制作方节目页 https://beyblade.takaratomy.co.jp/anime/"
     },
     {
+      "bgm_id": 394996,
+      "syoboi_tid": 7133,
+      "syoboi_title": "神之塔 -Tower of God- 王子の帰還",
+      "evidence": "制作方将王子归来与工房战列为第 2 季的两篇，Bangumi 同一条目收录全部 26 集。此 TID 对应第 1 至 13 集。https://tog-anime.com/news/index00560000.html https://bgm.tv/subject/394996/ep"
+    },
+    {
+      "bgm_id": 476969,
+      "syoboi_tid": 7232,
+      "syoboi_title": "殿と犬～わんわん！～",
+      "evidence": "制作方列为同一动画的大塚明夫配音版，四个 Syoboi TID 的正片集数与标题对应同一 Bangumi 条目。https://tonotoinu.com/news/24 https://bgm.tv/subject/476969"
+    },
+    {
+      "bgm_id": 476969,
+      "syoboi_tid": 7233,
+      "syoboi_title": "殿と犬～ぽてぽて！～",
+      "evidence": "制作方列为同一动画的杉田智和配音版，正片对应同一 Bangumi 条目。https://tonotoinu.com/news/24 https://bgm.tv/subject/476969"
+    },
+    {
+      "bgm_id": 476969,
+      "syoboi_tid": 7234,
+      "syoboi_title": "殿と犬～くんくん！～",
+      "evidence": "制作方列为同一动画的武内骏辅配音版，正片对应同一 Bangumi 条目。https://tonotoinu.com/news/24 https://bgm.tv/subject/476969"
+    },
+    {
+      "bgm_id": 476969,
+      "syoboi_tid": 7235,
+      "syoboi_title": "殿と犬～もふもふ！～",
+      "evidence": "制作方列为同一动画的相叶雅纪配音版，正片对应同一 Bangumi 条目。https://tonotoinu.com/news/24 https://bgm.tv/subject/476969"
+    },
+    {
+      "bgm_id": 425998,
+      "syoboi_tid": 7236,
+      "syoboi_title": "Re:ゼロから始める異世界生活 3rd season",
+      "evidence": "同一 Syoboi TID 收录第 3 季第 51 至 66 集。Bangumi 以袭击篇单独收录前 8 集。https://cal.syoboi.jp/tid/7236/subtitle https://re-zero-anime.jp/tv/onair/tv3.html https://bgm.tv/subject/425998/ep"
+    },
+    {
+      "bgm_id": 510728,
+      "syoboi_tid": 7236,
+      "syoboi_title": "Re:ゼロから始める異世界生活 3rd season",
+      "evidence": "同一 Syoboi TID 也收录第 3 季第 59 至 66 集，Bangumi 以反击篇单独收录这 8 集。https://cal.syoboi.jp/tid/7236/subtitle https://re-zero-anime.jp/tv/onair/tv3.html https://bgm.tv/subject/510728/ep"
+    },
+    {
+      "bgm_id": 394996,
+      "syoboi_tid": 7250,
+      "syoboi_title": "神之塔 -Tower of God- 工房戦",
+      "evidence": "制作方将工房战列为第 2 季的后篇，Bangumi 以同一条目收录。此 TID 对应第 14 至 26 集。https://tog-anime.com/news/index00560000.html https://bgm.tv/subject/394996/ep"
+    },
+    {
       "bgm_id": 545695,
       "syoboi_tid": 7421,
       "syoboi_title": "ぷちきゅあ",
       "evidence": "东映短动画第一季，对应 Bangumi 章节第 1 集起。https://bgm.tv/subject/545695/ep https://www.toei-anim.co.jp/petitcure/"
+    },
+    {
+      "bgm_id": 559674,
+      "syoboi_tid": 7539,
+      "syoboi_title": "学校では教えてくれない大切なこと",
+      "evidence": "Syoboi 同一节目从第 1 集编排，前 9 集与 Bangumi 整理整顿篇的分集标题及编号逐集一致。https://cal.syoboi.jp/tid/7539/subtitle https://bgm.tv/subject/559674/ep"
+    },
+    {
+      "bgm_id": 576265,
+      "syoboi_tid": 7539,
+      "syoboi_title": "学校では教えてくれない大切なこと",
+      "evidence": "Syoboi 同一节目第 10 至 25 集对应 Bangumi 时间使用篇，16 集的分集标题与编号一致。https://cal.syoboi.jp/tid/7539/subtitle https://bgm.tv/subject/576265/ep"
     },
     {
       "bgm_id": 545695,

@@ -46,9 +46,9 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          path: .cache/syoboi-v2.json
-          key: syoboi-v2-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: syoboi-v2-
+          path: .cache/syoboi-v3.json
+          key: syoboi-v3-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: syoboi-v3-
       - run: python scripts/update.py
       - name: Commit a changed snapshot
         run: |

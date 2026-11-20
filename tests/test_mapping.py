@@ -2,6 +2,7 @@ import json
 import sys
 import tempfile
 import unittest
+from dataclasses import replace
 from datetime import date
 from pathlib import Path
 from unittest.mock import patch
@@ -68,6 +69,10 @@ class MappingTests(unittest.TestCase):
         self.assertNotEqual(edition_key("星の旅 四季"), edition_key("星の旅 第4季"))
         self.assertNotEqual(edition_key("星の旅 2"), edition_key("星の旅"))
         self.assertNotEqual(edition_key("7-11"), edition_key("711"))
+        self.assertEqual(edition_key("空の旅 2ndシーズン"), edition_key("空の旅 第2シリーズ"))
+        self.assertEqual(edition_key("空の旅 Part.2"), edition_key("空の旅 パート2"))
+        self.assertNotEqual(edition_key("空の旅 Part 2"), edition_key("空の旅 第2期"))
+        self.assertEqual(edition_key("塔の冒険～迷宮篇～"), edition_key("塔の冒険〜迷宮編〜"))
 
     def test_edition_alias_and_declared_broadcast_month(self):
         syoboi = [syo(1, "星の旅(第二期)第2クール"), syo(2, "天空の城")]
@@ -117,6 +122,44 @@ class MappingTests(unittest.TestCase):
         self.assertEqual(match(syoboi, [near])[0], {(1, 10): "month_boundary"})
         self.assertFalse(match(syoboi, [far])[0])
         self.assertFalse(match(syoboi, [near, bgm(20, near.title, "2000-10")])[0])
+
+    def test_episode_sequences_allow_a_consistent_number_offset(self):
+        chapters = ("山奥に眠る王宮", "追憶の港へ向かう舟", "白い狼の遠吠え")
+        syoboi = replace(syo(1, "日本語のシリーズ名"), episodes=tuple(enumerate(chapters, 12)))
+        bangumi = replace(
+            bgm(10, "Series name", "2026-09"), aliases=("日本語のシリーズ名",),
+            episodes=tuple(enumerate(chapters, 1)),
+        )
+        matches, unmatched = match([syoboi], [bangumi])
+        self.assertEqual(matches, {(1, 10): "episode_sequence"})
+        self.assertFalse(unmatched)
+
+    def test_episode_sequences_keep_conflicting_editions_and_duplicates_for_review(self):
+        episodes = ((1, "眠りの王宮"), (2, "北の海を渡る舟"), (3, "狼の遠吠え"))
+        original = replace(syo(1, "星の旅 第2期"), episodes=episodes)
+        season3 = replace(bgm(10, "星の旅 第3期"), episodes=episodes)
+        methods, unmatched = match([original], [season3])
+        self.assertFalse(methods)
+        self.assertEqual(unmatched[0]["episode_candidates"][0]["matched_episodes"], 3)
+        first = replace(season3, title="星の旅 Season 2")
+        second = replace(season3, id=20, title="星の旅 (第2期)")
+        self.assertFalse(match([original], [first, second])[0])
+
+    def test_copied_episode_titles_do_not_establish_work_identity(self):
+        episodes = tuple(enumerate(
+            ("眠りの王宮", "北の海を渡る舟", "狼の遠吠え", "消えたカラスの秘密"), 1
+        ))
+        syo_item = replace(syo(1, "紅い旅"), episodes=episodes)
+        another = replace(bgm(10, "月の見える庭園"), episodes=episodes)
+        methods, unmatched = match([syo_item], [another])
+        self.assertFalse(methods)
+        self.assertEqual(unmatched[0]["episode_candidates"][0]["matched_episodes"], 4)
+
+    def test_episode_titles_with_incompatible_numbering_are_insufficient(self):
+        chapters = ((1, "眠りの王宮"), (2, "北の海を渡る舟"), (3, "狼の遠吠え"))
+        syoboi = replace(syo(1, "日本語のシリーズ名"), episodes=chapters)
+        bangumi = replace(bgm(10, "Series name"), episodes=tuple((i * 3, title) for i, title in chapters))
+        self.assertFalse(match([syoboi], [bangumi])[0])
 
     def test_movie_review_and_manual_split(self):
         choices = [
@@ -216,6 +259,9 @@ class SourceTests(unittest.TestCase):
         xml = f"""<TitleLookupResponse><Result><Code>200</Code></Result><TitleItems>
         <TitleItem id="1"><TID>1</TID><Title>Title</Title><LastUpdate>{STAMP}</LastUpdate>
         <FirstYear/><FirstMonth/><Cat>8</Cat><TitleEN>Title EN</TitleEN>
+        <SubTitles>*001*眠りの王宮
+*0*Ignored
+*2*北の海を渡る舟</SubTitles>
         <Comment>-[[公式（作品） https://www.example.org/Film/index.html]]
         -[[公式（動画） https://www.youtube.com/@sharedchannel]]
         -[[X https://x.com/film]]</Comment></TitleItem></TitleItems></TitleLookupResponse>"""
@@ -224,6 +270,7 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(result[1].category, 8)
         self.assertEqual(result[1].websites, ("example.org/Film",))
         self.assertEqual(result[1].english_title, "Title EN")
+        self.assertEqual(result[1].episodes, ((1, "眠りの王宮"), (2, "北の海を渡る舟")))
         with self.assertRaisesRegex(ValueError, "403"):
             parse_syoboi(xml.replace("200", "403"), with_details=True)
 

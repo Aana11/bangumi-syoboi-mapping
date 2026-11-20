@@ -11,19 +11,21 @@ from sources import BANGUMI_MOVIE_PLATFORM, SYOBOI_CATEGORIES
 MOVIE_CATEGORY = 8
 METHODS = (
     "manual", "exact", "normalized", "title_and_air_month", "alias_and_month",
-    "official_site", "month_boundary",
+    "official_site", "month_boundary", "episode_sequence",
 )
 FORMATTING_MARKS = frozenset("・「」『』【】《》〈〉")
-TITLE_SEPARATORS = frozenset("()[]:~") | FORMATTING_MARKS
+TITLE_SEPARATORS = frozenset("()[]:~〜") | FORMATTING_MARKS
 NUMERAL = r"[0-9]{1,2}|[一二三四五六七八九十]{1,3}"
 EDITION_RULES = (
     ("season", re.compile(rf"第\s*({NUMERAL})\s*(?:期|季)(?!刊|末|初)")),
     ("season", re.compile(r"(?<![0-9])([0-9]{1,2})\s*(?:期|季)(?!刊|末|初)")),
-    ("season", re.compile(rf"(?:シーズン|season)\s*({NUMERAL})(?![0-9])")),
-    ("season", re.compile(r"([0-9]{1,2})(?:st|nd|rd|th)\s+season\b")),
+    ("season", re.compile(rf"第\s*({NUMERAL})\s*(?:シーズン|シリーズ)")),
+    ("season", re.compile(rf"(?:シーズン|(?<![a-z])season)\s*({NUMERAL})(?![0-9])")),
+    ("season", re.compile(r"([0-9]{1,2})(?:st|nd|rd|th)\s*(?:season\b|シーズン)")),
     ("season", re.compile(r"\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth)\s+season\b")),
-    ("cour", re.compile(rf"(?<![0-9])(?:第\s*)?({NUMERAL})\s*クール")),
+    ("cour", re.compile(rf"(?<![0-9])(?:第\s*)?({NUMERAL})(?:st|nd|rd|th)?\s*クール(?:目)?")),
     ("cour", re.compile(r"cour\s*([0-9]{1,2})(?![0-9])")),
+    ("part", re.compile(r"(?:(?<![a-z])part|パート)\s*\.?\s*([0-9]{1,2})(?![0-9])")),
 )
 ORDINALS = ("first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth")
 
@@ -63,6 +65,8 @@ def edition_key(title):
     text = re.sub(r"(?<![0-9])[-‐‑‒–—―](?![0-9])", "", text)
     # Retain title words, subtitles, all remaining numbers and meaningful symbols.
     text = "".join(char for char in text if not char.isspace() and char not in TITLE_SEPARATORS)
+    if text.endswith("篇"):
+        text = text[:-1] + "編"
     return text, tuple(sorted(editions))
 
 
@@ -116,12 +120,15 @@ def official_pairs(syoboi, bangumi, syo_titles, bgm_titles, months):
             for bgm_id in ids:
                 bgm = bangumi[bgm_id]
                 same_month = syo.premiere in months[bgm_id]
-                same_title = bool(syo_titles[tid] & bgm_titles[bgm_id])
+                common_titles = syo_titles[tid] & bgm_titles[bgm_id]
+                same_title = bool(common_titles)
                 if syo.category == MOVIE_CATEGORY:
                     if bgm.platform == BANGUMI_MOVIE_PLATFORM and same_month and same_title and distinct_page:
                         yield tid, bgm_id
                 elif syo.category in SYOBOI_CATEGORIES:
-                    if same_title and (same_month or (distinct_page and dates_support(syo, bgm, months[bgm_id]))):
+                    if same_title and (same_month or (distinct_page and (
+                        dates_support(syo, bgm, months[bgm_id]) or any(len(key[0]) >= 5 for key in common_titles)
+                    ))):
                         yield tid, bgm_id
                     elif same_month and year_edition_matches(syo, bgm):
                         yield tid, bgm_id
@@ -131,13 +138,14 @@ def official_pairs(syoboi, bangumi, syo_titles, bgm_titles, months):
 
 def year_edition_matches(syo, bgm):
     title = unicodedata.normalize("NFKC", syo.title).strip()
-    suffix = f"({syo.year:04d})"
-    if not title.endswith(suffix):
+    marker = re.search(r"\(([12][0-9]{3})\)", title)
+    if not marker or int(marker[1]) > syo.year:
         return False
-    base, syo_version = edition_key(title.removesuffix(suffix))
+    base, syo_version = edition_key(title[:marker.start()] + title[marker.end():])
     bgm_base, bgm_version = edition_key(bgm.title)
-    return len(base) >= 3 and base == bgm_base and not syo_version and all(
-        kind == "season" for kind, _ in bgm_version
+    return len(base) >= 3 and base == bgm_base and (
+        bool(syo_version) and syo_version == bgm_version
+        or int(marker[1]) == syo.year and not syo_version and all(kind == "season" for kind, _ in bgm_version)
     )
 
 
@@ -171,7 +179,8 @@ def additional_pairs(syoboi, bangumi):
     bgm_aliases = {
         bgm_id: bgm_main[bgm_id] | {
             key for key in title_keys(item.aliases)
-            if not bgm_main[bgm_id] or key[1] == edition_key(item.title)[1]
+            if not any(main[1] for main in bgm_main[bgm_id])
+            or any(key[1] == main[1] for main in bgm_main[bgm_id])
         }
         for bgm_id, item in bangumi.items()
     }

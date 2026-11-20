@@ -13,18 +13,38 @@
     "category": 10,
     "first_year": 2002,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      89727
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 89727,
+        "matched_episodes": 26,
+        "compared_episodes": 26,
+        "episode_number_offset": 26
+      }
+    ]
   },
   {
     "syoboi_tid": 38,
     "category": 10,
     "first_year": 2003,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      89727
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 89727,
+        "matched_episodes": 25,
+        "compared_episodes": 26,
+        "episode_number_offset": 52
+      }
+    ]
   },
   {
     "syoboi_tid": 39,
@@ -58,18 +78,19 @@
     "category": 10,
     "first_year": 2003,
     "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 88,
-    "category": 10,
-    "first_year": 2003,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      15177
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 15177,
+        "matched_episodes": 5,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 93,
@@ -90,47 +111,11 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 107,
-    "category": 7,
-    "first_year": 1988,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 137,
     "category": 10,
     "first_year": 2000,
     "first_month": null,
     "reason": "missing_premiere_month",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 184,
-    "category": 10,
-    "first_year": 2002,
-    "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 194,
-    "category": 10,
-    "first_year": 2001,
-    "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 199,
-    "category": 10,
-    "first_year": 2001,
-    "first_month": 10,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -191,40 +176,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 278,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 296,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 298,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 302,
     "category": 10,
     "first_year": 2004,
     "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      4185
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 4185,
+        "matched_episodes": 13,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 309,
@@ -265,15 +233,6 @@
     ]
   },
   {
-    "syoboi_tid": 329,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 336,
     "category": 8,
     "first_year": 2004,
@@ -296,45 +255,26 @@
     ]
   },
   {
-    "syoboi_tid": 352,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 3,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      16190
-    ]
-  },
-  {
     "syoboi_tid": 360,
     "category": 10,
     "first_year": 2004,
     "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3305
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 3305,
+        "matched_episodes": 6,
+        "compared_episodes": 6,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 374,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 377,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 380,
     "category": 10,
     "first_year": 2004,
     "first_month": 3,
@@ -361,15 +301,6 @@
     "candidate_bgm_ids": [
       98284
     ]
-  },
-  {
-    "syoboi_tid": 403,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 411,
@@ -405,9 +336,19 @@
     "category": 10,
     "first_year": 2000,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      12783
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 12783,
+        "matched_episodes": 22,
+        "compared_episodes": 26,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 423,
@@ -437,15 +378,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 435,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 439,
     "category": 10,
     "first_year": 2004,
@@ -466,26 +398,6 @@
     ]
   },
   {
-    "syoboi_tid": 451,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 452,
-    "category": 7,
-    "first_year": 2005,
-    "first_month": 1,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      1529
-    ]
-  },
-  {
     "syoboi_tid": 455,
     "category": 1,
     "first_year": 1993,
@@ -493,17 +405,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 462,
-    "category": 7,
-    "first_year": 1999,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      822
-    ]
   },
   {
     "syoboi_tid": 464,
@@ -537,15 +438,6 @@
     ]
   },
   {
-    "syoboi_tid": 471,
-    "category": 7,
-    "first_year": 2004,
-    "first_month": 5,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 472,
     "category": 8,
     "first_year": 1997,
@@ -559,9 +451,19 @@
     "category": 10,
     "first_year": 2004,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      928
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 928,
+        "matched_episodes": 10,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 481,
@@ -579,9 +481,19 @@
     "category": 10,
     "first_year": 2004,
     "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      52764
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 52764,
+        "matched_episodes": 11,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 493,
@@ -633,42 +545,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 510,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 511,
-    "category": 7,
-    "first_year": 2004,
-    "first_month": 10,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      768
-    ]
-  },
-  {
-    "syoboi_tid": 515,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 524,
     "category": 10,
     "first_year": 2004,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      5232
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 5232,
+        "matched_episodes": 46,
+        "compared_episodes": 51,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 531,
@@ -698,15 +591,6 @@
     "candidate_bgm_ids": [
       4583
     ]
-  },
-  {
-    "syoboi_tid": 537,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 551,
@@ -820,26 +704,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 586,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 602,
-    "category": 7,
-    "first_year": 2005,
-    "first_month": 3,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      593
-    ]
-  },
-  {
     "syoboi_tid": 603,
     "category": 8,
     "first_year": 2004,
@@ -882,9 +746,19 @@
     "category": 1,
     "first_year": 2005,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      18692
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 18692,
+        "matched_episodes": 47,
+        "compared_episodes": 491,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 640,
@@ -895,17 +769,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       7258
-    ]
-  },
-  {
-    "syoboi_tid": 641,
-    "category": 7,
-    "first_year": 2002,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      11875
     ]
   },
   {
@@ -938,15 +801,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 657,
-    "category": 10,
-    "first_year": 1999,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 668,
     "category": 8,
     "first_year": 2004,
@@ -956,15 +810,6 @@
     "candidate_bgm_ids": [
       1707
     ]
-  },
-  {
-    "syoboi_tid": 669,
-    "category": 7,
-    "first_year": 2005,
-    "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 670,
@@ -989,39 +834,10 @@
     ]
   },
   {
-    "syoboi_tid": 677,
-    "category": 7,
-    "first_year": 2005,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      18613
-    ]
-  },
-  {
     "syoboi_tid": 679,
     "category": 10,
     "first_year": 2005,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 689,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 690,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 10,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -1065,15 +881,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 704,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 707,
     "category": 10,
     "first_year": 2005,
@@ -1084,15 +891,6 @@
       48086,
       53802
     ]
-  },
-  {
-    "syoboi_tid": 714,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 715,
@@ -1111,24 +909,6 @@
     "first_year": 2002,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 749,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 751,
-    "category": 10,
-    "first_year": 1986,
-    "first_month": 3,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -1160,22 +940,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 756,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 759,
     "category": 10,
     "first_year": 1985,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      9622
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 9622,
+        "matched_episodes": 42,
+        "compared_episodes": 47,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 761,
@@ -1276,15 +1057,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 786,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 788,
     "category": 8,
     "first_year": null,
@@ -1333,18 +1105,19 @@
     "category": 7,
     "first_year": 1986,
     "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 804,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      41734
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 41734,
+        "matched_episodes": 2,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 808,
@@ -1427,9 +1200,19 @@
     "category": 10,
     "first_year": 2006,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      486
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 486,
+        "matched_episodes": 46,
+        "compared_episodes": 47,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 846,
@@ -1521,15 +1304,6 @@
     ]
   },
   {
-    "syoboi_tid": 864,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 868,
     "category": 10,
     "first_year": 2006,
@@ -1575,15 +1349,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 882,
-    "category": 10,
-    "first_year": 2001,
-    "first_month": 5,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 889,
     "category": 8,
     "first_year": 2002,
@@ -1624,22 +1389,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 904,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 912,
     "category": 10,
     "first_year": 2006,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      35848
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 35848,
+        "matched_episodes": 12,
+        "compared_episodes": 22,
+        "episode_number_offset": 1
+      }
+    ]
   },
   {
     "syoboi_tid": 914,
@@ -1655,9 +1421,19 @@
     "category": 10,
     "first_year": 2000,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      40380
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 40380,
+        "matched_episodes": 29,
+        "compared_episodes": 50,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 922,
@@ -1689,15 +1465,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 936,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 947,
     "category": 7,
     "first_year": 2005,
@@ -1716,37 +1483,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 965,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 969,
-    "category": 7,
-    "first_year": 2006,
-    "first_month": 7,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      73259
-    ]
-  },
-  {
-    "syoboi_tid": 970,
-    "category": 7,
-    "first_year": 2006,
-    "first_month": 6,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      2695
-    ]
   },
   {
     "syoboi_tid": 973,
@@ -1769,15 +1505,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 977,
-    "category": 10,
-    "first_year": 1993,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 978,
     "category": 8,
     "first_year": 2005,
@@ -1796,17 +1523,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 980,
-    "category": 7,
-    "first_year": 1988,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      2907
-    ]
   },
   {
     "syoboi_tid": 992,
@@ -1874,15 +1590,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1012,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1015,
     "category": 8,
     "first_year": 1997,
@@ -1922,6 +1629,14 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       4406
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 4406,
+        "matched_episodes": 8,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -1930,35 +1645,6 @@
     "first_year": 2000,
     "first_month": null,
     "reason": "missing_premiere_month",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1035,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1039,
-    "category": 10,
-    "first_year": 1996,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      504524
-    ]
-  },
-  {
-    "syoboi_tid": 1042,
-    "category": 10,
-    "first_year": 2006,
-    "first_month": 10,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -2001,15 +1687,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1060,
-    "category": 10,
-    "first_year": 1983,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1063,
     "category": 7,
     "first_year": 2004,
@@ -2023,10 +1700,18 @@
     "category": 7,
     "first_year": 2005,
     "first_month": 5,
-    "reason": "premiere_month_mismatch_or_missing",
+    "reason": "episode_review",
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       3284
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 3284,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -2034,27 +1719,19 @@
     "category": 10,
     "first_year": 1971,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1078,
-    "category": 10,
-    "first_year": 2002,
-    "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1079,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      24274
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 24274,
+        "matched_episodes": 22,
+        "compared_episodes": 23,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1081,
@@ -2082,15 +1759,6 @@
     "first_year": 2005,
     "first_month": null,
     "reason": "missing_premiere_month",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1097,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 2,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -2142,15 +1810,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1116,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1121,
     "category": 8,
     "first_year": 2006,
@@ -2171,15 +1830,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1144,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1147,
     "category": 8,
     "first_year": 2004,
@@ -2196,15 +1846,6 @@
     "first_year": 2006,
     "first_month": 5,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1149,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 4,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -2267,15 +1908,6 @@
     ]
   },
   {
-    "syoboi_tid": 1185,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1186,
     "category": 7,
     "first_year": 2001,
@@ -2285,15 +1917,6 @@
     "candidate_bgm_ids": [
       68021
     ]
-  },
-  {
-    "syoboi_tid": 1190,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1197,
@@ -2352,15 +1975,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1216,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1219,
     "category": 8,
     "first_year": 2005,
@@ -2381,15 +1995,6 @@
     "candidate_bgm_ids": [
       37264
     ]
-  },
-  {
-    "syoboi_tid": 1232,
-    "category": 10,
-    "first_year": 2007,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1235,
@@ -2462,6 +2067,14 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       3175
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 3175,
+        "matched_episodes": 2,
+        "compared_episodes": 4,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -2469,22 +2082,18 @@
     "category": 7,
     "first_year": 2007,
     "first_month": 12,
-    "reason": "premiere_month_mismatch_or_missing",
+    "reason": "episode_review",
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       1220
-    ]
-  },
-  {
-    "syoboi_tid": 1292,
-    "category": 10,
-    "first_year": 1999,
-    "first_month": 3,
-    "reason": "ambiguous_or_reserved",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      3128,
-      3133
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 1220,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 12
+      }
     ]
   },
   {
@@ -2507,43 +2116,15 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       2690
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 2690,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
     ]
-  },
-  {
-    "syoboi_tid": 1303,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1305,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1306,
-    "category": 7,
-    "first_year": 2006,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1312,
-    "category": 10,
-    "first_year": 1999,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1327,
@@ -2555,38 +2136,11 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1330,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1331,
     "category": 8,
     "first_year": 2006,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1336,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1340,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 4,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -2607,15 +2161,6 @@
     "first_year": 2004,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1382,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 4,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -2709,15 +2254,6 @@
     ]
   },
   {
-    "syoboi_tid": 1429,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1440,
     "category": 7,
     "first_year": 1987,
@@ -2726,6 +2262,14 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       33051
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 33051,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -2748,17 +2292,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       755
-    ]
-  },
-  {
-    "syoboi_tid": 1443,
-    "category": 7,
-    "first_year": 1988,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      3547
     ]
   },
   {
@@ -2793,24 +2326,6 @@
     ]
   },
   {
-    "syoboi_tid": 1462,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1463,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1476,
     "category": 8,
     "first_year": 2006,
@@ -2820,15 +2335,6 @@
     "candidate_bgm_ids": [
       2905
     ]
-  },
-  {
-    "syoboi_tid": 1478,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1494,
@@ -2893,9 +2399,19 @@
     "category": 7,
     "first_year": 2008,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      1396
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 1396,
+        "matched_episodes": 4,
+        "compared_episodes": 4,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1533,
@@ -2921,24 +2437,6 @@
   },
   {
     "syoboi_tid": 1539,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1541,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1550,
     "category": 10,
     "first_year": 2009,
     "first_month": 1,
@@ -2978,15 +2476,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1570,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1573,
     "category": 8,
     "first_year": 1991,
@@ -3014,15 +2503,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1580,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1582,
     "category": 8,
     "first_year": 1989,
@@ -3030,17 +2510,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1616,
-    "category": 10,
-    "first_year": 1981,
-    "first_month": 7,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      24156
-    ]
   },
   {
     "syoboi_tid": 1620,
@@ -3056,15 +2525,6 @@
     "category": 10,
     "first_year": 2009,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1639,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 4,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -3097,15 +2557,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1666,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1672,
     "category": 8,
     "first_year": 2000,
@@ -3114,17 +2565,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       2084
-    ]
-  },
-  {
-    "syoboi_tid": 1684,
-    "category": 7,
-    "first_year": 2009,
-    "first_month": 7,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      1789
     ]
   },
   {
@@ -3203,9 +2643,19 @@
     "category": 10,
     "first_year": 2009,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2611
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 2611,
+        "matched_episodes": 15,
+        "compared_episodes": 26,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1732,
@@ -3242,15 +2692,6 @@
     "first_year": 2008,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1754,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 10,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -3368,15 +2809,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1781,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1783,
     "category": 8,
     "first_year": 2007,
@@ -3403,9 +2835,19 @@
     "category": 10,
     "first_year": 2009,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3069
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 3069,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1798,
@@ -3546,15 +2988,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1824,
-    "category": 7,
-    "first_year": 1995,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1825,
     "category": 8,
     "first_year": 1984,
@@ -3628,9 +3061,19 @@
     "category": 7,
     "first_year": 2006,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      20926
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 20926,
+        "matched_episodes": 12,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1842,
@@ -3698,15 +3141,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1857,
-    "category": 10,
-    "first_year": 1968,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1861,
     "category": 10,
     "first_year": 2006,
@@ -3747,15 +3181,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1866,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1868,
     "category": 7,
     "first_year": 2008,
@@ -3776,15 +3201,6 @@
     ]
   },
   {
-    "syoboi_tid": 1870,
-    "category": 7,
-    "first_year": 1999,
-    "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1875,
     "category": 8,
     "first_year": 2009,
@@ -3794,15 +3210,6 @@
     "candidate_bgm_ids": [
       4395
     ]
-  },
-  {
-    "syoboi_tid": 1876,
-    "category": 10,
-    "first_year": 1997,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1891,
@@ -3854,15 +3261,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1916,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1923,
     "category": 8,
     "first_year": 2002,
@@ -3903,22 +3301,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1964,
-    "category": 7,
-    "first_year": 2010,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1974,
     "category": 10,
     "first_year": 2001,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      532
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 532,
+        "matched_episodes": 21,
+        "compared_episodes": 24,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1975,
@@ -3959,15 +3358,6 @@
     ]
   },
   {
-    "syoboi_tid": 1990,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2001,
     "category": 8,
     "first_year": 2009,
@@ -3975,17 +3365,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2003,
-    "category": 7,
-    "first_year": 2010,
-    "first_month": 9,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      8452
-    ]
   },
   {
     "syoboi_tid": 2005,
@@ -4081,33 +3460,23 @@
     ]
   },
   {
-    "syoboi_tid": 2047,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2049,
-    "category": 7,
-    "first_year": 2004,
-    "first_month": 7,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      25920
-    ]
-  },
-  {
     "syoboi_tid": 2052,
     "category": 10,
     "first_year": 2010,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      8994
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 8994,
+        "matched_episodes": 2,
+        "compared_episodes": 2,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2064,
@@ -4142,8 +3511,10 @@
     "first_year": 2009,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      5087
+    ]
   },
   {
     "syoboi_tid": 2082,
@@ -4163,17 +3534,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       2462
-    ]
-  },
-  {
-    "syoboi_tid": 2095,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 2,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      6934
     ]
   },
   {
@@ -4224,37 +3584,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2152,
-    "category": 7,
-    "first_year": 1997,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      75515
-    ]
-  },
-  {
-    "syoboi_tid": 2155,
-    "category": 7,
-    "first_year": 2010,
-    "first_month": 12,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      11715
-    ]
-  },
-  {
-    "syoboi_tid": 2161,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2168,
     "category": 10,
     "first_year": 2011,
@@ -4279,9 +3608,19 @@
     "category": 10,
     "first_year": 2011,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      11834
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 11834,
+        "matched_episodes": 45,
+        "compared_episodes": 51,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2175,
@@ -4352,15 +3691,6 @@
     "category": 7,
     "first_year": 2010,
     "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2204,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 7,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -4499,53 +3829,6 @@
     "candidate_bgm_ids": [
       4421
     ]
-  },
-  {
-    "syoboi_tid": 2288,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2291,
-    "category": 10,
-    "first_year": 1996,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2295,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2298,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 10,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      209687
-    ]
-  },
-  {
-    "syoboi_tid": 2304,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 2310,
@@ -5060,17 +4343,6 @@
     ]
   },
   {
-    "syoboi_tid": 2448,
-    "category": 7,
-    "first_year": 2006,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      20234
-    ]
-  },
-  {
     "syoboi_tid": 2449,
     "category": 8,
     "first_year": 2011,
@@ -5137,9 +4409,19 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      10639
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 10639,
+        "matched_episodes": 11,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2501,
@@ -5215,15 +4497,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2536,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2537,
     "category": 8,
     "first_year": 1972,
@@ -5246,9 +4519,19 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      18513
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 18513,
+        "matched_episodes": 6,
+        "compared_episodes": 51,
+        "episode_number_offset": 92
+      }
+    ]
   },
   {
     "syoboi_tid": 2543,
@@ -5258,17 +4541,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2545,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      27334
-    ]
   },
   {
     "syoboi_tid": 2553,
@@ -5302,15 +4574,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2578,
-    "category": 10,
-    "first_year": 2001,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2579,
     "category": 8,
     "first_year": 2011,
@@ -5335,48 +4598,18 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2591,
-    "category": 7,
-    "first_year": 2012,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2594,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 7,
     "reason": "ambiguous_or_reserved",
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
-      37449
-    ]
-  },
-  {
-    "syoboi_tid": 2595,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2600,
-    "category": 10,
-    "first_year": 1981,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      23612
+      26987
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 26987,
+        "matched_episodes": 12,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -5440,8 +4673,10 @@
     "first_year": 2011,
     "first_month": 6,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      61955
+    ]
   },
   {
     "syoboi_tid": 2619,
@@ -5449,8 +4684,10 @@
     "first_year": 2011,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      61956
+    ]
   },
   {
     "syoboi_tid": 2622,
@@ -5524,15 +4761,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2634,
-    "category": 7,
-    "first_year": 2012,
-    "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2641,
     "category": 8,
     "first_year": 1988,
@@ -5553,15 +4781,6 @@
     ]
   },
   {
-    "syoboi_tid": 2643,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2645,
     "category": 8,
     "first_year": 2000,
@@ -5580,15 +4799,6 @@
     "candidate_bgm_ids": [
       38081
     ]
-  },
-  {
-    "syoboi_tid": 2648,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 2649,
@@ -5835,9 +5045,19 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      5436
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 5436,
+        "matched_episodes": 6,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2706,
@@ -5904,9 +5124,19 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      48670
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 48670,
+        "matched_episodes": 38,
+        "compared_episodes": 73,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2727,
@@ -5918,15 +5148,6 @@
     "candidate_bgm_ids": [
       112964
     ]
-  },
-  {
-    "syoboi_tid": 2741,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 2748,
@@ -5972,8 +5193,10 @@
     "first_year": 2009,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2504
+    ]
   },
   {
     "syoboi_tid": 2754,
@@ -5981,17 +5204,10 @@
     "first_year": 2011,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2755,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      12618
+    ]
   },
   {
     "syoboi_tid": 2759,
@@ -6007,9 +5223,33 @@
     "category": 10,
     "first_year": 2012,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      247,
+      11834,
+      47576
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 247,
+        "matched_episodes": 152,
+        "compared_episodes": 201,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 11834,
+        "matched_episodes": 45,
+        "compared_episodes": 51,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 47576,
+        "matched_episodes": 11,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2763,
@@ -6041,24 +5281,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2773,
-    "category": 10,
-    "first_year": 2008,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2774,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2775,
     "category": 8,
     "first_year": 2005,
@@ -6067,17 +5289,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       4396
-    ]
-  },
-  {
-    "syoboi_tid": 2776,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 10,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      48289
     ]
   },
   {
@@ -6101,15 +5312,6 @@
     "candidate_bgm_ids": [
       772
     ]
-  },
-  {
-    "syoboi_tid": 2787,
-    "category": 10,
-    "first_year": 2005,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 2790,
@@ -6241,17 +5443,6 @@
     ]
   },
   {
-    "syoboi_tid": 2812,
-    "category": 7,
-    "first_year": 1994,
-    "first_month": null,
-    "reason": "missing_premiere_month",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      66395
-    ]
-  },
-  {
     "syoboi_tid": 2822,
     "category": 8,
     "first_year": 2011,
@@ -6341,15 +5532,6 @@
     "first_year": 2004,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2848,
-    "category": 10,
-    "first_year": 2012,
-    "first_month": 12,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -6623,30 +5805,10 @@
     ]
   },
   {
-    "syoboi_tid": 2909,
-    "category": 10,
-    "first_year": 1975,
-    "first_month": 1,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      211288
-    ]
-  },
-  {
     "syoboi_tid": 2914,
     "category": 7,
     "first_year": 2012,
     "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2916,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 4,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -6748,9 +5910,19 @@
     "category": 10,
     "first_year": 2013,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      66405
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 66405,
+        "matched_episodes": 37,
+        "compared_episodes": 37,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 2974,
@@ -6863,15 +6035,6 @@
     "first_year": 2012,
     "first_month": 6,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3015,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 7,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -7023,40 +6186,23 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3142,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3177,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3179,
     "category": 10,
     "first_year": 2013,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3187,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      78799
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 78799,
+        "matched_episodes": 37,
+        "compared_episodes": 92,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 3194,
@@ -7119,15 +6265,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3215,
-    "category": 10,
-    "first_year": 1994,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3216,
     "category": 8,
     "first_year": 2012,
@@ -7159,22 +6296,15 @@
     ]
   },
   {
-    "syoboi_tid": 3222,
-    "category": 10,
-    "first_year": 2013,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3229,
     "category": 8,
     "first_year": 2013,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      43310
+    ]
   },
   {
     "syoboi_tid": 3237,
@@ -7235,15 +6365,6 @@
     "candidate_bgm_ids": [
       26013
     ]
-  },
-  {
-    "syoboi_tid": 3291,
-    "category": 10,
-    "first_year": 2014,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 3298,
@@ -7308,15 +6429,6 @@
     "category": 10,
     "first_year": 2014,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3353,
-    "category": 7,
-    "first_year": 2012,
-    "first_month": 3,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -7491,15 +6603,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3487,
-    "category": 10,
-    "first_year": 2014,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3491,
     "category": 8,
     "first_year": 2012,
@@ -7580,15 +6683,6 @@
     ]
   },
   {
-    "syoboi_tid": 3512,
-    "category": 10,
-    "first_year": 2014,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3513,
     "category": 8,
     "first_year": 2012,
@@ -7615,9 +6709,19 @@
     "category": 10,
     "first_year": 1977,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      36359
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 36359,
+        "matched_episodes": 149,
+        "compared_episodes": 155,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 3575,
@@ -7651,15 +6755,6 @@
     "category": 7,
     "first_year": 2014,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3596,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 1,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -7843,15 +6938,6 @@
     ]
   },
   {
-    "syoboi_tid": 3670,
-    "category": 7,
-    "first_year": 1995,
-    "first_month": 5,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3674,
     "category": 8,
     "first_year": 2014,
@@ -7919,15 +7005,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3704,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3709,
     "category": 10,
     "first_year": 2014,
@@ -7937,27 +7014,9 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3714,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3725,
     "category": 7,
     "first_year": 2014,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3727,
-    "category": 1,
-    "first_year": 2013,
     "first_month": 9,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
@@ -7987,24 +7046,6 @@
     "first_year": 2014,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3816,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3832,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 7,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -8098,24 +7139,30 @@
     ]
   },
   {
-    "syoboi_tid": 3880,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 7,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      123133
-    ]
-  },
-  {
     "syoboi_tid": 3892,
     "category": 10,
     "first_year": 2015,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      137894,
+      210465
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 137894,
+        "matched_episodes": 76,
+        "compared_episodes": 76,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 210465,
+        "matched_episodes": 34,
+        "compared_episodes": 35,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 3895,
@@ -8138,15 +7185,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3902,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3906,
     "category": 8,
     "first_year": 2015,
@@ -8156,15 +7194,6 @@
     "candidate_bgm_ids": [
       107100
     ]
-  },
-  {
-    "syoboi_tid": 3922,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 3923,
@@ -8199,15 +7228,6 @@
   },
   {
     "syoboi_tid": 3928,
-    "category": 10,
-    "first_year": 2015,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3929,
     "category": 10,
     "first_year": 2015,
     "first_month": 10,
@@ -8292,29 +7312,11 @@
     ]
   },
   {
-    "syoboi_tid": 3991,
-    "category": 7,
-    "first_year": 1987,
-    "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4000,
     "category": 8,
     "first_year": 2008,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4008,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 1,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -8379,15 +7381,6 @@
     "candidate_bgm_ids": [
       53933
     ]
-  },
-  {
-    "syoboi_tid": 4036,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 4043,
@@ -8506,43 +7499,7 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4115,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4116,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4123,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4128,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4136,
     "category": 10,
     "first_year": 2016,
     "first_month": 4,
@@ -8627,15 +7584,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4193,
-    "category": 10,
-    "first_year": 1987,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4194,
     "category": 8,
     "first_year": 1983,
@@ -8651,15 +7599,6 @@
     "category": 10,
     "first_year": 2016,
     "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4215,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 7,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -8685,15 +7624,6 @@
     "candidate_bgm_ids": [
       112450
     ]
-  },
-  {
-    "syoboi_tid": 4243,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 4265,
@@ -8758,46 +7688,10 @@
     ]
   },
   {
-    "syoboi_tid": 4311,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4317,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4330,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4349,
     "category": 10,
     "first_year": 2016,
     "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4353,
-    "category": 10,
-    "first_year": 2016,
-    "first_month": 10,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -8932,9 +7826,19 @@
     "category": 10,
     "first_year": 2016,
     "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      279478
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 279478,
+        "matched_episodes": 2,
+        "compared_episodes": 2,
+        "episode_number_offset": 2
+      }
+    ]
   },
   {
     "syoboi_tid": 4406,
@@ -8977,15 +7881,6 @@
     ]
   },
   {
-    "syoboi_tid": 4423,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4424,
     "category": 8,
     "first_year": 2016,
@@ -8995,24 +7890,6 @@
     "candidate_bgm_ids": [
       148095
     ]
-  },
-  {
-    "syoboi_tid": 4431,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4448,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 4449,
@@ -9045,15 +7922,6 @@
   },
   {
     "syoboi_tid": 4459,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4464,
     "category": 10,
     "first_year": 2017,
     "first_month": 1,
@@ -9157,24 +8025,6 @@
     ]
   },
   {
-    "syoboi_tid": 4514,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4522,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4525,
     "category": 10,
     "first_year": 2017,
@@ -9222,33 +8072,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4549,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4552,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4555,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4556,
     "category": 7,
     "first_year": 1993,
@@ -9259,15 +8082,6 @@
   },
   {
     "syoboi_tid": 4557,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4563,
     "category": 10,
     "first_year": 2017,
     "first_month": 4,
@@ -9397,9 +8211,19 @@
     "category": 10,
     "first_year": 1995,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      161938
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 161938,
+        "matched_episodes": 48,
+        "compared_episodes": 48,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 4599,
@@ -9444,9 +8268,19 @@
     "category": 10,
     "first_year": 2017,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      197200
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 197200,
+        "matched_episodes": 12,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 4646,
@@ -9575,9 +8409,26 @@
     "category": 10,
     "first_year": 2017,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      218740,
+      232884
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 218740,
+        "matched_episodes": 13,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 232884,
+        "matched_episodes": 11,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 4742,
@@ -9629,17 +8480,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4754,
-    "category": 7,
-    "first_year": 2017,
-    "first_month": 5,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      194852
-    ]
-  },
-  {
     "syoboi_tid": 4774,
     "category": 10,
     "first_year": 2016,
@@ -9663,15 +8503,6 @@
     "first_year": 1996,
     "first_month": null,
     "reason": "missing_premiere_month",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4801,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 1,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -9783,15 +8614,6 @@
     ]
   },
   {
-    "syoboi_tid": 4837,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 2,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4844,
     "category": 7,
     "first_year": 1997,
@@ -9800,6 +8622,14 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       81867
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 81867,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      }
     ]
   },
   {
@@ -9807,42 +8637,6 @@
     "category": 10,
     "first_year": 2018,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4861,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4863,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4878,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 4883,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 4,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -9941,17 +8735,6 @@
     ]
   },
   {
-    "syoboi_tid": 4971,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 6,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      199373
-    ]
-  },
-  {
     "syoboi_tid": 4990,
     "category": 8,
     "first_year": 2017,
@@ -9960,17 +8743,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       216311
-    ]
-  },
-  {
-    "syoboi_tid": 5002,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 12,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      252537
     ]
   },
   {
@@ -9996,9 +8768,19 @@
     "category": 10,
     "first_year": 2018,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      240811
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 240811,
+        "matched_episodes": 10,
+        "compared_episodes": 11,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 5009,
@@ -10070,15 +8852,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5069,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5087,
     "category": 8,
     "first_year": 2017,
@@ -10109,15 +8882,6 @@
   },
   {
     "syoboi_tid": 5098,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5104,
     "category": 10,
     "first_year": 2018,
     "first_month": 10,
@@ -10184,15 +8948,6 @@
     "candidate_bgm_ids": [
       217167
     ]
-  },
-  {
-    "syoboi_tid": 5144,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5168,
@@ -10308,15 +9063,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5186,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5205,
     "category": 8,
     "first_year": 2017,
@@ -10328,22 +9074,23 @@
     ]
   },
   {
-    "syoboi_tid": 5208,
-    "category": 10,
-    "first_year": 1991,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5209,
     "category": 10,
     "first_year": 1969,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      107454
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 107454,
+        "matched_episodes": 24,
+        "compared_episodes": 26,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 5213,
@@ -10443,9 +9190,19 @@
     "category": 10,
     "first_year": 2019,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      279478
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 279478,
+        "matched_episodes": 2,
+        "compared_episodes": 2,
+        "episode_number_offset": 6
+      }
+    ]
   },
   {
     "syoboi_tid": 5262,
@@ -10552,9 +9309,19 @@
     "category": 10,
     "first_year": 2019,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      255980
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 255980,
+        "matched_episodes": 21,
+        "compared_episodes": 23,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 5291,
@@ -10669,15 +9436,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5335,
-    "category": 7,
-    "first_year": 2016,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5338,
     "category": 8,
     "first_year": 2019,
@@ -10707,15 +9465,6 @@
     "candidate_bgm_ids": [
       277150
     ]
-  },
-  {
-    "syoboi_tid": 5372,
-    "category": 1,
-    "first_year": 2017,
-    "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5373,
@@ -10800,15 +9549,6 @@
     ]
   },
   {
-    "syoboi_tid": 5401,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5402,
     "category": 8,
     "first_year": 2018,
@@ -10855,24 +9595,6 @@
     "category": 10,
     "first_year": 2019,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5420,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5434,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 10,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -10958,15 +9680,6 @@
     "category": 10,
     "first_year": 2019,
     "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5549,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 12,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -11076,9 +9789,40 @@
     "category": 10,
     "first_year": 2020,
     "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 4,
+    "candidate_bgm_ids": [
+      2907,
+      226218,
+      226223,
+      226224
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 226224,
+        "matched_episodes": 4,
+        "compared_episodes": 4,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 226218,
+        "matched_episodes": 4,
+        "compared_episodes": 4,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 226223,
+        "matched_episodes": 3,
+        "compared_episodes": 3,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 2907,
+        "matched_episodes": 3,
+        "compared_episodes": 11,
+        "episode_number_offset": 2
+      }
+    ]
   },
   {
     "syoboi_tid": 5583,
@@ -11140,18 +9884,19 @@
     "category": 10,
     "first_year": 2020,
     "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5600,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      279478
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 279478,
+        "matched_episodes": 2,
+        "compared_episodes": 2,
+        "episode_number_offset": 8
+      }
+    ]
   },
   {
     "syoboi_tid": 5601,
@@ -11172,24 +9917,6 @@
     "candidate_bgm_ids": [
       341352
     ]
-  },
-  {
-    "syoboi_tid": 5619,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5629,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5642,
@@ -11216,15 +9943,6 @@
     "category": 10,
     "first_year": 2020,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5669,
-    "category": 7,
-    "first_year": 2008,
-    "first_month": 12,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -11356,9 +10074,19 @@
     "category": 10,
     "first_year": 2020,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      255667
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 255667,
+        "matched_episodes": 12,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 5696,
@@ -11400,15 +10128,6 @@
   },
   {
     "syoboi_tid": 5722,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5724,
     "category": 10,
     "first_year": 2020,
     "first_month": 7,
@@ -11602,15 +10321,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5844,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5852,
     "category": 8,
     "first_year": 2019,
@@ -11702,15 +10412,6 @@
     ]
   },
   {
-    "syoboi_tid": 5903,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5905,
     "category": 1,
     "first_year": 2021,
@@ -11742,15 +10443,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5913,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5920,
     "category": 8,
     "first_year": 2020,
@@ -11760,15 +10452,6 @@
     "candidate_bgm_ids": [
       307925
     ]
-  },
-  {
-    "syoboi_tid": 5923,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5924,
@@ -11860,15 +10543,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6005,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6006,
     "category": 10,
     "first_year": 2021,
@@ -11911,9 +10585,19 @@
     "category": 10,
     "first_year": 2021,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      332570
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 332570,
+        "matched_episodes": 13,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6017,
@@ -11931,15 +10615,6 @@
     "category": 10,
     "first_year": 2021,
     "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6024,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 7,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -11999,9 +10674,19 @@
     "category": 7,
     "first_year": 2007,
     "first_month": 6,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      20926
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 20926,
+        "matched_episodes": 5,
+        "compared_episodes": 5,
+        "episode_number_offset": 13
+      }
+    ]
   },
   {
     "syoboi_tid": 6068,
@@ -12068,9 +10753,19 @@
     "category": 7,
     "first_year": 2008,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      20926
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 20926,
+        "matched_episodes": 6,
+        "compared_episodes": 6,
+        "episode_number_offset": 20
+      }
+    ]
   },
   {
     "syoboi_tid": 6094,
@@ -12120,22 +10815,23 @@
     ]
   },
   {
-    "syoboi_tid": 6114,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6162,
     "category": 7,
     "first_year": 2019,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      268726
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 268726,
+        "matched_episodes": 3,
+        "compared_episodes": 5,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6174,
@@ -12220,15 +10916,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6190,
-    "category": 7,
-    "first_year": 2021,
-    "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6191,
     "category": 8,
     "first_year": 2021,
@@ -12256,17 +10943,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6226,
-    "category": 10,
-    "first_year": 2021,
-    "first_month": 9,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      348335
-    ]
   },
   {
     "syoboi_tid": 6230,
@@ -12343,15 +11019,6 @@
     "candidate_bgm_ids": [
       282759
     ]
-  },
-  {
-    "syoboi_tid": 6248,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6250,
@@ -12508,24 +11175,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6293,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6299,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6329,
     "category": 10,
     "first_year": 2022,
@@ -12543,17 +11192,6 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       331489
-    ]
-  },
-  {
-    "syoboi_tid": 6334,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      360468
     ]
   },
   {
@@ -12680,15 +11318,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6450,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6453,
     "category": 10,
     "first_year": 2022,
@@ -12738,15 +11367,6 @@
     "candidate_bgm_ids": [
       345980
     ]
-  },
-  {
-    "syoboi_tid": 6479,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6482,
@@ -12809,23 +11429,24 @@
     "category": 10,
     "first_year": 2022,
     "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      379456
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 379456,
+        "matched_episodes": 30,
+        "compared_episodes": 30,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6514,
     "category": 10,
     "first_year": 2022,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6519,
-    "category": 10,
-    "first_year": 2018,
     "first_month": 10,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
@@ -12872,15 +11493,6 @@
     ]
   },
   {
-    "syoboi_tid": 6535,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6553,
     "category": 10,
     "first_year": 2023,
@@ -12899,24 +11511,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6560,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6567,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6571,
     "category": 8,
     "first_year": 2021,
@@ -12926,15 +11520,6 @@
     "candidate_bgm_ids": [
       329948
     ]
-  },
-  {
-    "syoboi_tid": 6578,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6588,
@@ -12964,15 +11549,6 @@
     "candidate_bgm_ids": [
       219485
     ]
-  },
-  {
-    "syoboi_tid": 6596,
-    "category": 10,
-    "first_year": 2022,
-    "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6599,
@@ -13044,15 +11620,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6635,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 3,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6636,
     "category": 7,
     "first_year": 2023,
@@ -13115,29 +11682,19 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6686,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 5,
-    "reason": "premiere_month_mismatch_or_missing",
+    "reason": "ambiguous_or_reserved",
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
-      19021
+      529235
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 529235,
+        "matched_episodes": 8,
+        "compared_episodes": 8,
+        "episode_number_offset": 0
+      }
     ]
-  },
-  {
-    "syoboi_tid": 6694,
-    "category": 1,
-    "first_year": 2023,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6696,
@@ -13162,15 +11719,6 @@
     "category": 10,
     "first_year": 2022,
     "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6706,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 1,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -13205,15 +11753,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6724,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6730,
     "category": 8,
     "first_year": 2021,
@@ -13240,9 +11779,19 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      204623
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 204623,
+        "matched_episodes": 12,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6750,
@@ -13287,9 +11836,19 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      425590
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 425590,
+        "matched_episodes": 5,
+        "compared_episodes": 5,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6782,
@@ -13372,15 +11931,6 @@
     ]
   },
   {
-    "syoboi_tid": 6818,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6834,
     "category": 10,
     "first_year": 2023,
@@ -13399,15 +11949,6 @@
     "candidate_bgm_ids": [
       309807
     ]
-  },
-  {
-    "syoboi_tid": 6846,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 6850,
@@ -13447,9 +11988,19 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      529235
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 529235,
+        "matched_episodes": 7,
+        "compared_episodes": 7,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6876,
@@ -13466,15 +12017,6 @@
     "first_year": 2023,
     "first_month": 7,
     "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6882,
-    "category": 8,
-    "first_year": 2020,
-    "first_month": 7,
-    "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -13525,18 +12067,19 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 12,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6905,
-    "category": 10,
-    "first_year": 2023,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      425590
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 425590,
+        "matched_episodes": 4,
+        "compared_episodes": 4,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6912,
@@ -13561,42 +12104,25 @@
     "category": 10,
     "first_year": 2024,
     "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6929,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6937,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      269545
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 269545,
+        "matched_episodes": 6,
+        "compared_episodes": 12,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 6942,
     "category": 10,
     "first_year": 2023,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6944,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 1,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -13744,15 +12270,6 @@
     ]
   },
   {
-    "syoboi_tid": 7003,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7012,
     "category": 8,
     "first_year": 2023,
@@ -13833,17 +12350,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 7059,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      386563
-    ]
-  },
-  {
     "syoboi_tid": 7060,
     "category": 10,
     "first_year": 2024,
@@ -13857,9 +12363,26 @@
     "category": 10,
     "first_year": 2024,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      422505,
+      484191
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 484191,
+        "matched_episodes": 51,
+        "compared_episodes": 52,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 422505,
+        "matched_episodes": 12,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 7079,
@@ -13882,15 +12405,6 @@
     ]
   },
   {
-    "syoboi_tid": 7089,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7091,
     "category": 1,
     "first_year": null,
@@ -13900,15 +12414,6 @@
     "candidate_bgm_ids": [
       141187
     ]
-  },
-  {
-    "syoboi_tid": 7133,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 7136,
@@ -14068,78 +12573,25 @@
     "category": 10,
     "first_year": 2024,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      320215
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 320215,
+        "matched_episodes": 5,
+        "compared_episodes": 10,
+        "episode_number_offset": 1
+      }
+    ]
   },
   {
     "syoboi_tid": 7230,
     "category": 10,
     "first_year": 2023,
     "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7231,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7232,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7233,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7234,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7235,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7236,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7250,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 10,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -14232,24 +12684,6 @@
     ]
   },
   {
-    "syoboi_tid": 7292,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7335,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 1,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7338,
     "category": 8,
     "first_year": 2023,
@@ -14323,33 +12757,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 7407,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7414,
-    "category": 10,
-    "first_year": 1989,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7425,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7427,
     "category": 10,
     "first_year": 2025,
@@ -14377,17 +12784,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7446,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 4,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      504054
-    ]
   },
   {
     "syoboi_tid": 7451,
@@ -14430,33 +12826,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 7488,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7500,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7505,
-    "category": 10,
-    "first_year": 2024,
-    "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7509,
     "category": 10,
     "first_year": 2025,
@@ -14470,21 +12839,36 @@
     "category": 1,
     "first_year": 2025,
     "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      422505,
+      484191,
+      561787
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 561787,
+        "matched_episodes": 56,
+        "compared_episodes": 56,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 484191,
+        "matched_episodes": 51,
+        "compared_episodes": 52,
+        "episode_number_offset": 0
+      },
+      {
+        "bgm_id": 422505,
+        "matched_episodes": 12,
+        "compared_episodes": 13,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 7535,
-    "category": 10,
-    "first_year": 2025,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7539,
     "category": 10,
     "first_year": 2025,
     "first_month": 7,
@@ -14678,9 +13062,19 @@
     "category": 10,
     "first_year": 2025,
     "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "ambiguous_or_reserved",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      474905
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 474905,
+        "matched_episodes": 10,
+        "compared_episodes": 10,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 7649,
@@ -14698,15 +13092,6 @@
     "category": 10,
     "first_year": 2023,
     "first_month": 11,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7681,
-    "category": 10,
-    "first_year": 2026,
-    "first_month": 1,
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -14823,9 +13208,19 @@
     "category": 10,
     "first_year": 2026,
     "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      510710
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 510710,
+        "matched_episodes": 15,
+        "compared_episodes": 15,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 7757,
@@ -14911,15 +13306,6 @@
     "first_year": 2026,
     "first_month": 5,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7810,
-    "category": 10,
-    "first_year": 2026,
-    "first_month": 4,
-    "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -15202,17 +13588,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 7887,
-    "category": 10,
-    "first_year": 2026,
-    "first_month": 6,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      538760
-    ]
-  },
-  {
     "syoboi_tid": 7904,
     "category": 7,
     "first_year": 2017,
@@ -15286,15 +13661,6 @@
     "candidate_bgm_ids": [
       3763
     ]
-  },
-  {
-    "syoboi_tid": 7951,
-    "category": 10,
-    "first_year": 2026,
-    "first_month": 7,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 7952,
@@ -15448,24 +13814,6 @@
     "candidate_bgm_ids": [
       64094
     ]
-  },
-  {
-    "syoboi_tid": 7991,
-    "category": 10,
-    "first_year": 2026,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 8021,
-    "category": 1,
-    "first_year": 2026,
-    "first_month": 9,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 8059,
