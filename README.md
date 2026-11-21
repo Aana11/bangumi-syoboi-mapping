@@ -62,7 +62,7 @@ python scripts/update.py --offline
 
 首次更新从 Bangumi Archive 的 `aux/latest.json` 获取并校验 ZIP，读取动画与三次元条目、正片标题、角色和演职人员关联。Syoboi 使用 `/db?Command=TitleLookup&TID=*` 拉取全量索引，随后按批补取日期、分类、节目链接、别名、分集标题和角色声优。后续仍检查全量索引以识别删除，仅为新增或更新的 TID 补取详情。默认每批最多 100 个 TID，Syoboi 请求串行且间隔至少 1.1 秒。遇到采集期间的上游编辑，会重新核对索引并复用已采集且仍有效的详情。
 
-GitHub Actions 每周三北京时间 08:17 更新，也可手动触发。默认分支合并人工修正后会刷新。上游响应残缺、校验失败或数据量异常下滑时，工作流报错并保留上一次提交。生成文件有差异才提交。数据许可确认后，仓库变量 `PUBLISH_DATA_RELEASES=true` 可开启自动发布。GitHub 可能暂停 60 天无活动的公开仓库定时任务，可在 Actions 页手动恢复。[GitHub 定时工作流说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+GitHub Actions 每天北京时间 00:00 触发更新，也可手动触发。默认分支合并人工修正后会刷新。上游响应残缺、校验失败或数据量异常下滑时，工作流报错并保留上一次提交。生成文件有差异才提交。数据许可确认后，仓库变量 `PUBLISH_DATA_RELEASES=true` 可开启自动发布。GitHub 可能延迟整点任务，也可能暂停 60 天无活动的公开仓库定时任务，可在 Actions 页手动恢复。[GitHub 定时工作流说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
 ## 来源与许可
 
