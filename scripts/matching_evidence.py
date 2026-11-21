@@ -13,6 +13,7 @@ METHODS = (
     "manual", "exact", "normalized", "title_and_air_month", "alias_and_month",
     "official_site", "month_boundary", "episode_sequence",
     "programme_page", "cast_and_work", "unique_original_and_date", "film_title_and_date",
+    "film_title_variant_and_date", "complete_episode_run", "regional_title_and_date",
 )
 FORMATTING_MARKS = frozenset("・「」『』【】《》〈〉")
 TITLE_SEPARATORS = frozenset("()[]:~〜") | FORMATTING_MARKS

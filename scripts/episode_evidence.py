@@ -14,6 +14,8 @@ FORMAT_MARKS = re.compile(
     r"tv\s*(?:版|edition|edit)|再編集|再放送|digest|ダイジェスト|傑作選|短縮版|先行上映",
     re.IGNORECASE,
 )
+TV_LABEL = re.compile(r"\((?:tv版|tvシリーズ)\)$", re.IGNORECASE)
+LATIN_TITLE_PREFIX = re.compile(r"([a-z][a-z0-9]{3,})(?=[\W_]|$)")
 
 
 @dataclass(frozen=True)
@@ -24,6 +26,7 @@ class EpisodeEvidence:
     compared: int
     offset: int
     confirmed: bool
+    complete_sequence: bool = False
 
 
 def chapter_title(value):
@@ -106,6 +109,20 @@ def titles_support_dense_sequence(syo_titles, bgm_titles):
     return False
 
 
+def full_run_title(title, platform):
+    title = unicodedata.normalize("NFKC", title)
+    return TV_LABEL.sub("", title) if platform == 1 else title
+
+
+def dated_title_prefix(source, source_title, subject_title):
+    left, right = source_title.strip().casefold(), subject_title.strip().casefold()
+    if TV_LABEL.search(unicodedata.normalize("NFKC", source)):
+        return bool(left and re.match(re.escape(left) + r"[\s-]", right))
+    source_prefix = LATIN_TITLE_PREFIX.match(left)
+    subject_prefix = LATIN_TITLE_PREFIX.match(right)
+    return bool(source_prefix and subject_prefix and source_prefix[1] == subject_prefix[1])
+
+
 def compare_episodes(syoboi, bangumi):
     numbered = {bgm_id: chapter_numbers(item.episodes) for bgm_id, item in bangumi.items()}
     index = defaultdict(list)
@@ -153,16 +170,39 @@ def compare_episodes(syoboi, bangumi):
                     or same_month and rare >= 5 and titles_support_dense_sequence(syo_names, bgm_names[bgm_id])
                 )
             )
-            alternatives[bgm_id].append(EpisodeEvidence(bgm_id, len(hits), rare, compared, offset, confirmed))
+            source_title = full_run_title(item.title, bgm.platform)
+            subject_title = full_run_title(bgm.title, bgm.platform)
+            source_names = work_titles((source_title, item.english_title))
+            subject_names = work_titles((subject_title, *bgm.aliases))
+            same_title = bool(source_names & subject_names) or (
+                len(hits) >= 8 and edition_key(source_title)[0] == edition_key(subject_title)[0]
+            )
+            size = max(len(chapters), len(numbered[bgm_id]))
+            dense = len(hits) >= 5 and rare >= 4 and len(hits) * 5 >= size * 4
+            confirmed_prefix = (
+                same_month and bgm.platform == 1 and rare >= 8
+                and dated_title_prefix(item.title, source_title, subject_title)
+            )
+            complete = edition_compatible(source_title, subject_title) and (
+                same_title and size == len(hits) and rare >= 3
+                or dense and (confirmed_prefix or titles_support_dense_sequence(source_names, subject_names))
+            )
+            alternatives[bgm_id].append(EpisodeEvidence(bgm_id, len(hits), rare, compared, offset, confirmed, complete))
 
         proofs = []
         for options in alternatives.values():
-            best = max(options, key=lambda proof: (proof.confirmed, proof.matches, proof.rare, -abs(proof.offset), -proof.offset))
+            best = max(options, key=lambda proof: (
+                proof.confirmed, proof.complete_sequence, proof.matches, proof.rare, -abs(proof.offset), -proof.offset,
+            ))
             if sum(proof.confirmed for proof in options) > 1:
                 best = EpisodeEvidence(best.bgm_id, best.matches, best.rare, best.compared, best.offset, False)
+            elif best.complete_sequence and sum(proof.complete_sequence for proof in options) > 1:
+                best = EpisodeEvidence(best.bgm_id, best.matches, best.rare, best.compared, best.offset, best.confirmed)
             proofs.append(best)
         if proofs:
             result[tid] = sorted(
-                proofs, key=lambda proof: (-proof.confirmed, -proof.matches, -proof.rare, proof.bgm_id)
+                proofs, key=lambda proof: (
+                    -(proof.confirmed or proof.complete_sequence), -proof.matches, -proof.rare, proof.bgm_id,
+                )
             )
     return result

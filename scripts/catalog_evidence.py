@@ -65,6 +65,42 @@ def release_month_supports(source, month):
     return source.year == year
 
 
+def film_title_key(title):
+    key = re.sub(r"^(?:劇場版|映画)", "", normalize(title))
+    key = re.sub(r"(?<![0-9])[-/―](?![0-9])", "", key)
+    return re.sub(r"[!~〜<>]", "", key)
+
+
+def film_title_variants(syoboi, anime, live_action):
+    """Check subtitle-preserving spellings or known translated titles."""
+    if live_action is None:
+        return set()
+    titles, subjects = defaultdict(set), defaultdict(set)
+    for item in syoboi.values():
+        if key := film_title_key(item.title):
+            titles[key].add(item.id)
+    for item in (*anime.values(), *live_action.values()):
+        for name in (item.title, *item.aliases):
+            if key := film_title_key(name):
+                subjects[key].add(item.id)
+
+    pairs = set()
+    for key, tids in titles.items():
+        ids = subjects.get(key, ())
+        if len(key) < 5 or len(tids) != 1 or len(ids) != 1:
+            continue
+        source = syoboi[next(iter(tids))]
+        subject = anime.get(next(iter(ids)))
+        if (
+            source.category == MOVIE_CATEGORY and source.premiere and subject
+            and subject.platform == BANGUMI_MOVIE_PLATFORM
+            and source.premiere in (subject.month, *subject.broadcast_months)
+            and edition_compatible(source.title, subject.title)
+        ):
+            pairs.add((source.id, subject.id))
+    return pairs
+
+
 def unique_original_titles(syoboi, anime, live_action):
     syoboi_names, bangumi_names = defaultdict(list), defaultdict(list)
     for tid, item in syoboi.items():
@@ -83,6 +119,64 @@ def unique_original_titles(syoboi, anime, live_action):
             not item.premiere and subject.release_date == str(item.year)
         ):
             yield item.id, subject.id
+
+
+def full_title_variant(title):
+    base, editions = edition_key(title)
+    base = "".join(char for char in base if char.isalnum())
+    return base, editions
+
+
+def regional_titles(syoboi, anime, live_action):
+    if live_action is None:
+        return set()
+    titles, subjects = defaultdict(set), defaultdict(set)
+    for item in syoboi.values():
+        original = full_title_variant(item.title)
+        english, editions = full_title_variant(item.english_title)
+        for key in (original, (english, editions or original[1])):
+            if len(key[0]) >= 5:
+                titles[key].add(item.id)
+    for item in (*anime.values(), *live_action.values()):
+        main = full_title_variant(item.title)
+        for title in (item.title, *item.aliases):
+            base, editions = full_title_variant(title)
+            if (base, editions) == main or not main[1] or editions == main[1]:
+                subjects[base, editions].add(item.id)
+
+    pairs = set()
+    for key, tids in titles.items():
+        ids = subjects.get(key, ())
+        if len(tids) != 1 or len(ids) != 1:
+            continue
+        source = syoboi[next(iter(tids))]
+        subject = anime.get(next(iter(ids)))
+        if (
+            not subject or subject.platform == BANGUMI_MOVIE_PLATFORM
+            or source.category not in SYOBOI_CATEGORIES or not source.premiere
+        ):
+            continue
+        if not edition_compatible(source.title, subject.title):
+            continue
+        source_sites = {urlsplit(f"https://{site}").hostname for site in source.websites}
+        subject_sites = {urlsplit(f"https://{site}").hostname for site in subject.websites}
+        if (
+            key != full_title_variant(subject.title) and source_sites and subject_sites
+            and source_sites.isdisjoint(subject_sites)
+            and not titles_corroborate(work_titles((source.title,)), work_titles((subject.title,)))
+        ):
+            continue
+        year, month = source.year, source.month
+        # An explicit season on both sides allows for a later regional release
+        # without confusing it with an unnumbered original or another season.
+        named_season = key[1] and full_title_variant(subject.title)[1] == key[1]
+        latest_delay = 15 if named_season else 2
+        if any(
+            -2 <= (year - int(value[:4])) * 12 + month - int(value[5:]) <= latest_delay
+            for value in (subject.month, *subject.broadcast_months) if value
+        ):
+            pairs.add((source.id, subject.id))
+    return pairs
 
 
 def related_work_titles(item):

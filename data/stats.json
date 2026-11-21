@@ -13,7 +13,7 @@
   },
   "bangumi_anime": {
     "total": 31312,
-    "matched": 6004
+    "matched": 6103
   },
   "syoboi_by_category": {
     "1": 150,
@@ -28,17 +28,17 @@
   },
   "syoboi_anime": {
     "total": 5817,
-    "matched": 5444,
-    "unmatched": 373
+    "matched": 5466,
+    "unmatched": 351
   },
   "syoboi_mixed_movies": {
     "total": 984,
-    "matched": 567,
-    "unmatched": 417,
+    "matched": 644,
+    "unmatched": 340,
     "verified_live_action": 62,
-    "review_pending": 355
+    "review_pending": 278
   },
-  "mapped_pairs": 6029,
+  "mapped_pairs": 6128,
   "match_methods": {
     "manual": 115,
     "exact": 3955,
@@ -51,18 +51,21 @@
     "programme_page": 17,
     "cast_and_work": 41,
     "unique_original_and_date": 13,
-    "film_title_and_date": 385
+    "film_title_and_date": 385,
+    "film_title_variant_and_date": 77,
+    "complete_episode_run": 4,
+    "regional_title_and_date": 18
   },
   "unmatched_reasons": {
     "ambiguous_or_reserved": 5,
-    "cast_review": 33,
-    "episode_review": 12,
+    "cast_review": 31,
+    "episode_review": 8,
     "live_action_confirmed": 62,
     "missing_premiere_month": 27,
-    "movie_review": 355,
-    "no_title_match": 174,
-    "premiere_month_mismatch_or_missing": 17,
-    "title_review": 105
+    "movie_review": 278,
+    "no_title_match": 172,
+    "premiere_month_mismatch_or_missing": 15,
+    "title_review": 93
   },
   "by_year": {
     "1960": {
@@ -202,8 +205,8 @@
     },
     "1991": {
       "total": 19,
-      "matched": 18,
-      "unmatched": 1
+      "matched": 19,
+      "unmatched": 0
     },
     "1992": {
       "total": 23,
@@ -252,8 +255,8 @@
     },
     "2001": {
       "total": 63,
-      "matched": 58,
-      "unmatched": 5
+      "matched": 59,
+      "unmatched": 4
     },
     "2002": {
       "total": 77,
@@ -262,18 +265,18 @@
     },
     "2003": {
       "total": 109,
-      "matched": 101,
-      "unmatched": 8
+      "matched": 102,
+      "unmatched": 7
     },
     "2004": {
       "total": 149,
-      "matched": 136,
-      "unmatched": 13
+      "matched": 138,
+      "unmatched": 11
     },
     "2005": {
       "total": 142,
-      "matched": 127,
-      "unmatched": 15
+      "matched": 128,
+      "unmatched": 14
     },
     "2006": {
       "total": 198,
@@ -282,28 +285,28 @@
     },
     "2007": {
       "total": 164,
-      "matched": 153,
-      "unmatched": 11
+      "matched": 154,
+      "unmatched": 10
     },
     "2008": {
       "total": 158,
-      "matched": 150,
-      "unmatched": 8
+      "matched": 151,
+      "unmatched": 7
     },
     "2009": {
       "total": 154,
-      "matched": 139,
-      "unmatched": 15
+      "matched": 141,
+      "unmatched": 13
     },
     "2010": {
       "total": 126,
-      "matched": 120,
-      "unmatched": 6
+      "matched": 121,
+      "unmatched": 5
     },
     "2011": {
       "total": 169,
-      "matched": 157,
-      "unmatched": 12
+      "matched": 159,
+      "unmatched": 10
     },
     "2012": {
       "total": 188,
@@ -317,8 +320,8 @@
     },
     "2014": {
       "total": 231,
-      "matched": 218,
-      "unmatched": 13
+      "matched": 219,
+      "unmatched": 12
     },
     "2015": {
       "total": 230,
@@ -332,23 +335,23 @@
     },
     "2017": {
       "total": 237,
-      "matched": 225,
-      "unmatched": 12
+      "matched": 226,
+      "unmatched": 11
     },
     "2018": {
       "total": 268,
-      "matched": 250,
-      "unmatched": 18
+      "matched": 252,
+      "unmatched": 16
     },
     "2019": {
       "total": 223,
-      "matched": 201,
-      "unmatched": 22
+      "matched": 204,
+      "unmatched": 19
     },
     "2020": {
       "total": 212,
-      "matched": 197,
-      "unmatched": 15
+      "matched": 199,
+      "unmatched": 13
     },
     "2021": {
       "total": 250,

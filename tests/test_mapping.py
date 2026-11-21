@@ -139,6 +139,16 @@ class MappingTests(unittest.TestCase):
             self.assertFalse(match([entry], [film], live_action={20: live_action})[0])
         self.assertFalse(match([replace(source, month=7)], [film], live_action={})[0])
 
+    def test_film_title_variants_require_matching_month_and_no_live_action_homonym(self):
+        source = syo(1, "映画 星を旅する舟！ ～南の海～", category=8)
+        film = replace(bgm(10, "Across the Southern Sea"), platform=3,
+                       aliases=("星を旅する舟 南の海",))
+        self.assertEqual(match([source], [film], live_action={})[0], {(1, 10): "film_title_variant_and_date"})
+        rival = replace(bgm(20, "星を旅する舟―南の海", None), platform=6002, live_action=True)
+        self.assertFalse(match([source], [film], live_action={20: rival})[0])
+        self.assertFalse(match([replace(source, month=9)], [film], live_action={})[0])
+        self.assertFalse(match([replace(source, title="映画 星を旅する舟")], [film], live_action={})[0])
+
     def test_unique_original_title_only_recovers_bounded_date_gaps(self):
         anime = bgm(10, "銀河を渡る小さな舟", "2026-10")
         early = syo(1, "銀河を渡る小さな舟", month=9)
@@ -213,6 +223,42 @@ class MappingTests(unittest.TestCase):
         syoboi = replace(syo(1, "日本語のシリーズ名"), episodes=chapters)
         bangumi = replace(bgm(10, "Series name"), episodes=tuple((i * 3, title) for i, title in chapters))
         self.assertFalse(match([syoboi], [bangumi])[0])
+
+    def test_complete_episode_run_checks_that_tv_label_and_episode_ranges_agree(self):
+        chapters = ((1, "眠りの王宮"), (2, "北の海を渡る舟"), (3, "狼の遠吠え"))
+        source = replace(syo(1, "銀河の航海日記(TV版)"), episodes=chapters)
+        anime = replace(bgm(10, "銀河の航海日記", "2025-10"), platform=1, episodes=chapters)
+        self.assertEqual(match([source], [anime])[0], {(1, 10): "complete_episode_run"})
+        self.assertFalse(match([source], [replace(anime, platform=3)])[0])
+        longer = replace(anime, episodes=(*chapters, (4, "燃える海岸"), (5, "終わりの風")))
+        self.assertFalse(match([source], [longer])[0])
+        self.assertFalse(match([replace(source, title="銀河の航海日記 総集編")], [anime])[0])
+
+    def test_short_tv_title_needs_many_rare_chapters_and_same_month(self):
+        chapters = tuple(enumerate((
+            "眠りの王宮", "北の海を渡る舟", "狼の遠吠え", "燃える海岸",
+            "終わりの風", "滝の向こう", "過ぎ去った夏", "灯台からの手紙",
+        ), 1))
+        source = replace(syo(1, "X(TV版)"), episodes=chapters)
+        anime = replace(bgm(10, "X -エックス-"), platform=1, episodes=chapters)
+        self.assertEqual(match([source], [anime])[0], {(1, 10): "complete_episode_run"})
+        self.assertFalse(match([replace(source, month=9)], [anime])[0])
+
+    def test_regional_title_preserves_explicit_season_and_blocks_ambiguity(self):
+        source = replace(syo(1, "幻の城 (シーズン2)"), english_title="The Phantom Castle")
+        anime = bgm(10, "The Phantom Castle Season 2", "2025-10")
+        self.assertEqual(match([source], [anime], live_action={})[0], {(1, 10): "regional_title_and_date"})
+        self.assertFalse(match([source], [replace(anime, title="The Phantom Castle Season 1")], live_action={})[0])
+        self.assertFalse(match([source], [replace(anime, month="2024-10")], live_action={})[0])
+        live = replace(anime, id=20, live_action=True)
+        self.assertFalse(match([source], [anime], live_action={20: live})[0])
+
+    def test_regional_title_rejects_incorrect_alias_with_unrelated_official_pages(self):
+        source = replace(syo(1, "幻の城の大冒険"), websites=("castle.example.jp",))
+        unrelated = replace(
+            bgm(10, "青い海を渡る舟", "2026-09"), aliases=(source.title,), websites=("boat.example.jp",),
+        )
+        self.assertFalse(match([source], [unrelated], live_action={})[0])
 
     def test_movie_review_and_manual_split(self):
         choices = [

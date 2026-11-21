@@ -79,23 +79,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 98,
-    "category": 10,
-    "first_year": 2003,
-    "first_month": 7,
-    "reason": "title_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      53951
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 53951,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 137,
     "category": 10,
     "first_year": 2000,
@@ -246,17 +229,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 336,
-    "category": 8,
-    "first_year": 2004,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      472
-    ]
-  },
-  {
     "syoboi_tid": 360,
     "category": 10,
     "first_year": 2004,
@@ -305,28 +277,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 396,
-    "category": 7,
-    "first_year": 2004,
-    "first_month": 3,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      10275,
-      98284
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 98284,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 10275,
-        "title_similarity": 100
-      }
-    ]
   },
   {
     "syoboi_tid": 411,
@@ -415,36 +365,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 483,
-    "category": 10,
-    "first_year": 2004,
-    "first_month": 8,
-    "reason": "episode_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      2750,
-      52764
-    ],
-    "episode_candidates": [
-      {
-        "bgm_id": 52764,
-        "matched_episodes": 11,
-        "compared_episodes": 13,
-        "episode_number_offset": 0
-      }
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 52764,
-        "matched_credits": 9
-      },
-      {
-        "bgm_id": 2750,
-        "matched_credits": 5
-      }
-    ]
   },
   {
     "syoboi_tid": 493,
@@ -566,15 +486,6 @@
     ]
   },
   {
-    "syoboi_tid": 576,
-    "category": 8,
-    "first_year": 1995,
-    "first_month": 11,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 581,
     "category": 10,
     "first_year": 2005,
@@ -624,8 +535,16 @@
     "first_year": 2000,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2080
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2080,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 655,
@@ -645,6 +564,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       839
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 839,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -740,22 +665,21 @@
     ]
   },
   {
-    "syoboi_tid": 734,
-    "category": 8,
-    "first_year": 2002,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 752,
     "category": 8,
     "first_year": 2000,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      9569
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 9569,
+        "title_similarity": 90
+      }
+    ]
   },
   {
     "syoboi_tid": 754,
@@ -776,43 +700,30 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 761,
-    "category": 8,
-    "first_year": 2005,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 763,
     "category": 8,
     "first_year": 1981,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 764,
-    "category": 8,
-    "first_year": 1981,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      38436
-    ]
-  },
-  {
-    "syoboi_tid": 765,
-    "category": 8,
-    "first_year": 1982,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      38437
+      3554,
+      38435,
+      243428
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 38435,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 3554,
+        "title_similarity": 84
+      },
+      {
+        "bgm_id": 243428,
+        "title_similarity": 84
+      }
     ]
   },
   {
@@ -852,8 +763,16 @@
     "first_year": 1979,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      47667
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 47667,
+        "title_similarity": 82
+      }
+    ]
   },
   {
     "syoboi_tid": 784,
@@ -873,6 +792,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       1941
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 1941,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -979,8 +904,16 @@
     "first_year": 2002,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3554
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3554,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 851,
@@ -988,8 +921,16 @@
     "first_year": 2002,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3555
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3555,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 852,
@@ -1017,39 +958,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 861,
-    "category": 8,
-    "first_year": 2005,
-    "first_month": 5,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      5378
-    ]
-  },
-  {
-    "syoboi_tid": 862,
-    "category": 8,
-    "first_year": 2005,
-    "first_month": 10,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      18778
-    ]
-  },
-  {
-    "syoboi_tid": 863,
-    "category": 8,
-    "first_year": 2006,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      18779
-    ]
   },
   {
     "syoboi_tid": 868,
@@ -1096,6 +1004,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       840
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 840,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -1131,8 +1045,16 @@
     "first_year": 1999,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      37475
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 37475,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 929,
@@ -1184,8 +1106,16 @@
     "first_year": 2005,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2897
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2897,
+        "title_similarity": 90
+      }
+    ]
   },
   {
     "syoboi_tid": 1001,
@@ -1211,8 +1141,16 @@
     "first_year": 1994,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3731
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3731,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 1009,
@@ -1220,8 +1158,16 @@
     "first_year": 1994,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3732
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3732,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 1010,
@@ -1238,8 +1184,16 @@
     "first_year": 1995,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3734
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3734,
+        "title_similarity": 74
+      }
+    ]
   },
   {
     "syoboi_tid": 1021,
@@ -1370,43 +1324,6 @@
     ]
   },
   {
-    "syoboi_tid": 1064,
-    "category": 7,
-    "first_year": 2005,
-    "first_month": 5,
-    "reason": "episode_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      3283,
-      3284,
-      8400
-    ],
-    "episode_candidates": [
-      {
-        "bgm_id": 3284,
-        "matched_episodes": 3,
-        "compared_episodes": 3,
-        "episode_number_offset": 0
-      }
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 8400,
-        "matched_credits": 8
-      },
-      {
-        "bgm_id": 3283,
-        "matched_credits": 6
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 3284,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 1081,
     "category": 10,
     "first_year": 2007,
@@ -1506,8 +1423,16 @@
     "first_year": 2001,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      17746
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 17746,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 1109,
@@ -1551,8 +1476,16 @@
     "first_year": 2006,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      44961
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 44961,
+        "title_similarity": 71
+      }
+    ]
   },
   {
     "syoboi_tid": 1164,
@@ -1595,8 +1528,16 @@
     "first_year": 2006,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      242
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 242,
+        "title_similarity": 74
+      }
+    ]
   },
   {
     "syoboi_tid": 1198,
@@ -1668,43 +1609,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1288,
-    "category": 7,
-    "first_year": 2007,
-    "first_month": 12,
-    "reason": "episode_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      928,
-      1219,
-      1220
-    ],
-    "episode_candidates": [
-      {
-        "bgm_id": 1220,
-        "matched_episodes": 3,
-        "compared_episodes": 3,
-        "episode_number_offset": 12
-      }
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 928,
-        "matched_credits": 7
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 1219,
-        "title_similarity": 71
-      },
-      {
-        "bgm_id": 1220,
-        "title_similarity": 100
-      }
-    ]
   },
   {
     "syoboi_tid": 1327,
@@ -1824,42 +1728,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1495,
-    "category": 8,
-    "first_year": 1996,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1496,
-    "category": 8,
-    "first_year": 1997,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1497,
-    "category": 8,
-    "first_year": 1998,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1498,
-    "category": 8,
-    "first_year": 2001,
-    "first_month": 12,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1525,
     "category": 7,
     "first_year": 2008,
@@ -1882,17 +1750,6 @@
         "bgm_id": 1396,
         "matched_credits": 9
       }
-    ]
-  },
-  {
-    "syoboi_tid": 1533,
-    "category": 7,
-    "first_year": 2008,
-    "first_month": 10,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      10557
     ]
   },
   {
@@ -1938,17 +1795,16 @@
     "first_year": 1991,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1574,
-    "category": 8,
-    "first_year": 1992,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      41876
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 41876,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 1579,
@@ -1971,15 +1827,6 @@
         "title_similarity": 73
       }
     ]
-  },
-  {
-    "syoboi_tid": 1582,
-    "category": 8,
-    "first_year": 1989,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 1620,
@@ -2040,8 +1887,16 @@
     "first_year": 2007,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      443758
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 443758,
+        "title_similarity": 89
+      }
+    ]
   },
   {
     "syoboi_tid": 1695,
@@ -2107,23 +1962,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 1739,
-    "category": 10,
-    "first_year": 2009,
-    "first_month": 10,
-    "reason": "title_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      11207
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 11207,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 1746,
     "category": 8,
     "first_year": 2008,
@@ -2158,8 +1996,16 @@
     "first_year": 1996,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      74542
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 74542,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 1770,
@@ -2167,8 +2013,16 @@
     "first_year": 1997,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      425951
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 425951,
+        "title_similarity": 85
+      }
+    ]
   },
   {
     "syoboi_tid": 1775,
@@ -2266,8 +2120,16 @@
     "first_year": 2008,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2000
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2000,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 1821,
@@ -2329,8 +2191,16 @@
     "first_year": 1986,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      82714
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 82714,
+        "title_similarity": 80
+      }
+    ]
   },
   {
     "syoboi_tid": 1850,
@@ -2356,8 +2226,26 @@
     "first_year": 2002,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      40190,
+      40191,
+      45810
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 40190,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 40191,
+        "title_similarity": 92
+      },
+      {
+        "bgm_id": 45810,
+        "title_similarity": 92
+      }
+    ]
   },
   {
     "syoboi_tid": 1854,
@@ -2417,8 +2305,16 @@
     "first_year": 2000,
     "first_month": 6,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      3022
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3022,
+        "title_similarity": 93
+      }
+    ]
   },
   {
     "syoboi_tid": 1865,
@@ -2447,15 +2343,6 @@
     ]
   },
   {
-    "syoboi_tid": 1902,
-    "category": 10,
-    "first_year": 2010,
-    "first_month": 4,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 1914,
     "category": 10,
     "first_year": 2010,
@@ -2481,31 +2368,6 @@
     "reason": "live_action_confirmed",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 1974,
-    "category": 10,
-    "first_year": 2001,
-    "first_month": 10,
-    "reason": "episode_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      532
-    ],
-    "episode_candidates": [
-      {
-        "bgm_id": 532,
-        "matched_episodes": 21,
-        "compared_episodes": 24,
-        "episode_number_offset": 0
-      }
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 532,
-        "matched_credits": 11
-      }
-    ]
   },
   {
     "syoboi_tid": 1975,
@@ -2552,17 +2414,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       6235
-    ]
-  },
-  {
-    "syoboi_tid": 2007,
-    "category": 8,
-    "first_year": 2008,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      717598
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 6235,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -2571,9 +2428,16 @@
     "first_year": 2007,
     "first_month": 1,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      875
+      875,
+      38430
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 38430,
+        "title_similarity": 88
+      }
     ]
   },
   {
@@ -2582,8 +2446,16 @@
     "first_year": 2009,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      38428
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 38428,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2012,
@@ -2603,6 +2475,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       9350
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 9350,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -2645,8 +2523,26 @@
     "first_year": 1996,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      6649,
+      6650,
+      6651
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 6649,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 6650,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 6651,
+        "title_similarity": 94
+      }
+    ]
   },
   {
     "syoboi_tid": 2068,
@@ -2654,8 +2550,16 @@
     "first_year": 2009,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2128
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2128,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2078,
@@ -2665,17 +2569,6 @@
     "reason": "live_action_confirmed",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2080,
-    "category": 8,
-    "first_year": 2009,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      5087
-    ]
   },
   {
     "syoboi_tid": 2082,
@@ -2771,15 +2664,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2236,
-    "category": 10,
-    "first_year": 2011,
-    "first_month": 8,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2248,
     "category": 8,
     "first_year": 2010,
@@ -2788,6 +2672,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       3484
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3484,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -2921,9 +2811,16 @@
     "first_year": 2010,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      3806
+      3806,
+      10613
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 10613,
+        "title_similarity": 88
+      }
     ]
   },
   {
@@ -2931,15 +2828,6 @@
     "category": 8,
     "first_year": 2011,
     "first_month": 1,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2353,
-    "category": 8,
-    "first_year": 2001,
-    "first_month": 4,
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -3022,9 +2910,20 @@
     "first_year": 1985,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      19208
+      19208,
+      25400
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 19208,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 25400,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3086,8 +2985,21 @@
     "first_year": 1981,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      67754,
+      67755
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 67755,
+        "title_similarity": 84
+      },
+      {
+        "bgm_id": 67754,
+        "title_similarity": 95
+      }
+    ]
   },
   {
     "syoboi_tid": 2401,
@@ -3106,26 +3018,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2409,
-    "category": 8,
-    "first_year": 2010,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2412,
-    "category": 8,
-    "first_year": 1989,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      147927
-    ]
   },
   {
     "syoboi_tid": 2415,
@@ -3177,8 +3069,16 @@
     "first_year": 1979,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      23307
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 23307,
+        "title_similarity": 70
+      }
+    ]
   },
   {
     "syoboi_tid": 2449,
@@ -3186,8 +3086,21 @@
     "first_year": 2011,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      13045,
+      428791
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 13045,
+        "title_similarity": 95
+      },
+      {
+        "bgm_id": 428791,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 2487,
@@ -3222,9 +3135,26 @@
     "first_year": 2012,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 4,
     "candidate_bgm_ids": [
-      54552
+      37745,
+      47730,
+      54552,
+      517099
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 47730,
+        "title_similarity": 71
+      },
+      {
+        "bgm_id": 37745,
+        "title_similarity": 69
+      },
+      {
+        "bgm_id": 517099,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3314,8 +3244,16 @@
     "first_year": 1987,
     "first_month": null,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      26592
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 26592,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2560,
@@ -3344,6 +3282,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       33922
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 33922,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3355,28 +3299,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       10840
-    ]
-  },
-  {
-    "syoboi_tid": 2618,
-    "category": 8,
-    "first_year": 2011,
-    "first_month": 6,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      61955
-    ]
-  },
-  {
-    "syoboi_tid": 2619,
-    "category": 8,
-    "first_year": 2011,
-    "first_month": 10,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      61956
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 10840,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3387,28 +3315,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2625,
-    "category": 8,
-    "first_year": 2010,
-    "first_month": 6,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      12283
-    ]
-  },
-  {
-    "syoboi_tid": 2626,
-    "category": 8,
-    "first_year": 2003,
-    "first_month": 6,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      4038
-    ]
   },
   {
     "syoboi_tid": 2627,
@@ -3446,6 +3352,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       184732
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 184732,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3454,8 +3366,26 @@
     "first_year": 2000,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      6649,
+      6650,
+      6651
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 6650,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 6649,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 6651,
+        "title_similarity": 89
+      }
+    ]
   },
   {
     "syoboi_tid": 2646,
@@ -3466,6 +3396,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       38081
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 38081,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3492,8 +3428,16 @@
     "first_year": 2010,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      60429
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 60429,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2662,
@@ -3501,8 +3445,26 @@
     "first_year": 2010,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      11909,
+      67809,
+      111361
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 11909,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 67809,
+        "title_similarity": 96
+      },
+      {
+        "bgm_id": 111361,
+        "title_similarity": 96
+      }
+    ]
   },
   {
     "syoboi_tid": 2663,
@@ -3510,8 +3472,16 @@
     "first_year": 2011,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      113325
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 113325,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2664,
@@ -3519,8 +3489,16 @@
     "first_year": 2011,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      10799
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 10799,
+        "title_similarity": 91
+      }
+    ]
   },
   {
     "syoboi_tid": 2670,
@@ -3528,8 +3506,16 @@
     "first_year": 1989,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      418082
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 418082,
+        "title_similarity": 73
+      }
+    ]
   },
   {
     "syoboi_tid": 2672,
@@ -3540,6 +3526,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       3628
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 3628,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3567,24 +3559,6 @@
         "title_similarity": 100
       }
     ]
-  },
-  {
-    "syoboi_tid": 2680,
-    "category": 8,
-    "first_year": 1991,
-    "first_month": 11,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2681,
-    "category": 8,
-    "first_year": 1992,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 2682,
@@ -3683,8 +3657,16 @@
     "first_year": 2001,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      1607
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 1607,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2749,
@@ -3696,77 +3678,21 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2751,
-    "category": 8,
-    "first_year": 1995,
-    "first_month": 10,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2753,
-    "category": 8,
-    "first_year": 2009,
-    "first_month": 11,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      2504
-    ]
-  },
-  {
-    "syoboi_tid": 2754,
-    "category": 8,
-    "first_year": 2011,
-    "first_month": 2,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      12618
-    ]
-  },
-  {
-    "syoboi_tid": 2759,
-    "category": 8,
-    "first_year": 2009,
-    "first_month": 1,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2765,
-    "category": 7,
-    "first_year": 2011,
-    "first_month": 12,
-    "reason": "cast_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      9800,
-      27885
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 9800,
-        "matched_credits": 10
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 27885,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 2768,
     "category": 8,
     "first_year": 2006,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      40191
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 40191,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 2791,
@@ -3777,6 +3703,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       38646
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 38646,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3794,8 +3726,16 @@
     "first_year": 1966,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      110922
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 110922,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 2794,
@@ -3882,15 +3822,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2843,
-    "category": 8,
-    "first_year": 2004,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2851,
     "category": 10,
     "first_year": 2002,
@@ -3929,24 +3860,6 @@
     ]
   },
   {
-    "syoboi_tid": 2853,
-    "category": 8,
-    "first_year": 2011,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2855,
-    "category": 8,
-    "first_year": 2005,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2856,
     "category": 8,
     "first_year": 2011,
@@ -3955,6 +3868,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       27337
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 27337,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3966,6 +3885,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       39270
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 39270,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -3976,17 +3901,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 2865,
-    "category": 8,
-    "first_year": 1979,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      75855
-    ]
   },
   {
     "syoboi_tid": 2866,
@@ -4006,6 +3920,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       46112
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 46112,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -4032,8 +3952,16 @@
     "first_year": 2011,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      22630
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 22630,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 2890,
@@ -4068,8 +3996,16 @@
     "first_year": 2012,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      24593
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 24593,
+        "title_similarity": 69
+      }
+    ]
   },
   {
     "syoboi_tid": 2900,
@@ -4201,15 +4137,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 2996,
-    "category": 8,
-    "first_year": 2012,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 2997,
     "category": 8,
     "first_year": 1977,
@@ -4277,8 +4204,16 @@
     "first_year": 2012,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      41244
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 41244,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 3054,
@@ -4376,8 +4311,16 @@
     "first_year": 2010,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      211282
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 211282,
+        "title_similarity": 82
+      }
+    ]
   },
   {
     "syoboi_tid": 3210,
@@ -4394,18 +4337,25 @@
     "first_year": 2012,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3229,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      43310
+      25833,
+      44692,
+      44693
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 44692,
+        "title_similarity": 79
+      },
+      {
+        "bgm_id": 25833,
+        "title_similarity": 76
+      },
+      {
+        "bgm_id": 44693,
+        "title_similarity": 85
+      }
     ]
   },
   {
@@ -4414,9 +4364,26 @@
     "first_year": 2010,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 4,
     "candidate_bgm_ids": [
+      4274,
+      44690,
+      44691,
       56335
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 4274,
+        "title_similarity": 92
+      },
+      {
+        "bgm_id": 44690,
+        "title_similarity": 92
+      },
+      {
+        "bgm_id": 44691,
+        "title_similarity": 92
+      }
     ]
   },
   {
@@ -4508,8 +4475,21 @@
     "first_year": 2011,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      13097,
+      659147
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 13097,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 659147,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 3343,
@@ -4517,8 +4497,16 @@
     "first_year": 2010,
     "first_month": 1,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      23303
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 23303,
+        "title_similarity": 74
+      }
+    ]
   },
   {
     "syoboi_tid": 3350,
@@ -4538,24 +4526,21 @@
     ]
   },
   {
-    "syoboi_tid": 3359,
-    "category": 8,
-    "first_year": 2014,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      85421
-    ]
-  },
-  {
     "syoboi_tid": 3360,
     "category": 8,
     "first_year": 1993,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      36225
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 36225,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 3393,
@@ -4573,15 +4558,6 @@
         "title_similarity": 71
       }
     ]
-  },
-  {
-    "syoboi_tid": 3405,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 3407,
@@ -4672,6 +4648,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       533
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 533,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -4697,35 +4679,16 @@
     "first_year": 2012,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3494,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3495,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3496,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      45624
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 45624,
+        "title_similarity": 88
+      }
+    ]
   },
   {
     "syoboi_tid": 3575,
@@ -4832,8 +4795,21 @@
     "first_year": 2013,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      50658,
+      216525
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 50658,
+        "title_similarity": 92
+      },
+      {
+        "bgm_id": 216525,
+        "title_similarity": 88
+      }
+    ]
   },
   {
     "syoboi_tid": 3646,
@@ -4850,8 +4826,21 @@
     "first_year": 2013,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      18656,
+      97447
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 97447,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 18656,
+        "title_similarity": 98
+      }
+    ]
   },
   {
     "syoboi_tid": 3656,
@@ -4918,23 +4907,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3677,
-    "category": 7,
-    "first_year": 1991,
-    "first_month": 8,
-    "reason": "title_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      106695
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 106695,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 3692,
     "category": 1,
     "first_year": 2012,
@@ -4942,23 +4914,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3709,
-    "category": 10,
-    "first_year": 2014,
-    "first_month": 9,
-    "reason": "title_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      106177
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 106177,
-        "title_similarity": 100
-      }
-    ]
   },
   {
     "syoboi_tid": 3732,
@@ -4994,26 +4949,6 @@
         "bgm_id": 422497,
         "title_similarity": 100
       }
-    ]
-  },
-  {
-    "syoboi_tid": 3772,
-    "category": 8,
-    "first_year": 2014,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 3838,
-    "category": 8,
-    "first_year": 2014,
-    "first_month": 11,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      101266
     ]
   },
   {
@@ -5214,15 +5149,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 3975,
-    "category": 8,
-    "first_year": 2006,
-    "first_month": 12,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 3986,
     "category": 10,
     "first_year": 2015,
@@ -5240,6 +5166,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       844
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 844,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -5313,15 +5245,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4082,
-    "category": 8,
-    "first_year": 2015,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4090,
     "category": 7,
     "first_year": 1992,
@@ -5344,22 +5267,26 @@
     ]
   },
   {
-    "syoboi_tid": 4092,
-    "category": 8,
-    "first_year": 2015,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 4093,
     "category": 8,
     "first_year": 2015,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      107476,
+      118908
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 107476,
+        "title_similarity": 82
+      },
+      {
+        "bgm_id": 118908,
+        "title_similarity": 82
+      }
+    ]
   },
   {
     "syoboi_tid": 4112,
@@ -5548,17 +5475,6 @@
     ]
   },
   {
-    "syoboi_tid": 4271,
-    "category": 8,
-    "first_year": 2015,
-    "first_month": 6,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      101267
-    ]
-  },
-  {
     "syoboi_tid": 4272,
     "category": 10,
     "first_year": 2015,
@@ -5718,8 +5634,16 @@
     "first_year": 2014,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      111097
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 111097,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 4407,
@@ -5837,9 +5761,26 @@
     "first_year": 2017,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 4,
     "candidate_bgm_ids": [
+      176025,
+      192151,
+      192152,
       246898
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 176025,
+        "title_similarity": 85
+      },
+      {
+        "bgm_id": 192151,
+        "title_similarity": 85
+      },
+      {
+        "bgm_id": 192152,
+        "title_similarity": 85
+      }
     ]
   },
   {
@@ -5851,6 +5792,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       131540
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 131540,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -5859,8 +5806,26 @@
     "first_year": 2014,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      93044,
+      128131,
+      479825
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 93044,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 128131,
+        "title_similarity": 92
+      },
+      {
+        "bgm_id": 479825,
+        "title_similarity": 92
+      }
+    ]
   },
   {
     "syoboi_tid": 4513,
@@ -5871,6 +5836,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       50900
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 50900,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -5965,23 +5936,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4557,
-    "category": 10,
-    "first_year": 2017,
-    "first_month": 4,
-    "reason": "title_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      173850
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 173850,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 4573,
     "category": 10,
     "first_year": 2017,
@@ -6035,6 +5989,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       136600
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 136600,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6070,8 +6030,16 @@
     "first_year": 2017,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      109375
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 109375,
+        "title_similarity": 79
+      }
+    ]
   },
   {
     "syoboi_tid": 4742,
@@ -6190,17 +6158,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 4814,
-    "category": 8,
-    "first_year": 1980,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      67754
-    ]
-  },
-  {
     "syoboi_tid": 4818,
     "category": 10,
     "first_year": 2018,
@@ -6295,6 +6252,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       216418
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 216418,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6306,27 +6269,11 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       216417
-    ]
-  },
-  {
-    "syoboi_tid": 4947,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 5,
-    "reason": "title_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      192247,
-      206924
     ],
     "title_candidates": [
       {
-        "bgm_id": 206924,
+        "bgm_id": 216417,
         "title_similarity": 100
-      },
-      {
-        "bgm_id": 192247,
-        "title_similarity": 84
       }
     ]
   },
@@ -6339,6 +6286,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       216419
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 216419,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6350,6 +6303,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       216420
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 216420,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6395,33 +6354,6 @@
     ]
   },
   {
-    "syoboi_tid": 5009,
-    "category": 10,
-    "first_year": 2018,
-    "first_month": 7,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      210811,
-      219143,
-      287316
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 219143,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 210811,
-        "title_similarity": 94
-      },
-      {
-        "bgm_id": 287316,
-        "title_similarity": 88
-      }
-    ]
-  },
-  {
     "syoboi_tid": 5020,
     "category": 1,
     "first_year": 2018,
@@ -6458,8 +6390,16 @@
     "first_year": 2018,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      221736
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 221736,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 5091,
@@ -6560,15 +6500,6 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5185,
-    "category": 8,
-    "first_year": 2017,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 5217,
     "category": 8,
     "first_year": 2015,
@@ -6577,6 +6508,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       83067
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 83067,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6594,41 +6531,32 @@
     "first_year": 2019,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      232067,
+      282413,
+      375476
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 232067,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 282413,
+        "title_similarity": 98
+      },
+      {
+        "bgm_id": 375476,
+        "title_similarity": 86
+      }
+    ]
   },
   {
     "syoboi_tid": 5224,
     "category": 8,
     "first_year": 2017,
     "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5262,
-    "category": 8,
-    "first_year": 1993,
-    "first_month": 7,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5263,
-    "category": 8,
-    "first_year": 1994,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5264,
-    "category": 8,
-    "first_year": 1995,
-    "first_month": 4,
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
@@ -6723,33 +6651,6 @@
     "candidate_bgm_ids": [
       223818
     ]
-  },
-  {
-    "syoboi_tid": 5294,
-    "category": 8,
-    "first_year": 1996,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5295,
-    "category": 8,
-    "first_year": 1997,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5296,
-    "category": 8,
-    "first_year": 1998,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5305,
@@ -6861,6 +6762,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       277150
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 277150,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6940,6 +6847,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       277151
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 277151,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6951,6 +6864,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       277152
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 277152,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6971,6 +6890,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       277153
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 277153,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -6988,35 +6913,19 @@
     "first_year": 2019,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      219263
-    ]
-  },
-  {
-    "syoboi_tid": 5410,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 4,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      8622,
-      300449,
-      439376
+      219263,
+      281325
     ],
     "title_candidates": [
       {
-        "bgm_id": 300449,
+        "bgm_id": 219263,
         "title_similarity": 100
       },
       {
-        "bgm_id": 8622,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 439376,
-        "title_similarity": 100
+        "bgm_id": 281325,
+        "title_similarity": 88
       }
     ]
   },
@@ -7085,33 +6994,6 @@
       {
         "bgm_id": 363416,
         "title_similarity": 100
-      }
-    ]
-  },
-  {
-    "syoboi_tid": 5480,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 10,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      210811,
-      219143,
-      287316
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 287316,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 210811,
-        "title_similarity": 94
-      },
-      {
-        "bgm_id": 219143,
-        "title_similarity": 88
       }
     ]
   },
@@ -7190,8 +7072,21 @@
     "first_year": 2019,
     "first_month": 1,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      240798,
+      240799
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 240799,
+        "title_similarity": 78
+      },
+      {
+        "bgm_id": 240798,
+        "title_similarity": 76
+      }
+    ]
   },
   {
     "syoboi_tid": 5565,
@@ -7202,6 +7097,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       64087
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 64087,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -7210,9 +7111,25 @@
     "first_year": 1950,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      60533
+      60533,
+      316261,
+      506340
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 60533,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 506340,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 316261,
+        "title_similarity": 91
+      }
     ]
   },
   {
@@ -7224,16 +7141,13 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       172220
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 172220,
+        "title_similarity": 100
+      }
     ]
-  },
-  {
-    "syoboi_tid": 5573,
-    "category": 8,
-    "first_year": 2019,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 5577,
@@ -7268,9 +7182,25 @@
     "first_year": 2016,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      187465
+      187465,
+      268941,
+      268942
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 187465,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 268941,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 268942,
+        "title_similarity": 94
+      }
     ]
   },
   {
@@ -7293,28 +7223,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       208520
-    ]
-  },
-  {
-    "syoboi_tid": 5614,
-    "category": 8,
-    "first_year": 2019,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      341352
-    ]
-  },
-  {
-    "syoboi_tid": 5649,
-    "category": 8,
-    "first_year": 2019,
-    "first_month": 2,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      240821
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 208520,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -7354,8 +7268,16 @@
     "first_year": 2018,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      242483
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 242483,
+        "title_similarity": 73
+      }
+    ]
   },
   {
     "syoboi_tid": 5680,
@@ -7374,44 +7296,6 @@
     "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5684,
-    "category": 7,
-    "first_year": 2009,
-    "first_month": 12,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      292,
-      2354,
-      3960
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 3960,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 2354,
-        "title_similarity": 81
-      },
-      {
-        "bgm_id": 292,
-        "title_similarity": 95
-      }
-    ]
-  },
-  {
-    "syoboi_tid": 5686,
-    "category": 8,
-    "first_year": 2019,
-    "first_month": 5,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      202270
-    ]
   },
   {
     "syoboi_tid": 5690,
@@ -7536,17 +7420,16 @@
     "first_year": 2017,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 5738,
-    "category": 8,
-    "first_year": 2020,
-    "first_month": 2,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      190385
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 190385,
+        "title_similarity": 80
+      }
+    ]
   },
   {
     "syoboi_tid": 5741,
@@ -7599,33 +7482,6 @@
       {
         "bgm_id": 302155,
         "title_similarity": 100
-      }
-    ]
-  },
-  {
-    "syoboi_tid": 5800,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 10,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      210811,
-      219143,
-      311978
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 311978,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 210811,
-        "title_similarity": 94
-      },
-      {
-        "bgm_id": 219143,
-        "title_similarity": 88
       }
     ]
   },
@@ -7683,37 +7539,31 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 5863,
-    "category": 10,
-    "first_year": 2019,
-    "first_month": 8,
-    "reason": "cast_review",
-    "candidate_bgm_count": 2,
-    "candidate_bgm_ids": [
-      266787,
-      287049
-    ],
-    "cast_candidates": [
-      {
-        "bgm_id": 266787,
-        "matched_credits": 4
-      }
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 287049,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 5875,
     "category": 8,
     "first_year": 2013,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      11909,
+      67809,
+      111361
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 67809,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 11909,
+        "title_similarity": 96
+      },
+      {
+        "bgm_id": 111361,
+        "title_similarity": 92
+      }
+    ]
   },
   {
     "syoboi_tid": 5891,
@@ -7760,6 +7610,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       220403
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 220403,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -7822,8 +7678,16 @@
     "first_year": 2013,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      43404
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 43404,
+        "title_similarity": 77
+      }
+    ]
   },
   {
     "syoboi_tid": 5926,
@@ -7834,6 +7698,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       140020
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 140020,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -7845,6 +7715,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       175543
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 175543,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -7882,22 +7758,21 @@
     ]
   },
   {
-    "syoboi_tid": 5979,
-    "category": 8,
-    "first_year": 2020,
-    "first_month": 1,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6002,
     "category": 8,
     "first_year": 2020,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      255525
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 255525,
+        "title_similarity": 75
+      }
+    ]
   },
   {
     "syoboi_tid": 6006,
@@ -7924,17 +7799,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6012,
-    "category": 8,
-    "first_year": 2020,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      341389
-    ]
   },
   {
     "syoboi_tid": 6019,
@@ -7977,23 +7841,21 @@
     ]
   },
   {
-    "syoboi_tid": 6053,
-    "category": 8,
-    "first_year": 2010,
-    "first_month": 4,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6061,
     "category": 8,
     "first_year": 2020,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      159725,
       398151
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 159725,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -8005,6 +7867,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       278429
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 278429,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -8067,9 +7935,25 @@
     "first_year": 2019,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      128131
+      93044,
+      128131,
+      479825
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 128131,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 479825,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 93044,
+        "title_similarity": 93
+      }
     ]
   },
   {
@@ -8078,8 +7962,21 @@
     "first_year": 2017,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      199228,
+      199229
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 199229,
+        "title_similarity": 82
+      },
+      {
+        "bgm_id": 199228,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 6189,
@@ -8105,8 +8002,16 @@
     "first_year": 2017,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      209579
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 209579,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 6236,
@@ -8136,33 +8041,6 @@
     ]
   },
   {
-    "syoboi_tid": 6238,
-    "category": 10,
-    "first_year": 2020,
-    "first_month": 1,
-    "reason": "title_review",
-    "candidate_bgm_count": 3,
-    "candidate_bgm_ids": [
-      8622,
-      300449,
-      439376
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 439376,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 8622,
-        "title_similarity": 100
-      },
-      {
-        "bgm_id": 300449,
-        "title_similarity": 100
-      }
-    ]
-  },
-  {
     "syoboi_tid": 6239,
     "category": 8,
     "first_year": 1966,
@@ -8186,8 +8064,16 @@
     "first_year": 2021,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      319390
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 319390,
+        "title_similarity": 80
+      }
+    ]
   },
   {
     "syoboi_tid": 6250,
@@ -8212,9 +8098,20 @@
     "first_year": 2022,
     "first_month": 1,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      247182
+      247182,
+      363309
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 247182,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 363309,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -8223,8 +8120,16 @@
     "first_year": 2019,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      147792
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 147792,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 6260,
@@ -8232,8 +8137,16 @@
     "first_year": 2020,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      313198
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 313198,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 6264,
@@ -8261,17 +8174,6 @@
     "reason": "no_title_match",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6268,
-    "category": 8,
-    "first_year": 1987,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      66376
-    ]
   },
   {
     "syoboi_tid": 6271,
@@ -8338,8 +8240,21 @@
     "first_year": 2021,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      305058,
+      315490
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 305058,
+        "title_similarity": 89
+      },
+      {
+        "bgm_id": 315490,
+        "title_similarity": 81
+      }
+    ]
   },
   {
     "syoboi_tid": 6277,
@@ -8640,8 +8555,16 @@
     "first_year": 2020,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      588247
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 588247,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 6593,
@@ -8649,15 +8572,6 @@
     "first_year": 2023,
     "first_month": 1,
     "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6599,
-    "category": 8,
-    "first_year": 2021,
-    "first_month": 8,
-    "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -8676,8 +8590,26 @@
     "first_year": 2021,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      244928,
+      244929,
+      244930
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 244928,
+        "title_similarity": 95
+      },
+      {
+        "bgm_id": 244929,
+        "title_similarity": 95
+      },
+      {
+        "bgm_id": 244930,
+        "title_similarity": 95
+      }
+    ]
   },
   {
     "syoboi_tid": 6622,
@@ -8694,18 +8626,20 @@
     "first_year": 2022,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6655,
-    "category": 8,
-    "first_year": 2021,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      348598
+      331946,
+      379789
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 331946,
+        "title_similarity": 94
+      },
+      {
+        "bgm_id": 379789,
+        "title_similarity": 94
+      }
     ]
   },
   {
@@ -8723,9 +8657,16 @@
     "first_year": 2022,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      389474,
       425211
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 389474,
+        "title_similarity": 96
+      }
     ]
   },
   {
@@ -8743,15 +8684,6 @@
     "first_year": 2023,
     "first_month": 5,
     "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6717,
-    "category": 8,
-    "first_year": 1997,
-    "first_month": 8,
-    "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -8832,22 +8764,21 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 6784,
-    "category": 8,
-    "first_year": 1993,
-    "first_month": 12,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 6797,
     "category": 8,
     "first_year": 2021,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      29883
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 29883,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 6798,
@@ -8864,9 +8795,16 @@
     "first_year": 2023,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      331489,
       427233
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 331489,
+        "title_similarity": 86
+      }
     ]
   },
   {
@@ -8913,9 +8851,25 @@
     "first_year": 2021,
     "first_month": 8,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      363854
+      363854,
+      441028,
+      618793
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 363854,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 618793,
+        "title_similarity": 89
+      },
+      {
+        "bgm_id": 441028,
+        "title_similarity": 85
+      }
     ]
   },
   {
@@ -8981,9 +8935,16 @@
     "first_year": 1987,
     "first_month": 5,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      8380,
       55058
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 8380,
+        "title_similarity": 94
+      }
     ]
   },
   {
@@ -8992,8 +8953,16 @@
     "first_year": 1988,
     "first_month": 6,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      8380
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 8380,
+        "title_similarity": 94
+      }
+    ]
   },
   {
     "syoboi_tid": 6963,
@@ -9001,9 +8970,16 @@
     "first_year": 1989,
     "first_month": 10,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      8380,
       55060
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 8380,
+        "title_similarity": 84
+      }
     ]
   },
   {
@@ -9012,15 +8988,6 @@
     "first_year": 2024,
     "first_month": 1,
     "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 6981,
-    "category": 8,
-    "first_year": 2015,
-    "first_month": 7,
-    "reason": "movie_review",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -9068,8 +9035,16 @@
     "first_year": 2022,
     "first_month": 6,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      379753
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 379753,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 7052,
@@ -9077,9 +9052,21 @@
     "first_year": 2024,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
+      375425,
+      452432,
       495562
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 375425,
+        "title_similarity": 96
+      },
+      {
+        "bgm_id": 452432,
+        "title_similarity": 96
+      }
     ]
   },
   {
@@ -9149,8 +9136,16 @@
     "first_year": 2024,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      366256
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 366256,
+        "title_similarity": 82
+      }
+    ]
   },
   {
     "syoboi_tid": 7149,
@@ -9158,8 +9153,26 @@
     "first_year": 2022,
     "first_month": 3,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      315026,
+      361384,
+      361385
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 315026,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 361384,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 361385,
+        "title_similarity": 93
+      }
+    ]
   },
   {
     "syoboi_tid": 7154,
@@ -9189,15 +9202,6 @@
     ]
   },
   {
-    "syoboi_tid": 7168,
-    "category": 8,
-    "first_year": 2023,
-    "first_month": 12,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7193,
     "category": 8,
     "first_year": 2024,
@@ -9214,8 +9218,26 @@
     "first_year": 2022,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 3,
+    "candidate_bgm_ids": [
+      381839,
+      381841,
+      381842
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 381839,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 381841,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 381842,
+        "title_similarity": 93
+      }
+    ]
   },
   {
     "syoboi_tid": 7263,
@@ -9278,9 +9300,16 @@
     "first_year": 2024,
     "first_month": 9,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      331489,
       492352
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 331489,
+        "title_similarity": 92
+      }
     ]
   },
   {
@@ -9303,6 +9332,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       363033
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 363033,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9338,26 +9373,21 @@
     "first_year": 2020,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7462,
-    "category": 8,
-    "first_year": 2025,
-    "first_month": 1,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7544,
-    "category": 8,
-    "first_year": 2025,
-    "first_month": 10,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      286467,
+      654483
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 286467,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 654483,
+        "title_similarity": 88
+      }
+    ]
   },
   {
     "syoboi_tid": 7548,
@@ -9368,6 +9398,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       37278
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 37278,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9376,8 +9412,16 @@
     "first_year": 1966,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      425950
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 425950,
+        "title_similarity": 88
+      }
+    ]
   },
   {
     "syoboi_tid": 7568,
@@ -9485,8 +9529,16 @@
     "first_year": 2025,
     "first_month": 11,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      442114
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 442114,
+        "title_similarity": 100
+      }
+    ]
   },
   {
     "syoboi_tid": 7640,
@@ -9494,9 +9546,25 @@
     "first_year": 2024,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      442614
+      442614,
+      442615,
+      442616
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 442614,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 442615,
+        "title_similarity": 97
+      },
+      {
+        "bgm_id": 442616,
+        "title_similarity": 93
+      }
     ]
   },
   {
@@ -9523,8 +9591,16 @@
     "first_year": 2009,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2783
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2783,
+        "title_similarity": 83
+      }
+    ]
   },
   {
     "syoboi_tid": 7728,
@@ -9541,9 +9617,16 @@
     "first_year": 2026,
     "first_month": 1,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      475153,
       604826
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 475153,
+        "title_similarity": 89
+      }
     ]
   },
   {
@@ -9552,9 +9635,25 @@
     "first_year": 2025,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 3,
     "candidate_bgm_ids": [
-      544624
+      544624,
+      544626,
+      544627
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 544624,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 544626,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 544627,
+        "title_similarity": 93
+      }
     ]
   },
   {
@@ -9584,22 +9683,21 @@
     "candidate_bgm_ids": []
   },
   {
-    "syoboi_tid": 7801,
-    "category": 8,
-    "first_year": 2026,
-    "first_month": 3,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7808,
     "category": 8,
     "first_year": 2026,
     "first_month": 5,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      217071
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 217071,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 7833,
@@ -9625,19 +9723,21 @@
     "first_year": 1986,
     "first_month": 2,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
+      72554,
       72627
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 72627,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 72554,
+        "title_similarity": 95
+      }
     ]
-  },
-  {
-    "syoboi_tid": 7847,
-    "category": 8,
-    "first_year": 2015,
-    "first_month": 9,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
   },
   {
     "syoboi_tid": 7852,
@@ -9645,8 +9745,16 @@
     "first_year": 1998,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2969
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2969,
+        "title_similarity": 84
+      }
+    ]
   },
   {
     "syoboi_tid": 7854,
@@ -9654,8 +9762,16 @@
     "first_year": 2002,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2972
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2972,
+        "title_similarity": 85
+      }
+    ]
   },
   {
     "syoboi_tid": 7855,
@@ -9663,8 +9779,16 @@
     "first_year": 2003,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2973
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2973,
+        "title_similarity": 80
+      }
+    ]
   },
   {
     "syoboi_tid": 7856,
@@ -9672,8 +9796,16 @@
     "first_year": 2004,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2974
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2974,
+        "title_similarity": 83
+      }
+    ]
   },
   {
     "syoboi_tid": 7858,
@@ -9681,8 +9813,16 @@
     "first_year": 2005,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2975
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2975,
+        "title_similarity": 81
+      }
+    ]
   },
   {
     "syoboi_tid": 7860,
@@ -9690,8 +9830,16 @@
     "first_year": 2006,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2976
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2976,
+        "title_similarity": 85
+      }
+    ]
   },
   {
     "syoboi_tid": 7861,
@@ -9699,8 +9847,16 @@
     "first_year": 2007,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2977
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2977,
+        "title_similarity": 71
+      }
+    ]
   },
   {
     "syoboi_tid": 7862,
@@ -9708,8 +9864,16 @@
     "first_year": 2008,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      2978
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 2978,
+        "title_similarity": 81
+      }
+    ]
   },
   {
     "syoboi_tid": 7863,
@@ -9734,18 +9898,15 @@
     "first_year": 2011,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7867,
-    "category": 8,
-    "first_year": 2013,
-    "first_month": 4,
-    "reason": "movie_review",
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
-      54614
+      10308
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 10308,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9754,8 +9915,16 @@
     "first_year": 2023,
     "first_month": 7,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      437925
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 437925,
+        "title_similarity": 76
+      }
+    ]
   },
   {
     "syoboi_tid": 7912,
@@ -9772,9 +9941,26 @@
     "first_year": 2024,
     "first_month": 5,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 4,
     "candidate_bgm_ids": [
+      321469,
+      470832,
+      470833,
       500557
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 321469,
+        "title_similarity": 96
+      },
+      {
+        "bgm_id": 470832,
+        "title_similarity": 88
+      },
+      {
+        "bgm_id": 470833,
+        "title_similarity": 88
+      }
     ]
   },
   {
@@ -9814,24 +10000,6 @@
     ]
   },
   {
-    "syoboi_tid": 7966,
-    "category": 8,
-    "first_year": 2025,
-    "first_month": 8,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
-    "syoboi_tid": 7967,
-    "category": 8,
-    "first_year": 2010,
-    "first_month": 2,
-    "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
-  },
-  {
     "syoboi_tid": 7971,
     "category": 8,
     "first_year": 1987,
@@ -9846,9 +10014,20 @@
     "first_year": 1937,
     "first_month": 12,
     "reason": "movie_review",
-    "candidate_bgm_count": 1,
+    "candidate_bgm_count": 2,
     "candidate_bgm_ids": [
-      36226
+      36226,
+      136871
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 36226,
+        "title_similarity": 100
+      },
+      {
+        "bgm_id": 136871,
+        "title_similarity": 84
+      }
     ]
   },
   {
@@ -9860,6 +10039,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       40188
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 40188,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9871,6 +10056,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       60392
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 60392,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9882,6 +10073,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       64095
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 64095,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9893,6 +10090,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       40122
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 40122,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9904,6 +10107,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       64048
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 64048,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9915,6 +10124,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       66234
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 66234,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9926,6 +10141,12 @@
     "candidate_bgm_count": 1,
     "candidate_bgm_ids": [
       64094
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 64094,
+        "title_similarity": 100
+      }
     ]
   },
   {
@@ -9934,7 +10155,20 @@
     "first_year": 2026,
     "first_month": 4,
     "reason": "movie_review",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "candidate_bgm_count": 2,
+    "candidate_bgm_ids": [
+      544816,
+      563041
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 544816,
+        "title_similarity": 93
+      },
+      {
+        "bgm_id": 563041,
+        "title_similarity": 93
+      }
+    ]
   }
 ]

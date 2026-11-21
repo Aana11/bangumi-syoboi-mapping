@@ -11,10 +11,13 @@ from datetime import date, datetime, timedelta, timezone
 from itertools import chain
 from pathlib import Path
 
-from catalog_evidence import cast_evidence, film_evidence, programme_links, title_review, unique_original_titles
+from catalog_evidence import (
+    cast_evidence, film_evidence, film_title_variants, programme_links, regional_titles, title_review,
+    unique_original_titles,
+)
 from episode_evidence import compare_episodes
 from matching_evidence import METHODS, MOVIE_CATEGORY, additional_pairs, normalize
-from sources import SYOBOI_CATEGORIES, read_bangumi, read_syoboi
+from sources import BANGUMI_MOVIE_PLATFORM, SYOBOI_CATEGORIES, read_bangumi, read_syoboi
 
 ROOT = Path(__file__).resolve().parents[1]
 START = "<!-- mapping-stats:start -->"
@@ -102,6 +105,10 @@ def match_titles(syoboi, bangumi, overrides, live_action=None):
         (tid, proof.bgm_id) for tid, proofs in episode_proofs.items()
         for proof in proofs if proof.confirmed
     }
+    complete_runs = {
+        (tid, proof.bgm_id) for tid, proofs in episode_proofs.items()
+        for proof in proofs if proof.complete_sequence
+    }
     films, live_films, film_review = film_evidence(syoboi, bangumi, live_action)
     cast_pairs, cast_review = cast_evidence(syoboi, bangumi)
     evidence_batches = chain(additional_pairs(syoboi, bangumi), (
@@ -109,14 +116,19 @@ def match_titles(syoboi, bangumi, overrides, live_action=None):
         ("programme_page", set(programme_links(syoboi, bangumi, live_action))),
         ("cast_and_work", cast_pairs),
         ("unique_original_and_date", set(unique_original_titles(syoboi, bangumi, live_action)) if live_action is not None else set()),
+        ("complete_episode_run", complete_runs),
+        ("regional_title_and_date", regional_titles(syoboi, bangumi, live_action)),
         ("film_title_and_date", films),
+        ("film_title_variant_and_date", film_title_variants(syoboi, bangumi, live_action)),
     ))
     for method, pairs in evidence_batches:
         choices = defaultdict(set)
         users = defaultdict(set)
         for tid, bgm_id in pairs:
             review[tid].add(bgm_id)
-            if candidates[tid].category in SYOBOI_CATEGORIES or method in {"official_site", "film_title_and_date"}:
+            if candidates[tid].category in SYOBOI_CATEGORIES or method in {
+                "official_site", "film_title_and_date", "film_title_variant_and_date",
+            }:
                 choices[tid].add(bgm_id)
                 users[bgm_id].add(tid)
         for tid, ids in choices.items():
@@ -132,6 +144,10 @@ def match_titles(syoboi, bangumi, overrides, live_action=None):
         tid: item for tid, item in candidates.items()
         if tid not in taken_tids and item.category in SYOBOI_CATEGORIES
     }, bangumi)
+    title_candidates.update(title_review({
+        tid: item for tid, item in candidates.items()
+        if tid not in taken_tids and tid not in live_films and item.category == MOVIE_CATEGORY
+    }, {bgm_id: item for bgm_id, item in bangumi.items() if item.platform == BANGUMI_MOVIE_PLATFORM}))
     unmatched = []
     for tid in sorted(candidates.keys() - taken_tids):
         item = candidates[tid]
