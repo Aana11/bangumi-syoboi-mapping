@@ -8,7 +8,7 @@
     },
     "syoboi": {
       "titles": 8108,
-      "latest_upstream_edit": "2026-11-22 03:33:38"
+      "latest_upstream_edit": "2026-11-23 01:35:10"
     }
   },
   "bangumi_anime": {
@@ -16,7 +16,7 @@
     "matched": 6103
   },
   "syoboi_by_category": {
-    "1": 149,
+    "1": 148,
     "2": 340,
     "3": 434,
     "4": 299,
@@ -24,7 +24,7 @@
     "6": 12,
     "7": 435,
     "8": 984,
-    "10": 5233
+    "10": 5234
   },
   "syoboi_anime": {
     "total": 5817,
