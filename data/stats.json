@@ -2,18 +2,18 @@
   "schema_version": 1,
   "sources": {
     "bangumi": {
-      "archive": "dump-2026-11-17.210420Z.zip",
-      "sha256": "1060d50eec3755a3be4e52b8ceb998a93fdda65c6b8f52c787aea585772103b2",
-      "created_at": "2026-11-17T21:04:20Z"
+      "archive": "dump-2026-11-24.210413Z.zip",
+      "sha256": "e42c5d06186db4f793f3aab098400772310eed16add70f2191b407af75255d3f",
+      "created_at": "2026-11-24T21:04:13Z"
     },
     "syoboi": {
-      "titles": 8108,
-      "latest_upstream_edit": "2026-11-24 06:10:50"
+      "titles": 8109,
+      "latest_upstream_edit": "2026-11-25 00:56:59"
     }
   },
   "bangumi_anime": {
-    "total": 31312,
-    "matched": 6103
+    "total": 31431,
+    "matched": 6104
   },
   "syoboi_by_category": {
     "1": 148,
@@ -23,35 +23,35 @@
     "5": 222,
     "6": 12,
     "7": 435,
-    "8": 984,
+    "8": 985,
     "10": 5234
   },
   "syoboi_anime": {
     "total": 5817,
-    "matched": 5466,
-    "unmatched": 351
+    "matched": 5467,
+    "unmatched": 350
   },
   "syoboi_mixed_movies": {
-    "total": 984,
+    "total": 985,
     "matched": 644,
-    "unmatched": 340,
-    "verified_live_action": 62,
+    "unmatched": 341,
+    "verified_live_action": 63,
     "review_pending": 278
   },
-  "mapped_pairs": 6128,
+  "mapped_pairs": 6129,
   "match_methods": {
     "manual": 115,
     "exact": 3955,
     "normalized": 498,
     "title_and_air_month": 363,
     "alias_and_month": 162,
-    "official_site": 295,
+    "official_site": 294,
     "month_boundary": 22,
-    "episode_sequence": 163,
-    "programme_page": 17,
+    "episode_sequence": 165,
+    "programme_page": 16,
     "cast_and_work": 41,
     "unique_original_and_date": 13,
-    "film_title_and_date": 385,
+    "film_title_and_date": 386,
     "film_title_variant_and_date": 77,
     "complete_episode_run": 4,
     "regional_title_and_date": 18
@@ -59,12 +59,12 @@
   "unmatched_reasons": {
     "ambiguous_or_reserved": 5,
     "cast_review": 31,
-    "episode_review": 8,
-    "live_action_confirmed": 62,
+    "episode_review": 9,
+    "live_action_confirmed": 63,
     "missing_premiere_month": 27,
     "movie_review": 278,
-    "no_title_match": 172,
-    "premiere_month_mismatch_or_missing": 15,
+    "no_title_match": 171,
+    "premiere_month_mismatch_or_missing": 14,
     "title_review": 93
   },
   "by_year": {
@@ -150,8 +150,8 @@
     },
     "1980": {
       "total": 13,
-      "matched": 11,
-      "unmatched": 2
+      "matched": 12,
+      "unmatched": 1
     },
     "1981": {
       "total": 15,

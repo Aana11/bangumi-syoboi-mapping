@@ -330,7 +330,7 @@
     "cast_candidates": [
       {
         "bgm_id": 473769,
-        "matched_credits": 2
+        "matched_credits": 5
       }
     ],
     "title_candidates": [
@@ -1833,9 +1833,19 @@
     "category": 10,
     "first_year": 1980,
     "first_month": 10,
-    "reason": "no_title_match",
-    "candidate_bgm_count": 0,
-    "candidate_bgm_ids": []
+    "reason": "episode_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      37259
+    ],
+    "episode_candidates": [
+      {
+        "bgm_id": 37259,
+        "matched_episodes": 50,
+        "compared_episodes": 51,
+        "episode_number_offset": 0
+      }
+    ]
   },
   {
     "syoboi_tid": 1628,
@@ -4978,7 +4988,7 @@
     "category": 8,
     "first_year": 2013,
     "first_month": 2,
-    "reason": "movie_review",
+    "reason": "live_action_confirmed",
     "candidate_bgm_count": 0,
     "candidate_bgm_ids": []
   },
@@ -5726,23 +5736,6 @@
       {
         "bgm_id": 574326,
         "title_similarity": 85
-      }
-    ]
-  },
-  {
-    "syoboi_tid": 4465,
-    "category": 10,
-    "first_year": 1980,
-    "first_month": 9,
-    "reason": "premiere_month_mismatch_or_missing",
-    "candidate_bgm_count": 1,
-    "candidate_bgm_ids": [
-      53770
-    ],
-    "title_candidates": [
-      {
-        "bgm_id": 53770,
-        "title_similarity": 100
       }
     ]
   },
@@ -10168,6 +10161,23 @@
       {
         "bgm_id": 563041,
         "title_similarity": 93
+      }
+    ]
+  },
+  {
+    "syoboi_tid": 8109,
+    "category": 8,
+    "first_year": 1995,
+    "first_month": 6,
+    "reason": "movie_review",
+    "candidate_bgm_count": 1,
+    "candidate_bgm_ids": [
+      66242
+    ],
+    "title_candidates": [
+      {
+        "bgm_id": 66242,
+        "title_similarity": 100
       }
     ]
   }
