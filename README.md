@@ -8,7 +8,7 @@ Automatically maintained anime ID mappings between Bangumi and Syoboi Calendar. 
 
 <!-- mapping-stats:start -->
 
-Bangumi Archive 快照 2026-11-24T21:04:13Z · Syoboi 上游最近编辑 2026-11-25 00:56:59
+Bangumi Archive 快照 2026-11-24T21:04:13Z · Syoboi 上游最近编辑 2026-11-26 02:29:37
 
 | 范围 | Syoboi TID | 已关联 | 待关联 | 覆盖率 |
 | --- | ---: | ---: | ---: | ---: |
