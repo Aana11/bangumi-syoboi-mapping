@@ -7,16 +7,16 @@
       "created_at": "2026-11-24T21:04:13Z"
     },
     "syoboi": {
-      "titles": 8109,
-      "latest_upstream_edit": "2026-11-26 02:29:37"
+      "titles": 8114,
+      "latest_upstream_edit": "2026-11-27 01:37:07"
     }
   },
   "bangumi_anime": {
     "total": 31431,
-    "matched": 6104
+    "matched": 6109
   },
   "syoboi_by_category": {
-    "1": 148,
+    "1": 153,
     "2": 340,
     "3": 434,
     "4": 299,
@@ -27,8 +27,8 @@
     "10": 5234
   },
   "syoboi_anime": {
-    "total": 5817,
-    "matched": 5467,
+    "total": 5822,
+    "matched": 5472,
     "unmatched": 350
   },
   "syoboi_mixed_movies": {
@@ -38,14 +38,14 @@
     "verified_live_action": 63,
     "review_pending": 278
   },
-  "mapped_pairs": 6129,
+  "mapped_pairs": 6134,
   "match_methods": {
     "manual": 115,
-    "exact": 3955,
+    "exact": 3956,
     "normalized": 498,
-    "title_and_air_month": 363,
+    "title_and_air_month": 366,
     "alias_and_month": 162,
-    "official_site": 294,
+    "official_site": 295,
     "month_boundary": 22,
     "episode_sequence": 165,
     "programme_page": 16,
@@ -384,8 +384,8 @@
       "unmatched": 4
     },
     "2027": {
-      "total": 6,
-      "matched": 6,
+      "total": 11,
+      "matched": 11,
       "unmatched": 0
     }
   },
