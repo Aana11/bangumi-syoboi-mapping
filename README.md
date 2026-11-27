@@ -8,17 +8,17 @@ Automatically maintained anime ID mappings between Bangumi and Syoboi Calendar. 
 
 <!-- mapping-stats:start -->
 
-Bangumi Archive 快照 2026-11-24T21:04:13Z · Syoboi 上游最近编辑 2026-11-27 01:37:07
+Bangumi Archive 快照 2026-11-24T21:04:13Z · Syoboi 上游最近编辑 2026-11-28 01:14:21
 
 | 范围 | Syoboi TID | 已关联 | 待关联 | 覆盖率 |
 | --- | ---: | ---: | ---: | ---: |
-| 全部历史动画 | 5,822 | 5,472 | 350 | 93.99% |
+| 全部历史动画 | 5,823 | 5,473 | 350 | 93.99% |
 | 当季 2026 Q4 | 79 | 79 | 0 | 100.00% |
 | 2026 | 304 | 300 | 4 | 98.68% |
 | 2025 | 290 | 284 | 6 | 97.93% |
 | 2024 | 272 | 260 | 12 | 95.59% |
 
-采集了 Syoboi 全分类 **8,114** 个 TID，对照 Bangumi Archive **31,431** 个动画条目，生成 **6,134** 对 ID。
+采集了 Syoboi 全分类 **8,115** 个 TID，对照 Bangumi Archive **31,431** 个动画条目，生成 **6,135** 对 ID。
 混合电影分类有 **985** 个 TID，其中 **644** 个已关联动画，**63** 个已确认真人电影，**278** 个待核。
 
 <!-- mapping-stats:end -->
